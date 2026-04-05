@@ -14,7 +14,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-krishnarajus2004-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/krishnarajus2004)
 [![Gmail](https://img.shields.io/badge/Gmail-krishnarajus2004%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:krishnarajus2004@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Itachi--ACA-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Itachi-ACA)
-[![Location](https://img.shields.io/badge/📍_Chennai,_Tamil_Nadu-India-FF6B35?style=for-the-badge)](https://maps.google.com/?q=Chennai,India)
+
 
 </div>
 
