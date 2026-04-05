@@ -25,11 +25,7 @@
 ```yaml
 name        : Krishna Raju S
 role        : Electrical & Electronics Engineer | Web Developer | IoT Builder
-university  : St. Joseph's College of Engineering, Chennai
 degree      : B.E. — Electrical and Electronics Engineering
-cgpa        : 8.38 / 10  (Graduating 2026)
-email       : krishnarajus2004@gmail.com
-phone       : +91 8056169089
 
 passion     :
   - Building automation tools that eliminate manual drudgery
