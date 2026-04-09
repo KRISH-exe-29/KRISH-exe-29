@@ -2,7 +2,7 @@
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:03001e,30:7303c0,60:ec38bc,100:fdeff9&height=280&section=header&text=Krishna%20Raju%20S&fontSize=72&fontColor=ffffff&animation=twinkling&fontAlignY=45&desc=Engineer%20who%20ships%20real%20things%20to%20production&descAlignY=66&descColor=f0e6ff&descSize=20" width="100%"/>
 
 <div align="center">
-  <img src="./assets/typing-banner.gif" width="100%" alt="Animated text cycling through Krishna Raju S professional roles"/>
+  <img src="assets/typing-banner.gif" width="100%" alt="Animated text cycling through Krishna Raju S professional roles"/>
 
   <br/><br/>
 
