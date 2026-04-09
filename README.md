@@ -1,8 +1,8 @@
 <!-- HERO -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:03001e,30:7303c0,60:ec38bc,100:fdeff9&height=280&section=header&text=Krishna%20Raju%20S&fontSize=72&fontColor=ffffff&animation=twinkling&fontAlignY=45&desc=Engineer%20who%20ships%20real%20things%20to%20production&descAlignY=66&descColor=f0e6ff&descSize=20" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:03001e,30:7303c0,60:ec38bc,100:fdeff9&height=280&section=header&text=Krishna%20Raju%20S&fontSize=72&fontColor=ffffff&animation=twinkling&fontAlignY=45&desc=Engineering%20electrical%20systems%20and%20software%20into%20measurable%20business%20outcomes&descAlignY=66&descColor=f0e6ff&descSize=20" width="100%"/>
 
 <div align="center">
-  <img src="assets/typing-banner.gif" width="100%" alt="Animated text cycling through Krishna Raju S professional roles"/>
+  <img src="https://raw.githubusercontent.com/Itachi-ACA/Itachi-ACA/main/assets/typing-banner.gif" width="100%" alt="Animated text cycling through Krishna Raju S professional roles"/>
 
   <br/><br/>
 
@@ -167,13 +167,6 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider"/>
 
-## 📊 GitHub Insights
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Itachi-ACA&show_icons=true&theme=tokyonight&hide_border=true&title_color=ec38bc&icon_color=7303c0" alt="github stats"/>
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Itachi-ACA&theme=tokyonight&hide_border=true&ring=EC38BC&fire=EC38BC&currStreakLabel=EC38BC" alt="github streak"/>
-</div>
-
 ## 🐍 Contribution Snake
 
 <div align="center">
@@ -203,7 +196,7 @@
 
 <br/><br/>
 
-> *Engineering is where circuits, code, and impact meet.*
+> *I design systems where engineering rigor turns into measurable business impact.*
 
 </div>
 
