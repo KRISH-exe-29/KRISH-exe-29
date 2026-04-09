@@ -1,5 +1,5 @@
 <!-- HERO -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:03001e,30:7303c0,60:ec38bc,100:fdeff9&height=280&section=header&text=Krishna%20Raju%20S&fontSize=72&fontColor=ffffff&animation=twinkling&fontAlignY=45&desc=Engineering%20electrical%20systems%20and%20software%20into%20measurable%20business%20outcomes&descAlignY=66&descColor=f0e6ff&descSize=20" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:03001e,30:7303c0,60:ec38bc,100:fdeff9&height=280&section=header&text=Krishna%20Raju%20S&fontSize=72&fontColor=ffffff&animation=twinkling&fontAlignY=45&desc=From%20transformer%20floors%20to%20production%20software%20I%20build%20systems%20that%20teams%20trust&descAlignY=66&descColor=f0e6ff&descSize=20" width="100%"/>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Itachi-ACA/Itachi-ACA/main/assets/typing-banner.gif" width="100%" alt="Animated text cycling through Krishna Raju S professional roles"/>
@@ -112,12 +112,12 @@
 ## 🚀 Projects That Shipped
 
 <div align="center">
-  <a href="https://github.com/Itachi-ACA/transformer-test-planner">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Itachi-ACA&repo=transformer-test-planner&theme=tokyonight&hide_border=true&title_color=ec38bc&icon_color=7303c0&text_color=c9d1d9&bg_color=0d1117" alt="transformer test planner"/>
-  </a>
-  <a href="https://github.com/Itachi-ACA/indotech-transformers">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Itachi-ACA&repo=indotech-transformers&theme=tokyonight&hide_border=true&title_color=ec38bc&icon_color=7303c0&text_color=c9d1d9&bg_color=0d1117" alt="indotech transformers"/>
-  </a>
+
+| Project Spotlight | Why it matters |
+|:--|:--|
+| 🔬 [**Transformer Test Planner**](https://github.com/Itachi-ACA/transformer-test-planner) | Turns complex IEC 60076 planning into a fast, export-ready workflow for real testing teams. |
+| 🏭 [**Industrial Data System**](https://github.com/Itachi-ACA/indotech-transformers) | Built for operational reliability with secure OTP access, role-based modules, and deploy-ready UI. |
+
 </div>
 
 | Project | Stack | Outcome |
@@ -196,7 +196,7 @@
 
 <br/><br/>
 
-> *I design systems where engineering rigor turns into measurable business impact.*
+> *I build systems people can rely on — not just demos people can admire.*
 
 </div>
 
