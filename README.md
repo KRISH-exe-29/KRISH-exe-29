@@ -113,7 +113,7 @@
 
 <div align="center">
 
-| Project Spotlight | Why it matters |
+| Project Spotlight | Impact |
 |:--|:--|
 | 🔬 [**Transformer Test Planner**](https://github.com/Itachi-ACA/transformer-test-planner) | Turns complex IEC 60076 planning into a fast, export-ready workflow for real testing teams. |
 | 🏭 [**Industrial Data System**](https://github.com/Itachi-ACA/indotech-transformers) | Built for operational reliability with secure OTP access, role-based modules, and deploy-ready UI. |
