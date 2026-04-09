@@ -2,7 +2,7 @@
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:03001e,30:7303c0,60:ec38bc,100:fdeff9&height=280&section=header&text=Krishna%20Raju%20S&fontSize=72&fontColor=ffffff&animation=twinkling&fontAlignY=45&desc=From%20transformer%20floors%20to%20production%20software%20I%20build%20systems%20that%20teams%20trust&descAlignY=66&descColor=f0e6ff&descSize=20" width="100%"/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Itachi-ACA/Itachi-ACA/main/assets/typing-banner.gif" width="100%" alt="Animated text cycling through Krishna Raju S professional roles"/>
+  <img src="https://raw.githubusercontent.com/Itachi-ACA/Itachi-ACA/main/assets/typing-banner.gif" width="100%" alt="Animated banner showing Krishna Raju S roles: Electrical Engineer, Automation Builder, Full Stack Developer"/>
 
   <br/><br/>
 
@@ -173,7 +173,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Itachi-ACA/Itachi-ACA/output/github-contribution-grid-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Itachi-ACA/Itachi-ACA/output/github-contribution-grid-snake.svg"/>
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/Itachi-ACA/Itachi-ACA/output/github-contribution-grid-snake.svg"/>
+  <img alt="GitHub contribution graph animated as a snake path" src="https://raw.githubusercontent.com/Itachi-ACA/Itachi-ACA/output/github-contribution-grid-snake.svg"/>
 </picture>
 </div>
 
