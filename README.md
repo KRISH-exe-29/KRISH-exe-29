@@ -1,5 +1,5 @@
 <!-- HERO BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:03001e,30:7303c0,60:ec38bc,100:fdeff9&height=240&section=header&text=Krishna%20Raju%20S&fontSize=64&fontColor=ffffff&fontAlignY=40&desc=Engineer%20who%20ships%20real%20things%20to%20production&descAlignY=62&descColor=f0e6ff&descSize=18" width="100%" alt="Header banner"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:03001e,30:7303c0,60:ec38bc,100:fdeff9&height=240&section=header&text=Krishna%20Raju%20S&fontSize=64&fontColor=ffffff&fontAlignY=40&desc=Engineer%20who%20ships%20real%20things%20to%20production&descAlignY=62&descColor=f0e6ff&descSize=18" width="100%" alt="Banner displaying Krishna Raju S — Engineer who ships real things to production"/>
 
 <div align="center">
 
@@ -270,4 +270,4 @@ const status = {
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:03001e,30:7303c0,60:ec38bc,100:fdeff9&height=120&section=footer&text=Thanks+for+visiting!&fontColor=ffffff&fontSize=18&fontAlignY=65" width="100%" alt="Footer wave"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:03001e,30:7303c0,60:ec38bc,100:fdeff9&height=120&section=footer&text=Thanks+for+visiting!&fontColor=ffffff&fontSize=18&fontAlignY=65" width="100%" alt="Footer wave with text: Thanks for visiting!"/>
