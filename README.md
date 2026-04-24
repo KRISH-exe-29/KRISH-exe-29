@@ -3,7 +3,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2800&pause=900&color=EC38BC&center=true&vCenter=true&width=900&height=45&lines=Electrical+%26+Electronics+Engineer;Industrial+Automation+%7C+MCC+%26+Panel+Engineering;Full+Stack+Developer+%7C+3+Live+Production+Apps;IoT+%7C+Embedded+Systems+%7C+Patent+Holder+IN;IIT+Bombay+NEC+%E2%80%94+Rank+7+across+1500%2B+Colleges" alt="Animated text cycling through Krishna Raju S professional roles"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2800&pause=900&color=EC38BC&center=true&vCenter=true&width=900&height=45&lines=Electrical+%26+Electronics+Engineer;Industrial+Automation+%7C+MCC+%26+Panel+Engineering;Full+Stack+Developer+%7C+3+Live+Production+Apps;IoT+%7C+Embedded+Systems+%7C+Patent+Holder+IN;IIT+Bombay+NEC+%E2%80%94+Rank+7+across+1500%2B+Colleges" alt="Animated cycling text displaying professional roles and achievements"/>
 
 <br/>
 <br/>
