@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="24" viewBox="0 0 1200 24" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#00e5ff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#00e5ff"/>
+      <stop offset="1" stop-color="#ffb300" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .line { stroke: url(#g); stroke-width: 2; }
+      .pulse { fill: #ffd166; animation: run 3s linear infinite; }
+      @keyframes run { from { transform: translateX(0) } to { transform: translateX(1200px) } }
+    </style>
+  </defs>
+  <line class="line" x1="0" y1="12" x2="1200" y2="12"/>
+  <circle class="pulse" cx="0" cy="12" r="4"/>
+</svg>

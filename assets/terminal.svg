@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="290" viewBox="0 0 720 290" role="img" aria-label="Terminal: whoami — builds the software a transformer factory runs on">
+  <style>text { font: 14px 'Cascadia Code', Consolas, 'Courier New', monospace; white-space: pre; }</style>
+  <rect width="720" height="290" rx="14" fill="#050b18" stroke="#12345a"/>
+  <rect width="720" height="36" rx="14" fill="#0a1a33"/><rect y="22" width="720" height="14" fill="#0a1a33"/>
+  <circle cx="24" cy="18" r="6" fill="#ff5f56"/><circle cx="44" cy="18" r="6" fill="#ffbd2e"/><circle cx="64" cy="18" r="6" fill="#27c93f"/>
+  <text x="360" y="23" text-anchor="middle" fill="#5f7ea3" style="font-size:12px">krishna@ittl: ~</text>
+  <clipPath id="c0"><rect x="28" y="58" height="22" width="0">
+    <animate attributeName="width" dur="16s" repeatCount="indefinite" values="0;0;71;71;0" keyTimes="0;0.025;0.055;.97;1"/></rect></clipPath>
+  <text x="30" y="74" clip-path="url(#c0)" fill="#00e5ff"><tspan fill="#ff7b72">$</tspan> whoami</text>
+  <clipPath id="c1"><rect x="28" y="84" height="22" width="0">
+    <animate attributeName="width" dur="16s" repeatCount="indefinite" values="0;0;575;575;0" keyTimes="0;0.071;0.092;.97;1"/></rect></clipPath>
+  <text x="30" y="100" clip-path="url(#c1)" fill="#e6f7ff">krishna — builds the software a transformer factory actually runs on</text>
+  <clipPath id="c2"><rect x="28" y="110" height="22" width="0">
+    <animate attributeName="width" dur="16s" repeatCount="indefinite" values="0;0;172;172;0" keyTimes="0;0.130;0.205;.97;1"/></rect></clipPath>
+  <text x="30" y="126" clip-path="url(#c2)" fill="#00e5ff"><tspan fill="#ff7b72">$</tspan> cat philosophy.txt</text>
+  <clipPath id="c3"><rect x="28" y="136" height="22" width="0">
+    <animate attributeName="width" dur="16s" repeatCount="indefinite" values="0;0;432;432;0" keyTimes="0;0.221;0.243;.97;1"/></rect></clipPath>
+  <text x="30" y="152" clip-path="url(#c3)" fill="#ffd166">if a human does it twice, a script does it forever.</text>
+  <clipPath id="c4"><rect x="28" y="162" height="22" width="0">
+    <animate attributeName="width" dur="16s" repeatCount="indefinite" values="0;0;239;239;0" keyTimes="0;0.280;0.385;.97;1"/></rect></clipPath>
+  <text x="30" y="178" clip-path="url(#c4)" fill="#00e5ff"><tspan fill="#ff7b72">$</tspan> ls ~/shipped --sort=impact</text>
+  <clipPath id="c5"><rect x="28" y="188" height="22" width="0">
+    <animate attributeName="width" dur="16s" repeatCount="indefinite" values="0;0;650;650;0" keyTimes="0;0.401;0.422;.97;1"/></rect></clipPath>
+  <text x="30" y="204" clip-path="url(#c5)" fill="#7ee787">dispatch-system/  job-lens/  rtcc-mbox/  data-acq/  epms/  dmat/  fasteners/</text>
+  <clipPath id="c6"><rect x="28" y="214" height="22" width="0">
+    <animate attributeName="width" dur="16s" repeatCount="indefinite" values="0;0;71;71;0" keyTimes="0;0.460;0.490;.97;1"/></rect></clipPath>
+  <text x="30" y="230" clip-path="url(#c6)" fill="#00e5ff"><tspan fill="#ff7b72">$</tspan> uptime</text>
+  <clipPath id="c7"><rect x="28" y="240" height="22" width="0">
+    <animate attributeName="width" dur="16s" repeatCount="indefinite" values="0;0;340;340;0" keyTimes="0;0.506;0.527;.97;1"/></rect></clipPath>
+  <text x="30" y="256" clip-path="url(#c7)" fill="#e6f7ff">in production, every shift, no excuses ▮</text>
+</svg>
