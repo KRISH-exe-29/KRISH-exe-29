@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Krishna Raju — Engineer. Developer. Problem eliminator.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050b18"/>
+      <stop offset="0.6" stop-color="#0a1a33"/>
+      <stop offset="1" stop-color="#04121f"/>
+    </linearGradient>
+    <linearGradient id="volt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00e5ff"/>
+      <stop offset="0.5" stop-color="#7cf9ff"/>
+      <stop offset="1" stop-color="#ffb300"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.5" stop-color="#9ff4ff"/>
+      <stop offset="1" stop-color="#ffd166"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#12345a" stroke-width="1"/>
+    </pattern>
+    <style>
+      .wave { fill: none; stroke: url(#volt); stroke-width: 3; stroke-dasharray: 18 10; animation: flow 1.6s linear infinite; }
+      .wave2 { fill: none; stroke: #00e5ff; stroke-opacity: .25; stroke-width: 2; animation: flow 2.4s linear infinite reverse; stroke-dasharray: 6 14; }
+      .node { fill: #00e5ff; animation: pulse 2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .node.b { animation-delay: .5s; fill: #ffb300; }
+      .node.c { animation-delay: 1s; }
+      .spark { fill: #ffd166; animation: blink 1.2s steps(2) infinite; }
+      .title { font: 800 64px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; letter-spacing: 4px; animation: flicker 6s linear infinite; }
+      .sub { font: 500 20px 'Cascadia Code', Consolas, 'Courier New', monospace; fill: #9fb7d6; letter-spacing: 1px; }
+      .tag { font: 700 14px 'Cascadia Code', Consolas, monospace; fill: #050b18; }
+      .coil { fill: none; stroke: #7cf9ff; stroke-width: 3; }
+      .core { fill: #1d3b63; stroke: #00e5ff; stroke-width: 1.5; }
+      @keyframes flow { to { stroke-dashoffset: -56; } }
+      @keyframes pulse { 0%,100% { transform: scale(1); opacity: .9 } 50% { transform: scale(1.8); opacity: .35 } }
+      @keyframes blink { 50% { opacity: 0 } }
+      @keyframes flicker { 0%,18%,22%,25%,53%,57%,100% { opacity: 1 } 20%,24%,55% { opacity: .35 } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#grid)" opacity=".55"/>
+
+  <!-- AC waveforms -->
+  <path class="wave2" d="M0 250 Q75 200 150 250 T300 250 T450 250 T600 250 T750 250 T900 250 T1050 250 T1200 250"/>
+  <path class="wave" filter="url(#glow)" d="M0 270 Q50 230 100 270 T200 270 T300 270 T400 270 T500 270 T600 270 T700 270 T800 270 T900 270 T1000 270 T1100 270 T1200 270"/>
+
+  <!-- grid nodes -->
+  <circle class="node" cx="100" cy="270" r="5"/>
+  <circle class="node b" cx="500" cy="270" r="5"/>
+  <circle class="node c" cx="900" cy="270" r="5"/>
+
+  <!-- transformer illustration -->
+  <g transform="translate(960 40)">
+    <rect class="core" x="40" y="10" width="120" height="150" rx="6"/>
+    <rect x="70" y="40" width="60" height="90" fill="#050b18" stroke="#00e5ff" stroke-width="1.5"/>
+    <path class="coil" d="M40 40 q-18 8 0 16 q-18 8 0 16 q-18 8 0 16 q-18 8 0 16 q-18 8 0 16"/>
+    <path class="coil" style="stroke:#ffb300" d="M160 40 q18 8 0 16 q18 8 0 16 q18 8 0 16 q18 8 0 16 q18 8 0 16"/>
+    <line x1="20" y1="40" x2="40" y2="40" stroke="#7cf9ff" stroke-width="3"/>
+    <line x1="160" y1="40" x2="180" y2="40" stroke="#ffb300" stroke-width="3"/>
+    <path class="spark" d="M185 30 l10 -14 l-4 12 l10 0 l-12 16 l4 -14 z"/>
+    <text x="100" y="185" text-anchor="middle" class="sub" style="font-size:13px">11 kV / 433 V</text>
+  </g>
+
+  <!-- name + tagline -->
+  <text x="70" y="125" class="title" fill="url(#name)" filter="url(#glow)">KRISHNA RAJU</text>
+  <text x="72" y="168" class="sub">&gt; engineer.developer.problem_eliminator()</text>
+
+  <g transform="translate(72 190)">
+    <rect width="150" height="26" rx="13" fill="#00e5ff"/>
+    <text x="75" y="18" text-anchor="middle" class="tag">FULL STACK</text>
+    <rect x="162" width="150" height="26" rx="13" fill="#ffb300"/>
+    <text x="237" y="18" text-anchor="middle" class="tag">AUTOMATION</text>
+    <rect x="324" width="210" height="26" rx="13" fill="#7cf9ff"/>
+    <text x="429" y="18" text-anchor="middle" class="tag">FACTORY-FLOOR SOFTWARE</text>
+  </g>
+</svg>

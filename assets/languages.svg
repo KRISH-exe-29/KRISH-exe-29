@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="364" viewBox="0 0 720 364" role="img" aria-label="Languages by hand-written code across my repos">
+  <style>
+    .t { font: 700 18px 'Segoe UI', Arial, sans-serif; fill: #e6f7ff; }
+    .s { font: 12px 'Cascadia Code', Consolas, monospace; fill: #5f7ea3; }
+    .n { font: 700 14px 'Segoe UI', Arial, sans-serif; fill: #e6f7ff; }
+    .w { font: 12px 'Cascadia Code', Consolas, monospace; fill: #6f8db3; }
+    .p { font: 700 14px 'Cascadia Code', Consolas, monospace; }
+    .bar { transform-box: fill-box; transform-origin: left; animation: grow 1.4s cubic-bezier(.2,.8,.2,1) both; }
+    @keyframes grow { from { transform: scaleX(0) } to { transform: scaleX(1) } }
+  </style>
+  <rect width="720" height="364" rx="14" fill="#050b18" stroke="#12345a"/>
+  <text x="40" y="38" class="t">⚡ Load Distribution</text>
+  <text x="40" y="58" class="s">hand-written code only · 2.81 MB across 6 languages · no vendored junk counted</text>
+  <g transform="translate(40 78)">
+    <text class="n">JavaScript</text><text x="150" class="w">Dispatch · RTCC · Data Acq · EPMS</text>
+    <rect x="0" y="12" width="560" height="10" rx="5" fill="#0d2240"/>
+    <rect x="0" y="12" width="245.4" height="10" rx="5" fill="#f7df1e" class="bar" style="animation-delay:0.00s"/>
+    <text x="620" y="22" class="p" style="fill:#f7df1e">43.8%</text>
+  </g>
+  <g transform="translate(40 124)">
+    <text class="n">TypeScript</text><text x="150" class="w">Job Lens · EPMS · Dispatch</text>
+    <rect x="0" y="12" width="560" height="10" rx="5" fill="#0d2240"/>
+    <rect x="0" y="12" width="147.2" height="10" rx="5" fill="#3178c6" class="bar" style="animation-delay:0.15s"/>
+    <text x="620" y="22" class="p" style="fill:#3178c6">26.3%</text>
+  </g>
+  <g transform="translate(40 170)">
+    <text class="n">HTML</text><text x="150" class="w">dMAT single-file app</text>
+    <rect x="0" y="12" width="560" height="10" rx="5" fill="#0d2240"/>
+    <rect x="0" y="12" width="79.0" height="10" rx="5" fill="#e34f26" class="bar" style="animation-delay:0.30s"/>
+    <text x="620" y="22" class="p" style="fill:#e34f26">14.1%</text>
+  </g>
+  <g transform="translate(40 216)">
+    <text class="n">Python</text><text x="150" class="w">Fasteners automation · dMAT build</text>
+    <rect x="0" y="12" width="560" height="10" rx="5" fill="#0d2240"/>
+    <rect x="0" y="12" width="49.4" height="10" rx="5" fill="#3fb950" class="bar" style="animation-delay:0.45s"/>
+    <text x="620" y="22" class="p" style="fill:#3fb950">8.8%</text>
+  </g>
+  <g transform="translate(40 262)">
+    <text class="n">CSS</text><text x="150" class="w">every UI</text>
+    <rect x="0" y="12" width="560" height="10" rx="5" fill="#0d2240"/>
+    <rect x="0" y="12" width="27.6" height="10" rx="5" fill="#a371f7" class="bar" style="animation-delay:0.60s"/>
+    <text x="620" y="22" class="p" style="fill:#a371f7">4.9%</text>
+  </g>
+  <g transform="translate(40 308)">
+    <text class="n">SQL</text><text x="150" class="w">Supabase RLS · migrations</text>
+    <rect x="0" y="12" width="560" height="10" rx="5" fill="#0d2240"/>
+    <rect x="0" y="12" width="11.4" height="10" rx="5" fill="#00e5ff" class="bar" style="animation-delay:0.75s"/>
+    <text x="620" y="22" class="p" style="fill:#00e5ff">2.0%</text>
+  </g>
+</svg>
