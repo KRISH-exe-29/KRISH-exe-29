@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="Factory floor: IEC 60076 testing, MCC panels, Protection relays, OLTC, ESP8266, Proteus; Code: TypeScript, React, Next.js, Python, Java, Node, Supabase, PostgreSQL, Three.js; AI: Claude, OpenAI, LangChain, LangGraph, Transformers.js, Tesseract"><title>Factory floor: IEC 60076 testing, MCC panels, Protection relays, OLTC, ESP8266, Proteus; Code: TypeScript, React, Next.js, Python, Java, Node, Supabase, PostgreSQL, Three.js; AI: Claude, OpenAI, LangChain, LangGraph, Transformers.js, Tesseract</title><defs><clipPath id="all"><rect width="1200" height="330" rx="36"/></clipPath>
+<filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="84"/></filter>
+<filter id="refract" x="-10%" y="-10%" width="120%" height="120%">
+  <feTurbulence type="fractalNoise" baseFrequency=".006 .01" numOctaves="2" seed="6" result="n"/>
+  <feDisplacementMap in="SourceGraphic" in2="n" scale="70" xChannelSelector="R" yChannelSelector="G" result="d"/>
+  <feGaussianBlur in="d" stdDeviation="10"/>
+</filter>
+<filter id="lift" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000000" flood-opacity=".22"/></filter>
+<linearGradient id="rim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0.45"/>
+  <stop offset=".45" stop-color="#fff" stop-opacity=".08"/><stop offset="1" stop-color="#fff" stop-opacity="0.27"/></linearGradient>
+<linearGradient id="spec" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="ink" x1="0" x2="1"><stop offset="0" stop-color="#F5F7FF"/><stop offset="1" stop-color="#8FA5FF"/></linearGradient>
+<g id="wall"><rect width="1200" height="330" fill="#05070F"/><g filter="url(#soft)"><circle class="b b0" cx="300" cy="297" r="384" fill="#3A5BFF" opacity="0.5"/><circle class="b b1" cx="216" cy="82" r="384" fill="#D946EF" opacity="0.5"/><circle class="b b2" cx="984" cy="66" r="384" fill="#14B8A6" opacity="0.5"/><circle class="b b3" cx="840" cy="280" r="384" fill="#F59E0B" opacity="0.5"/></g></g></defs><style>.b{transform-box:fill-box;transform-origin:center;animation:drift 16s ease-in-out infinite alternate}.b1{animation-duration:21s;animation-delay:-5s}.b2{animation-duration:25s;animation-delay:-9s}.b3{animation-duration:19s;animation-delay:-13s}@keyframes drift{0%{transform:translate(0,0) scale(1)}50%{transform:translate(-8%,6%) scale(1.12)}100%{transform:translate(7%,-5%) scale(.92)}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><g clip-path="url(#all)"><use href="#wall"/><clipPath id="g1"><rect x="30" y="18" width="1140" height="294" rx="32"/></clipPath>
+<g filter="url(#lift)"><rect x="30" y="18" width="1140" height="294" rx="32" fill="#05070F"/></g>
+<g clip-path="url(#g1)"><use href="#wall" filter="url(#refract)"/>
+  <rect x="30" y="18" width="1140" height="294" fill="#0A0E1C" opacity="0.5"/>
+  <rect x="30" y="18" width="1140" height="90" fill="url(#spec)" opacity=".5"/></g>
+<rect x="30.75" y="18.75" width="1138.5" height="292.5" rx="32" fill="none" stroke="url(#rim)" stroke-width="1.5"/><text x="64" y="72" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Inter, system-ui, sans-serif" font-size="17" font-weight="700" fill="#C9D0E4" text-anchor="start" >Factory floor</text><clipPath id="g2"><rect x="220" y="34" width="771.6" height="60" rx="30"/></clipPath>
+<g filter="url(#lift)"><rect x="220" y="34" width="771.6" height="60" rx="30" fill="#05070F"/></g>
+<g clip-path="url(#g2)"><use href="#wall" filter="url(#refract)"/>
+  <rect x="220" y="34" width="771.6" height="60" fill="#0A0E1C" opacity="0.5"/>
+  <rect x="220" y="34" width="771.6" height="27" fill="url(#spec)" opacity=".5"/></g>
+<rect x="220.75" y="34.75" width="770.1" height="58.5" rx="30" fill="none" stroke="url(#rim)" stroke-width="1.5"/><clipPath id="g3"><rect x="236" y="44" width="173.60000000000002" height="40" rx="20"/></clipPath>
+<g ><rect x="236" y="44" width="173.60000000000002" height="40" rx="20" fill="#05070F"/></g>
+<g clip-path="url(#g3)"><use href="#wall" filter="url(#refract)"/>
+  <rect x="236" y="44" width="173.60000000000002" height="40" fill="#0A0E1C" opacity="0.7"/>
+  <rect x="236" y="44" width="173.60000000000002" height="18" fill="url(#spec)" opacity=".5"/></g>
+<rect x="236.75" y="44.75" width="172.10000000000002" height="38.5" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.5"/><text x="322.8" y="70" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F5F7FF" text-anchor="middle" >IEC 60076 testing</text><clipPath id="g4"><rect x="419.6" y="44" width="112.0" height="40" rx="20"/></clipPath>
+<g ><rect x="419.6" y="44" width="112.0" height="40" rx="20" fill="#05070F"/></g>
+<g clip-path="url(#g4)"><use href="#wall" filter="url(#refract)"/>
+  <rect x="419.6" y="44" width="112.0" height="40" fill="#0A0E1C" opacity="0.7"/>
+  <rect x="419.6" y="44" width="112.0" height="18" fill="url(#spec)" opacity=".5"/></g>
+<rect x="420.35" y="44.75" width="110.5" height="38.5" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.5"/><text x="475.6" y="70" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F5F7FF" text-anchor="middle" >MCC panels</text><clipPath id="g5"><rect x="541.6" y="44" width="173.60000000000002" height="40" rx="20"/></clipPath>
+<g ><rect x="541.6" y="44" width="173.60000000000002" height="40" rx="20" fill="#05070F"/></g>
+<g clip-path="url(#g5)"><use href="#wall" filter="url(#refract)"/>
+  <rect x="541.6" y="44" width="173.60000000000002" height="40" fill="#0A0E1C" opacity="0.7"/>
+  <rect x="541.6" y="44" width="173.60000000000002" height="18" fill="url(#spec)" opacity=".5"/></g>
+<rect x="542.35" y="44.75" width="172.10000000000002" height="38.5" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.5"/><text x="628.4000000000001" y="70" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F5F7FF" text-anchor="middle" >Protection relays</text><clipPath id="g6"><rect x="725.2" y="44" width="59.2" height="40" rx="20"/></clipPath>
+<g ><rect x="725.2" y="44" width="59.2" height="40" rx="20" fill="#05070F"/></g>
+<g clip-path="url(#g6)"><use href="#wall" filter="url(#refract)"/>
+  <rect x="725.2" y="44" width="59.2" height="40" fill="#0A0E1C" opacity="0.7"/>
+  <rect x="725.2" y="44" width="59.2" height="18" fill="url(#spec)" opacity=".5"/></g>
+<rect x="725.95" y="44.75" width="57.7" height="38.5" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.5"/><text x="754.8000000000001" y="70" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F5F7FF" text-anchor="middle" >OLTC</text><clipPath id="g7"><rect x="794.4000000000001" y="44" width="85.60000000000001" height="40" rx="20"/></clipPath>
+<g ><rect x="794.4000000000001" y="44" width="85.60000000000001" height="40" rx="20" fill="#05070F"/></g>
+<g clip-path="url(#g7)"><use href="#wall" filter="url(#refract)"/>
+  <rect x="794.4000000000001" y="44" width="85.60000000000001" height="40" fill="#0A0E1C" opacity="0.7"/>
+  <rect x="794.4000000000001" y="44" width="85.60000000000001" height="18" fill="url(#spec)" opacity=".5"/></g>
+<rect x="795.1500000000001" y="44.75" width="84.10000000000001" height="38.5" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.5"/><text x="837.2" y="70" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F5F7FF" text-anchor="middle" >ESP8266</text><clipPath id="g8"><rect x="890.0000000000001" y="44" width="85.60000000000001" height="40" rx="20"/></clipPath>
+<g ><rect x="890.0000000000001" y="44" width="85.60000000000001" height="40" rx="20" fill="#05070F"/></g>
+<g clip-path="url(#g8)"><use href="#wall" filter="url(#refract)"/>
+  <rect x="890.0000000000001" y="44" width="85.60000000000001" height="40" fill="#0A0E1C" opacity="0.7"/>
+  <rect x="890.0000000000001" y="44" width="85.60000000000001" height="18" fill="url(#spec)" opacity=".5"/></g>
+<rect x="890.7500000000001" y="44.75" width="84.10000000000001" height="38.5" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.5"/><text x="932.8000000000001" y="70" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F5F7FF" text-anchor="middle" >Proteus</text><text x="64" y="164" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Inter, system-ui, sans-serif" font-size="17" font-weight="700" fill="#C9D0E4" text-anchor="start" >Code</text><clipPath id="g9"><rect x="220" y="126" width="873.6" height="60" rx="30"/></clipPath>
+<g filter="url(#lift)"><rect x="220" y="126" width="873.6" height="60" rx="30" fill="#05070F"/></g>
+<g clip-path="url(#g9)"><use href="#wall" filter="url(#refract)"/>
+  <rect x="220" y="126" width="873.6" height="60" fill="#0A0E1C" opacity="0.5"/>
+  <rect x="220" y="126" width="873.6" height="27" fill="url(#spec)" opacity=".5"/></g>
+<rect x="220.75" y="126.75" width="872.1" height="58.5" rx="30" fill="none" stroke="url(#rim)" stroke-width="1.5"/><clipPath id="g10"><rect x="236" y="136" width="112.0" height="40" rx="20"/></clipPath>
+<g ><rect x="236" y="136" width="112.0" height="40" rx="20" fill="#05070F"/></g>
+<g clip-path="url(#g10)"><use href="#wall" filter="url(#refract)"/>
+  <rect x="236" y="136" width="112.0" height="40" fill="#0A0E1C" opacity="0.7"/>
+  <rect x="236" y="136" width="112.0" height="18" fill="url(#spec)" opacity=".5"/></g>
+<rect x="236.75" y="136.75" width="110.5" height="38.5" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.5"/><text x="292.0" y="162" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F5F7FF" text-anchor="middle" >TypeScript</text><clipPath id="g11"><rect x="358.0" y="136" width="68.0" height="40" rx="20"/></clipPath>
+<g ><rect x="358.0" y="136" width="68.0" height="40" rx="20" fill="#05070F"/></g>
+<g clip-path="url(#g11)"><use href="#wall" filter="url(#refract)"/>
+  <rect x="358.0" y="136" width="68.0" height="40" fill="#0A0E1C" opacity="0.7"/>
+  <rect x="358.0" y="136" width="68.0" height="18" fill="url(#spec)" opacity=".5"/></g>
+<rect x="358.75" y="136.75" width="66.5" height="38.5" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.5"/><text x="392.0" y="162" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F5F7FF" text-anchor="middle" >React</text><clipPath id="g12"><rect x="436.0" y="136" width="85.60000000000001" height="40" rx="20"/></clipPath>
+<g ><rect x="436.0" y="136" width="85.60000000000001" height="40" rx="20" fill="#05070F"/></g>
+<g clip-path="url(#g12)"><use href="#wall" filter="url(#refract)"/>
+  <rect x="436.0" y="136" width="85.60000000000001" height="40" fill="#0A0E1C" opacity="0.7"/>
+  <rect x="436.0" y="136" width="85.60000000000001" height="18" fill="url(#spec)" opacity=".5"/></g>
+<rect x="436.75" y="136.75" width="84.10000000000001" height="38.5" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.5"/><text x="478.8" y="162" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F5F7FF" text-anchor="middle" >Next.js</text><clipPath id="g13"><rect x="531.6" y="136" width="76.80000000000001" height="40" rx="20"/></clipPath>
+<g ><rect x="531.6" y="136" width="76.80000000000001" height="40" rx="20" fill="#05070F"/></g>
+<g clip-path="url(#g13)"><use href="#wall" filter="url(#refract)"/>
+  <rect x="531.6" y="136" width="76.80000000000001" height="40" fill="#0A0E1C" opacity="0.7"/>
+  <rect x="531.6" y="136" width="76.80000000000001" height="18" fill="url(#spec)" opacity=".5"/></g>
+<rect x="532.35" y="136.75" width="75.30000000000001" height="38.5" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.5"/><text x="570.0" y="162" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F5F7FF" text-anchor="middle" >Python</text><clipPath id="g14"><rect x="618.4000000000001" y="136" width="59.2" height="40" rx="20"/></clipPath>
+<g ><rect x="618.4000000000001" y="136" width="59.2" height="40" rx="20" fill="#05070F"/></g>
+<g clip-path="url(#g14)"><use href="#wall" filter="url(#refract)"/>
+  <rect x="618.4000000000001" y="136" width="59.2" height="40" fill="#0A0E1C" opacity="0.7"/>
+  <rect x="618.4000000000001" y="136" width="59.2" height="18" fill="url(#spec)" opacity=".5"/></g>
+<rect x="619.1500000000001" y="136.75" width="57.7" height="38.5" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.5"/><text x="648.0000000000001" y="162" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F5F7FF" text-anchor="middle" >Java</text><clipPath id="g15"><rect x="687.6000000000001" y="136" width="59.2" height="40" rx="20"/></clipPath>
+<g ><rect x="687.6000000000001" y="136" width="59.2" height="40" rx="20" fill="#05070F"/></g>
+<g clip-path="url(#g15)"><use href="#wall" filter="url(#refract)"/>
+  <rect x="687.6000000000001" y="136" width="59.2" height="40" fill="#0A0E1C" opacity="0.7"/>
+  <rect x="687.6000000000001" y="136" width="59.2" height="18" fill="url(#spec)" opacity=".5"/></g>
+<rect x="688.3500000000001" y="136.75" width="57.7" height="38.5" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.5"/><text x="717.2000000000002" y="162" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F5F7FF" text-anchor="middle" >Node</text><clipPath id="g16"><rect x="756.8000000000002" y="136" width="94.4" height="40" rx="20"/></clipPath>
+<g ><rect x="756.8000000000002" y="136" width="94.4" height="40" rx="20" fill="#05070F"/></g>
+<g clip-path="url(#g16)"><use href="#wall" filter="url(#refract)"/>
+  <rect x="756.8000000000002" y="136" width="94.4" height="40" fill="#0A0E1C" opacity="0.7"/>
+  <rect x="756.8000000000002" y="136" width="94.4" height="18" fill="url(#spec)" opacity=".5"/></g>
+<rect x="757.5500000000002" y="136.75" width="92.9" height="38.5" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.5"/><text x="804.0000000000002" y="162" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F5F7FF" text-anchor="middle" >Supabase</text><clipPath id="g17"><rect x="861.2000000000002" y="136" width="112.0" height="40" rx="20"/></clipPath>
+<g ><rect x="861.2000000000002" y="136" width="112.0" height="40" rx="20" fill="#05070F"/></g>
+<g clip-path="url(#g17)"><use href="#wall" filter="url(#refract)"/>
+  <rect x="861.2000000000002" y="136" width="112.0" height="40" fill="#0A0E1C" opacity="0.7"/>
+  <rect x="861.2000000000002" y="136" width="112.0" height="18" fill="url(#spec)" opacity=".5"/></g>
+<rect x="861.9500000000002" y="136.75" width="110.5" height="38.5" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.5"/><text x="917.2000000000002" y="162" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F5F7FF" text-anchor="middle" >PostgreSQL</text><clipPath id="g18"><rect x="983.2000000000002" y="136" width="94.4" height="40" rx="20"/></clipPath>
+<g ><rect x="983.2000000000002" y="136" width="94.4" height="40" rx="20" fill="#05070F"/></g>
+<g clip-path="url(#g18)"><use href="#wall" filter="url(#refract)"/>
+  <rect x="983.2000000000002" y="136" width="94.4" height="40" fill="#0A0E1C" opacity="0.7"/>
+  <rect x="983.2000000000002" y="136" width="94.4" height="18" fill="url(#spec)" opacity=".5"/></g>
+<rect x="983.9500000000002" y="136.75" width="92.9" height="38.5" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.5"/><text x="1030.4" y="162" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F5F7FF" text-anchor="middle" >Three.js</text><text x="64" y="256" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Inter, system-ui, sans-serif" font-size="17" font-weight="700" fill="#C9D0E4" text-anchor="start" >AI</text><clipPath id="g19"><rect x="220" y="218" width="701.2" height="60" rx="30"/></clipPath>
+<g filter="url(#lift)"><rect x="220" y="218" width="701.2" height="60" rx="30" fill="#05070F"/></g>
+<g clip-path="url(#g19)"><use href="#wall" filter="url(#refract)"/>
+  <rect x="220" y="218" width="701.2" height="60" fill="#0A0E1C" opacity="0.5"/>
+  <rect x="220" y="218" width="701.2" height="27" fill="url(#spec)" opacity=".5"/></g>
+<rect x="220.75" y="218.75" width="699.7" height="58.5" rx="30" fill="none" stroke="url(#rim)" stroke-width="1.5"/><clipPath id="g20"><rect x="236" y="228" width="76.80000000000001" height="40" rx="20"/></clipPath>
+<g ><rect x="236" y="228" width="76.80000000000001" height="40" rx="20" fill="#05070F"/></g>
+<g clip-path="url(#g20)"><use href="#wall" filter="url(#refract)"/>
+  <rect x="236" y="228" width="76.80000000000001" height="40" fill="#0A0E1C" opacity="0.7"/>
+  <rect x="236" y="228" width="76.80000000000001" height="18" fill="url(#spec)" opacity=".5"/></g>
+<rect x="236.75" y="228.75" width="75.30000000000001" height="38.5" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.5"/><text x="274.4" y="254" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F5F7FF" text-anchor="middle" >Claude</text><clipPath id="g21"><rect x="322.8" y="228" width="76.80000000000001" height="40" rx="20"/></clipPath>
+<g ><rect x="322.8" y="228" width="76.80000000000001" height="40" rx="20" fill="#05070F"/></g>
+<g clip-path="url(#g21)"><use href="#wall" filter="url(#refract)"/>
+  <rect x="322.8" y="228" width="76.80000000000001" height="40" fill="#0A0E1C" opacity="0.7"/>
+  <rect x="322.8" y="228" width="76.80000000000001" height="18" fill="url(#spec)" opacity=".5"/></g>
+<rect x="323.55" y="228.75" width="75.30000000000001" height="38.5" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.5"/><text x="361.20000000000005" y="254" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F5F7FF" text-anchor="middle" >OpenAI</text><clipPath id="g22"><rect x="409.6" y="228" width="103.2" height="40" rx="20"/></clipPath>
+<g ><rect x="409.6" y="228" width="103.2" height="40" rx="20" fill="#05070F"/></g>
+<g clip-path="url(#g22)"><use href="#wall" filter="url(#refract)"/>
+  <rect x="409.6" y="228" width="103.2" height="40" fill="#0A0E1C" opacity="0.7"/>
+  <rect x="409.6" y="228" width="103.2" height="18" fill="url(#spec)" opacity=".5"/></g>
+<rect x="410.35" y="228.75" width="101.7" height="38.5" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.5"/><text x="461.20000000000005" y="254" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F5F7FF" text-anchor="middle" >LangChain</text><clipPath id="g23"><rect x="522.8000000000001" y="228" width="103.2" height="40" rx="20"/></clipPath>
+<g ><rect x="522.8000000000001" y="228" width="103.2" height="40" rx="20" fill="#05070F"/></g>
+<g clip-path="url(#g23)"><use href="#wall" filter="url(#refract)"/>
+  <rect x="522.8000000000001" y="228" width="103.2" height="40" fill="#0A0E1C" opacity="0.7"/>
+  <rect x="522.8000000000001" y="228" width="103.2" height="18" fill="url(#spec)" opacity=".5"/></g>
+<rect x="523.5500000000001" y="228.75" width="101.7" height="38.5" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.5"/><text x="574.4000000000001" y="254" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F5F7FF" text-anchor="middle" >LangGraph</text><clipPath id="g24"><rect x="636.0000000000001" y="228" width="156.0" height="40" rx="20"/></clipPath>
+<g ><rect x="636.0000000000001" y="228" width="156.0" height="40" rx="20" fill="#05070F"/></g>
+<g clip-path="url(#g24)"><use href="#wall" filter="url(#refract)"/>
+  <rect x="636.0000000000001" y="228" width="156.0" height="40" fill="#0A0E1C" opacity="0.7"/>
+  <rect x="636.0000000000001" y="228" width="156.0" height="18" fill="url(#spec)" opacity=".5"/></g>
+<rect x="636.7500000000001" y="228.75" width="154.5" height="38.5" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.5"/><text x="714.0000000000001" y="254" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F5F7FF" text-anchor="middle" >Transformers.js</text><clipPath id="g25"><rect x="802.0000000000001" y="228" width="103.2" height="40" rx="20"/></clipPath>
+<g ><rect x="802.0000000000001" y="228" width="103.2" height="40" rx="20" fill="#05070F"/></g>
+<g clip-path="url(#g25)"><use href="#wall" filter="url(#refract)"/>
+  <rect x="802.0000000000001" y="228" width="103.2" height="40" fill="#0A0E1C" opacity="0.7"/>
+  <rect x="802.0000000000001" y="228" width="103.2" height="18" fill="url(#spec)" opacity=".5"/></g>
+<rect x="802.7500000000001" y="228.75" width="101.7" height="38.5" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.5"/><text x="853.6000000000001" y="254" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F5F7FF" text-anchor="middle" >Tesseract</text></g></svg>
