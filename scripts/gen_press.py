@@ -117,10 +117,10 @@ for theme, t in THEMES.items():
     p.text(580, 444, "Nine apps, one plant,", 34, DISPLAY, weight=800)
     p.text(580, 484, "zero spreadsheets spared", 34, DISPLAY, weight=800)
     p.text(580, 512, f"By the Chronicle desk · {CITY}", 13, LABEL, t["soft"], 700, extra='letter-spacing="1.5"')
-    col1 = (f"KANCHIPURAM — He arrived at Indo Tech Transformers to test them: ratio, vector group, SFRA, partial discharge, the full IEC 60076 drill. "
-            f"Then he noticed how much of the plant still ran on paper, phone calls and copy-paste. Witnesses say he went quiet. "
-            f"Months later, dispatch, testing, hiring and attendance run on software he wrote.")
-    col2 = (f"The habit is not new. As an intern at Bühler India he built a Python tool that turned thirty minutes of MCC paperwork into thirty seconds. "
+    col1 = (f"KANCHIPURAM — Krishna arrived at Indo Tech Transformers to test them: ratio, vector group, SFRA, partial discharge, the full IEC 60076 drill. "
+            f"Then Krishna noticed how much of the plant still ran on paper, phone calls and copy-paste. Witnesses report a long silence. "
+            f"Months later, dispatch, testing, hiring and attendance run on Krishna's software.")
+    col2 = (f"The habit is not new. As an intern at Bühler India, Krishna built a Python tool that turned thirty minutes of MCC paperwork into thirty seconds. "
             f"Before that: a patent filing for street lights that follow the car, a #7 national rank among 1500+ colleges at IIT Bombay, "
             f"and a {DEGREE} from {COLLEGE} (CGPA {CGPA}).")
     p.para(580, 548, col1, 15.5, 274)
@@ -129,7 +129,7 @@ for theme, t in THEMES.items():
     # pull quote
     p.rule(580, 1160, 924, 2)
     p.text(870, 960, "“Fluent in both Ohm's Law and Git commits.”", 24, DISPLAY, t["red"], 700, "middle", style="italic")
-    p.text(870, 986, "— the subject, on himself", 13, LABEL, t["soft"], 700, "middle", extra='letter-spacing="1.5"')
+    p.text(870, 986, "— the subject, in their own words", 13, LABEL, t["soft"], 700, "middle", extra='letter-spacing="1.5"')
     p.save(f"front-{theme}.svg", f"The Krishna Chronicle. Local engineer deletes 30-minute task; factory quietly asks for more. {col1} {col2}",
            ".pr{animation:ink .5s ease-out backwards}@keyframes ink{from{opacity:0}}"
            ".roller{animation:roll 2.6s linear .4s backwards}@keyframes roll{from{transform:translateY(0);opacity:.7}to{transform:translateY(504px);opacity:.7}}"
@@ -137,7 +137,7 @@ for theme, t in THEMES.items():
            ".tick{animation:tk 16s linear infinite}@keyframes tk{to{transform:translateX(-" + f"{len(tape) * 9.3:.0f}" + "px)}}")
 
     # ── business section: career as articles ──
-    HEADS = ["Testing engineer becomes the plant's software guy; CEO signs off on fastener standard",
+    HEADS = ["Testing engineer becomes the plant's software engineer; CEO signs off on fastener standard",
              "Intern's tool turns 30 minutes of paperwork into 30 seconds",
              "‘Project Phantom’ ships; first production deploy confirmed",
              "Student sees megawatts up close, takes very good notes",
