@@ -1,122 +1,33 @@
-<!-- The SVGs in assets/ are self-hosted, so the animations keep working even when a free stats API goes down. -->
+<!-- Neo-brutalist theme: every image has a light and a dark variant (assets/brutal), picked by GitHub's theme. Built by scripts/gen_brutal.py. -->
 
-<img src="./assets/hero.svg" width="100%" alt="Krishna Raju: electrical engineer and software builder. I build the software a transformer factory runs on."/>
-
-<p align="center">
-  <a href="mailto:krishnarajus2004@gmail.com"><img src="https://img.shields.io/badge/Email_me-A78BFA?style=for-the-badge&logo=gmail&logoColor=0A0A12" alt="Email"/></a>
-  <a href="https://linkedin.com/in/krishnarajus2004"><img src="https://img.shields.io/badge/LinkedIn-F472B6?style=for-the-badge&logo=linkedin&logoColor=0A0A12" alt="LinkedIn"/></a>
-  <a href="https://krishna-ittl.github.io/Candidate-Screener/"><img src="https://img.shields.io/badge/Try_Job_Lens-FDBA74?style=for-the-badge&logo=githubpages&logoColor=0A0A12" alt="Job Lens live demo"/></a>
-  <a href="https://krishna-ittl.github.io/dmat-practice/"><img src="https://img.shields.io/badge/Try_dMAT_Practice-2DD4BF?style=for-the-badge&logo=githubpages&logoColor=0A0A12" alt="dMAT Practice live app"/></a>
-  <img src="https://komarev.com/ghpvc/?username=KRISH-exe-29&style=for-the-badge&color=12121C&label=PROFILE+VIEWS" alt="Profile views"/>
-</p>
-
-<img src="./assets/stats.svg" width="100%" alt="9 apps shipped, 128 automated tests, rank 7 nationally at IIT Bombay NEC, 1 patent"/>
-
-<br/>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/brutal/hero-dark.svg"/><img src="./assets/brutal/hero-light.svg" width="100%" alt="Krishna Raju S, EEE engineer. I automate. You go home early."/></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/brutal/ticker-dark.svg"/><img src="./assets/brutal/ticker-light.svg" width="100%" alt="9 apps in production, 128 tests, 1 patent, rank 7 of 1500+, 30 min to 30 sec. No-code? No. All code."/></picture></p>
 
 <p align="center">
-I'm an <b>Electrical &amp; Electronics engineer</b> on the Digitalisation team at <b>Indo Tech Transformers</b>.<br/>
-I spot the job someone does by hand every shift (the copy-pasted spreadsheet, the chased email, the paper gate pass)<br/>
-and quietly replace it with an app. Dispatch, testing, hiring and attendance across the plant now run on software I wrote.
+  <a href="mailto:krishnarajus2004@gmail.com"><img src="https://img.shields.io/badge/EMAIL_ME-FFD93D?style=for-the-badge&logo=gmail&logoColor=111111&labelColor=FFD93D" alt="Email"/></a>
+  <a href="https://linkedin.com/in/krishnarajus2004"><img src="https://img.shields.io/badge/LINKEDIN-4D96FF?style=for-the-badge&logo=linkedin&logoColor=111111&labelColor=4D96FF" alt="LinkedIn"/></a>
+  <a href="https://krishna-ittl.github.io/Candidate-Screener/"><img src="https://img.shields.io/badge/TRY_JOB_LENS-FF6B9D?style=for-the-badge&logo=githubpages&logoColor=111111&labelColor=FF6B9D" alt="Job Lens live demo"/></a>
+  <img src="https://komarev.com/ghpvc/?username=KRISH-exe-29&style=for-the-badge&color=6BCB77&label=WITNESSES" alt="Profile views"/>
 </p>
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
-
-<h2 align="center">Things I've shipped</h2>
-<p align="center"><sub>Click a card to open it. Most of these run on a real factory floor, not a demo stage.</sub></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/brutal/receipts-dark.svg"/><img src="./assets/brutal/receipts-light.svg" width="100%" alt="The receipts: 9 apps in production, 128 tests guarding dispatch, 30 minutes to 30 seconds, rank 7 of 1500+ colleges"/></picture></p>
 
 <p align="center">
-  <a href="https://github.com/KRISH-exe-29/Dispatch-ITTL"><img src="./assets/cards/dispatch.svg" width="49%" alt="Dispatch Management System"/></a>
-  <a href="https://krishna-ittl.github.io/Candidate-Screener/"><img src="./assets/cards/job-lens.svg" width="49%" alt="Job Lens resume screener"/></a>
-  <img src="./assets/cards/kiosk-sentinel.svg" width="49%" alt="KioskSentinel time and attendance"/>
-  <a href="https://transformer-test-planner.vercel.app"><img src="./assets/cards/test-planner.svg" width="49%" alt="Transformer Test Planner"/></a>
-  <a href="https://github.com/KRISH-exe-29/Pannel-Box-Transformers-"><img src="./assets/cards/rtcc.svg" width="49%" alt="RTCC and Marshalling Box Tracker"/></a>
-  <a href="https://github.com/KRISH-exe-29/indotech-transformers"><img src="./assets/cards/industrial-data.svg" width="49%" alt="Industrial Data System"/></a>
-  <a href="https://github.com/KRISH-exe-29/PMS"><img src="./assets/cards/epms.svg" width="49%" alt="EPMS Project HQ"/></a>
-  <a href="https://github.com/KRISH-exe-29/Fasteners-Project"><img src="./assets/cards/fasteners.svg" width="49%" alt="Fasteners Automation"/></a>
-  <a href="https://krishna-ittl.github.io/dmat-practice/"><img src="./assets/cards/dmat.svg" width="49%" alt="dMAT Master Practice"/></a>
-  <img src="./assets/cards/shop-floor.svg" width="49%" alt="Shop Floor Job Status, in design"/>
+  <a href="https://github.com/KRISH-exe-29/Dispatch-ITTL"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/brutal/card-dispatch-dark.svg"/><img src="./assets/brutal/card-dispatch-light.svg" width="49.5%" alt="Dispatch Management: Work order to gate pass, zero phone calls."/></picture></a>
+  <a href="https://krishna-ittl.github.io/Candidate-Screener/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/brutal/card-job-lens-dark.svg"/><img src="./assets/brutal/card-job-lens-light.svg" width="49.5%" alt="Job Lens: 100 resumes in. A ranked shortlist out."/></picture></a>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/brutal/card-kiosk-sentinel-dark.svg"/><img src="./assets/brutal/card-kiosk-sentinel-light.svg" width="49.5%" alt="KioskSentinel: Attendance that survives power cuts."/></picture>
+  <a href="https://transformer-test-planner.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/brutal/card-test-planner-dark.svg"/><img src="./assets/brutal/card-test-planner-light.svg" width="49.5%" alt="Transformer Test Planner: Every IEC 60076 test, planned per unit."/></picture></a>
+  <a href="https://github.com/KRISH-exe-29/Pannel-Box-Transformers-"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/brutal/card-rtcc-dark.svg"/><img src="./assets/brutal/card-rtcc-light.svg" width="49.5%" alt="RTCC & M.Box Tracker: Chases pending points so nobody has to."/></picture></a>
+  <a href="https://github.com/KRISH-exe-29/Fasteners-Project"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/brutal/card-fasteners-dark.svg"/><img src="./assets/brutal/card-fasteners-light.svg" width="49.5%" alt="Fasteners Automation: A 30-minute job, now 30 seconds."/></picture></a>
+  <a href="https://github.com/KRISH-exe-29/PMS"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/brutal/card-epms-dark.svg"/><img src="./assets/brutal/card-epms-light.svg" width="49.5%" alt="EPMS: Project HQ with an interactive Gantt."/></picture></a>
+  <a href="https://github.com/KRISH-exe-29/indotech-transformers"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/brutal/card-industrial-data-dark.svg"/><img src="./assets/brutal/card-industrial-data-light.svg" width="49.5%" alt="Industrial Data System: QR-tagged test data with a 3D model."/></picture></a>
+  <a href="https://krishna-ittl.github.io/dmat-practice/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/brutal/card-dmat-dark.svg"/><img src="./assets/brutal/card-dmat-light.svg" width="49.5%" alt="dMAT Practice: A full exam simulator in one HTML file."/></picture></a>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/brutal/card-shop-floor-dark.svg"/><img src="./assets/brutal/card-shop-floor-light.svg" width="49.5%" alt="Shop Floor Job Status: Live job status for every bay."/></picture>
 </p>
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/brutal/flex-dark.svg"/><img src="./assets/brutal/flex-light.svg" width="100%" alt="Hall of flex: 2024 National finalist, Technical symposium; 2025 Patent holder, Street-light fault detection; 2025 Rank #7 of 1500+, IIT Bombay NEC; 2025 Runner-up, Fish Tank, IIT B E-Summit; 2026 9 apps shipped, Indo Tech Transformers"/></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/brutal/weapons-dark.svg"/><img src="./assets/brutal/weapons-light.svg" width="100%" alt="Weapons of choice: Factory floor: IEC 60076 testing, MCC panels, Protection relays, OLTC, ESP8266, Proteus; Code: TypeScript, React, Next.js, Python, Java, Node, Supabase, PostgreSQL, Three.js; AI: Claude, OpenAI, LangChain, LangGraph, Transformers.js, Tesseract"/></picture></p>
 
-<table align="center">
-<tr>
-<td valign="top" width="50%">
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=KRISH-exe-29&hide_border=true&border_radius=24&background=121212&border=F4F1E8&hide_border=false&border_radius=0&ring=FFD93D&fire=FF6B9D&currStreakLabel=FFD93D&currStreakNum=F4F1E8&sideNums=F4F1E8&sideLabels=F4F1E8&dates=F4F1E8"/><img src="https://streak-stats.demolab.com?user=KRISH-exe-29&hide_border=true&border_radius=24&background=FFF8E7&border=111111&hide_border=false&border_radius=0&ring=111111&fire=FF6B9D&currStreakLabel=111111&currStreakNum=111111&sideNums=111111&sideLabels=111111&dates=111111" width="100%" alt="Contribution streak"/></picture></p>
 
-### 🛠️ On the bench right now
-
-- **Shop Floor Job Status**: turning cycle-time norms and worker efficiency into a live status board for every bay
-- **EHS safety film**: an 11-scene workplace-safety video made with AI video generation, cast from our own team
-- **KioskSentinel**: tamper-proof attendance kiosks that keep counting through power cuts
-
-</td>
-<td valign="top" width="50%">
-
-### 🧪 In the AI lab
-
-- [**PDF chat agent**](https://github.com/KRISH-exe-29/AI-PDF-Chatbot-Agent-Powered-by-LangChain-and-LangGraph): RAG over long PDFs with LangChain + LangGraph
-- [**Memory agent**](https://github.com/KRISH-exe-29/Langchain-Memory-): a ReAct agent that remembers you across chats
-- [**AI PR reviewer**](https://github.com/KRISH-exe-29/GPT-based-PR-reviewer-): a GitHub Action that summarises and reviews pull requests
-- [**Gmail cleanup agent**](https://github.com/KRISH-exe-29/Gmail-cleanup-agent): an inbox that tidies itself
-
-</td>
-</tr>
-</table>
-
-<img src="./assets/divider.svg" width="100%" alt=""/>
-
-<h2 align="center">Milestones</h2>
-
-<img src="./assets/milestones.svg" width="100%" alt="2024 national finalist; 2025 patent holder, rank 7 at IIT Bombay NEC, runner-up at IIT Bombay E-Summit Fish Tank; 2026 nine apps shipped"/>
-
-<img src="./assets/divider.svg" width="100%" alt=""/>
-
-<h2 align="center">Toolbox</h2>
-
-<p align="center"><b>On the factory floor</b><br/><br/>
-  <img src="https://img.shields.io/badge/Transformer_testing_·_IEC_60076-12121C?style=flat-square&logo=lightning&logoColor=A78BFA" alt="Transformer testing IEC 60076"/>
-  <img src="https://img.shields.io/badge/MCC_panels-12121C?style=flat-square&logo=autodesk&logoColor=F472B6" alt="MCC panels"/>
-  <img src="https://img.shields.io/badge/Protection_relays_·_87T_·_63_·_64REF-12121C?style=flat-square&logo=shield&logoColor=2DD4BF" alt="Protection relays"/>
-  <img src="https://img.shields.io/badge/OLTC_&_tap_changers-12121C?style=flat-square&logo=cachet&logoColor=FDBA74" alt="OLTC and tap changers"/>
-  <img src="https://img.shields.io/badge/ESP8266_·_IoT-12121C?style=flat-square&logo=espressif&logoColor=60A5FA" alt="ESP8266 IoT"/>
-  <img src="https://img.shields.io/badge/Proteus-12121C?style=flat-square&logo=cpu&logoColor=A78BFA" alt="Proteus simulation"/>
-</p>
-
-<p align="center"><b>In the code</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=ts,js,python,java,html,css&theme=dark" alt="TypeScript, JavaScript, Python, Java, HTML, CSS"/><br/>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind,threejs,nodejs,express&theme=dark" alt="React, Next.js, Vite, Tailwind, Three.js, Node.js, Express"/><br/>
-  <img src="https://skillicons.dev/icons?i=supabase,postgres,sqlite,githubactions,vercel,netlify,arduino&theme=dark" alt="Supabase, PostgreSQL, SQLite, GitHub Actions, Vercel, Netlify, Arduino"/>
-</p>
-
-<p align="center"><b>AI I build with</b><br/><br/>
-  <img src="https://img.shields.io/badge/Claude-12121C?style=flat-square&logo=anthropic&logoColor=FDBA74" alt="Claude"/>
-  <img src="https://img.shields.io/badge/OpenAI-12121C?style=flat-square&logo=openai&logoColor=EDEDF5" alt="OpenAI"/>
-  <img src="https://img.shields.io/badge/LangChain-12121C?style=flat-square&logo=langchain&logoColor=2DD4BF" alt="LangChain"/>
-  <img src="https://img.shields.io/badge/LangGraph-12121C?style=flat-square&logo=langgraph&logoColor=A78BFA" alt="LangGraph"/>
-  <img src="https://img.shields.io/badge/Transformers.js-12121C?style=flat-square&logo=huggingface&logoColor=FFD21E" alt="Transformers.js"/>
-  <img src="https://img.shields.io/badge/Tesseract_OCR-12121C?style=flat-square&logo=googlelens&logoColor=F472B6" alt="Tesseract OCR"/>
-</p>
-
-<img src="./assets/divider.svg" width="100%" alt=""/>
-
-<h2 align="center">Commit trail</h2>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=KRISH-exe-29&background=12121C&border=26263A&ring=A78BFA&fire=F472B6&currStreakNum=EDEDF5&sideNums=EDEDF5&currStreakLabel=A78BFA&sideLabels=9A9AB0&dates=9A9AB0" width="70%" alt="Contribution streak"/>
-</p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KRISH-exe-29/KRISH-exe-29/output/snake-dark.svg"/>
-  <img width="100%" alt="A snake eating my contribution graph" src="https://raw.githubusercontent.com/KRISH-exe-29/KRISH-exe-29/output/snake.svg"/>
-</picture>
-
-<details>
-<summary><b>🚀 Bonus round: my commits as an alien fleet</b></summary>
-<br/>
-<img src="./assets/space-shooter.gif" width="100%" alt="Space shooter playing on my contribution graph"/>
-</details>
-
-<br/>
-
-<img src="./assets/footer.svg" width="100%" alt="Is your team still doing something by hand every day? Let's make it run itself. krishnarajus2004@gmail.com"/>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/brutal/footer-dark.svg"/><img src="./assets/brutal/footer-light.svg" width="100%" alt="Hire me. Or don't. The scripts run anyway. krishnarajus2004@gmail.com"/></picture></p>
