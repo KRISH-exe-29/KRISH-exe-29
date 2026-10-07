@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-label="9 apps shipped, 128 automated tests, rank 7 nationally at IIT Bombay NEC, 1 patent"><title>9 apps shipped, 128 automated tests, rank 7 nationally at IIT Bombay NEC, 1 patent</title><defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="0">
+  <stop offset="0" stop-color="#A78BFA"/><stop offset=".55" stop-color="#F472B6"/><stop offset="1" stop-color="#FDBA74"/>
+</linearGradient></defs>
+<g transform="translate(0,0)">
+  <rect x=".5" y=".5" width="281" height="179" rx="22" fill="#12121C" stroke="#26263A"/>
+  <text x="28" y="86" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="-2" fill="url(#g)">9</text>
+  <text x="28" y="122" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#EDEDF5">apps shipped</text>
+  <text x="28" y="150" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#9A9AB0">to real users on a factory floor</text>
+</g><g transform="translate(306,0)">
+  <rect x=".5" y=".5" width="281" height="179" rx="22" fill="#12121C" stroke="#26263A"/>
+  <text x="28" y="86" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="-2" fill="url(#g)">128</text>
+  <text x="28" y="122" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#EDEDF5">automated tests</text>
+  <text x="28" y="150" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#9A9AB0">guarding the dispatch system</text>
+</g><g transform="translate(612,0)">
+  <rect x=".5" y=".5" width="281" height="179" rx="22" fill="#12121C" stroke="#26263A"/>
+  <text x="28" y="86" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="-2" fill="url(#g)">#7</text>
+  <text x="28" y="122" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#EDEDF5">nationally</text>
+  <text x="28" y="150" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#9A9AB0">IIT Bombay NEC, 1500+ colleges</text>
+</g><g transform="translate(918,0)">
+  <rect x=".5" y=".5" width="281" height="179" rx="22" fill="#12121C" stroke="#26263A"/>
+  <text x="28" y="86" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="-2" fill="url(#g)">1</text>
+  <text x="28" y="122" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#EDEDF5">patent</text>
+  <text x="28" y="150" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#9A9AB0">smart street-light fault detection</text>
+</g></svg>

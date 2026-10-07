@@ -1,80 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Krishna Raju — Engineer. Developer. Problem eliminator.">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#050b18"/>
-      <stop offset="0.6" stop-color="#0a1a33"/>
-      <stop offset="1" stop-color="#04121f"/>
-    </linearGradient>
-    <linearGradient id="volt" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#00e5ff"/>
-      <stop offset="0.5" stop-color="#7cf9ff"/>
-      <stop offset="1" stop-color="#ffb300"/>
-    </linearGradient>
-    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="0.5" stop-color="#9ff4ff"/>
-      <stop offset="1" stop-color="#ffd166"/>
-    </linearGradient>
-    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#12345a" stroke-width="1"/>
-    </pattern>
-    <style>
-      .wave { fill: none; stroke: url(#volt); stroke-width: 3; stroke-dasharray: 18 10; animation: flow 1.6s linear infinite; }
-      .wave2 { fill: none; stroke: #00e5ff; stroke-opacity: .25; stroke-width: 2; animation: flow 2.4s linear infinite reverse; stroke-dasharray: 6 14; }
-      .node { fill: #00e5ff; animation: pulse 2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-      .node.b { animation-delay: .5s; fill: #ffb300; }
-      .node.c { animation-delay: 1s; }
-      .spark { fill: #ffd166; animation: blink 1.2s steps(2) infinite; }
-      .title { font: 800 64px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; letter-spacing: 4px; animation: flicker 6s linear infinite; }
-      .sub { font: 500 20px 'Cascadia Code', Consolas, 'Courier New', monospace; fill: #9fb7d6; letter-spacing: 1px; }
-      .tag { font: 700 14px 'Cascadia Code', Consolas, monospace; fill: #050b18; }
-      .coil { fill: none; stroke: #7cf9ff; stroke-width: 3; }
-      .core { fill: #1d3b63; stroke: #00e5ff; stroke-width: 1.5; }
-      @keyframes flow { to { stroke-dashoffset: -56; } }
-      @keyframes pulse { 0%,100% { transform: scale(1); opacity: .9 } 50% { transform: scale(1.8); opacity: .35 } }
-      @keyframes blink { 50% { opacity: 0 } }
-      @keyframes flicker { 0%,18%,22%,25%,53%,57%,100% { opacity: 1 } 20%,24%,55% { opacity: .35 } }
-    </style>
-  </defs>
-
-  <rect width="1200" height="320" fill="url(#bg)"/>
-  <rect width="1200" height="320" fill="url(#grid)" opacity=".55"/>
-
-  <!-- AC waveforms -->
-  <path class="wave2" d="M0 250 Q75 200 150 250 T300 250 T450 250 T600 250 T750 250 T900 250 T1050 250 T1200 250"/>
-  <path class="wave" filter="url(#glow)" d="M0 270 Q50 230 100 270 T200 270 T300 270 T400 270 T500 270 T600 270 T700 270 T800 270 T900 270 T1000 270 T1100 270 T1200 270"/>
-
-  <!-- grid nodes -->
-  <circle class="node" cx="100" cy="270" r="5"/>
-  <circle class="node b" cx="500" cy="270" r="5"/>
-  <circle class="node c" cx="900" cy="270" r="5"/>
-
-  <!-- transformer illustration -->
-  <g transform="translate(960 40)">
-    <rect class="core" x="40" y="10" width="120" height="150" rx="6"/>
-    <rect x="70" y="40" width="60" height="90" fill="#050b18" stroke="#00e5ff" stroke-width="1.5"/>
-    <path class="coil" d="M40 40 q-18 8 0 16 q-18 8 0 16 q-18 8 0 16 q-18 8 0 16 q-18 8 0 16"/>
-    <path class="coil" style="stroke:#ffb300" d="M160 40 q18 8 0 16 q18 8 0 16 q18 8 0 16 q18 8 0 16 q18 8 0 16"/>
-    <line x1="20" y1="40" x2="40" y2="40" stroke="#7cf9ff" stroke-width="3"/>
-    <line x1="160" y1="40" x2="180" y2="40" stroke="#ffb300" stroke-width="3"/>
-    <path class="spark" d="M185 30 l10 -14 l-4 12 l10 0 l-12 16 l4 -14 z"/>
-    <text x="100" y="185" text-anchor="middle" class="sub" style="font-size:13px">11 kV / 433 V</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-label="Krishna Raju: electrical engineer and software builder. I build the software a transformer factory runs on."><title>Krishna Raju: electrical engineer and software builder. I build the software a transformer factory runs on.</title><defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="0">
+  <stop offset="0" stop-color="#A78BFA"/><stop offset=".55" stop-color="#F472B6"/><stop offset="1" stop-color="#FDBA74"/>
+</linearGradient>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
+<pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#fff" opacity=".09"/></pattern>
+<clipPath id="clip"><rect width="1200" height="470" rx="28"/></clipPath>
+<linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#0A0A12" stop-opacity="1"/><stop offset=".45" stop-color="#0A0A12" stop-opacity=".2"/><stop offset="1" stop-color="#0A0A12" stop-opacity="0"/></linearGradient>
+</defs>
+<style>
+.blob{transform-box:fill-box;transform-origin:center;animation:drift 18s ease-in-out infinite alternate}
+.b2{animation-duration:23s;animation-delay:-6s} .b3{animation-duration:27s;animation-delay:-12s}
+@keyframes drift{0%{transform:translate(0,0) scale(1)}50%{transform:translate(-60px,40px) scale(1.15)}100%{transform:translate(50px,-30px) scale(.9)}}
+.wave{stroke-dasharray:14 10;animation:flow 2.4s linear infinite}
+.w1{animation-duration:2.9s} .w2{animation-duration:3.4s}
+@keyframes flow{to{stroke-dashoffset:-48}}
+.tag{opacity:0;animation:cycle 12s infinite} .t0{opacity:1} .t1{animation-delay:4s} .t2{animation-delay:8s}
+@keyframes cycle{0%{opacity:0;transform:translateY(8px)}4%,30%{opacity:1;transform:none}34%,100%{opacity:0;transform:translateY(-8px)}}
+.pulse{animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.25}}
+.caret{animation:pulse 1s steps(1) infinite}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#clip)">
+  <rect width="1200" height="470" fill="#0A0A12"/>
+  <g filter="url(#blur)">
+    <circle class="blob" cx="930" cy="120" r="210" fill="#A78BFA" opacity=".55"/>
+    <circle class="blob b2" cx="1090" cy="330" r="170" fill="#F472B6" opacity=".45"/>
+    <circle class="blob b3" cx="760" cy="400" r="150" fill="#2DD4BF" opacity=".35"/>
   </g>
+  <rect width="1200" height="470" fill="url(#dots)"/>
+  <rect width="1200" height="470" fill="url(#fade)"/>
+  <g transform="translate(0,0)"><path class="wave w0" d="M0,418.0 L6,420.8 L12,423.5 L18,426.1 L24,428.6 L30,430.9 L36,433.1 L42,435.0 L48,436.6 L54,437.9 L60,438.9 L66,439.6 L72,440.0 L78,440.0 L84,439.6 L90,438.9 L96,437.9 L102,436.6 L108,435.0 L114,433.1 L120,430.9 L126,428.6 L132,426.1 L138,423.5 L144,420.8 L150,418.0 L156,415.2 L162,412.5 L168,409.9 L174,407.4 L180,405.1 L186,402.9 L192,401.0 L198,399.4 L204,398.1 L210,397.1 L216,396.4 L222,396.0 L228,396.0 L234,396.4 L240,397.1 L246,398.1 L252,399.4 L258,401.0 L264,402.9 L270,405.1 L276,407.4 L282,409.9 L288,412.5 L294,415.2 L300,418.0 L306,420.8 L312,423.5 L318,426.1 L324,428.6 L330,430.9 L336,433.1 L342,435.0 L348,436.6 L354,437.9 L360,438.9 L366,439.6 L372,440.0 L378,440.0 L384,439.6 L390,438.9 L396,437.9 L402,436.6 L408,435.0 L414,433.1 L420,430.9 L426,428.6 L432,426.1 L438,423.5 L444,420.8 L450,418.0 L456,415.2 L462,412.5 L468,409.9 L474,407.4 L480,405.1 L486,402.9 L492,401.0 L498,399.4 L504,398.1 L510,397.1 L516,396.4 L522,396.0 L528,396.0 L534,396.4 L540,397.1 L546,398.1 L552,399.4 L558,401.0 L564,402.9 L570,405.1 L576,407.4 L582,409.9 L588,412.5 L594,415.2 L600,418.0 L606,420.8 L612,423.5 L618,426.1 L624,428.6 L630,430.9 L636,433.1 L642,435.0 L648,436.6 L654,437.9 L660,438.9 L666,439.6 L672,440.0 L678,440.0 L684,439.6 L690,438.9 L696,437.9 L702,436.6 L708,435.0 L714,433.1 L720,430.9 L726,428.6 L732,426.1 L738,423.5 L744,420.8 L750,418.0 L756,415.2 L762,412.5 L768,409.9 L774,407.4 L780,405.1 L786,402.9 L792,401.0 L798,399.4 L804,398.1 L810,397.1 L816,396.4 L822,396.0 L828,396.0 L834,396.4 L840,397.1 L846,398.1 L852,399.4 L858,401.0 L864,402.9 L870,405.1 L876,407.4 L882,409.9 L888,412.5 L894,415.2 L900,418.0 L906,420.8 L912,423.5 L918,426.1 L924,428.6 L930,430.9 L936,433.1 L942,435.0 L948,436.6 L954,437.9 L960,438.9 L966,439.6 L972,440.0 L978,440.0 L984,439.6 L990,438.9 L996,437.9 L1002,436.6 L1008,435.0 L1014,433.1 L1020,430.9 L1026,428.6 L1032,426.1 L1038,423.5 L1044,420.8 L1050,418.0 L1056,415.2 L1062,412.5 L1068,409.9 L1074,407.4 L1080,405.1 L1086,402.9 L1092,401.0 L1098,399.4 L1104,398.1 L1110,397.1 L1116,396.4 L1122,396.0 L1128,396.0 L1134,396.4 L1140,397.1 L1146,398.1 L1152,399.4 L1158,401.0 L1164,402.9 L1170,405.1 L1176,407.4 L1182,409.9 L1188,412.5 L1194,415.2 L1200,418.0" fill="none" stroke="#A78BFA" stroke-width="2.2" stroke-linecap="round" opacity="0.8"/><path class="wave w1" d="M0,437.1 L6,435.5 L12,433.7 L18,431.7 L24,429.4 L30,426.9 L36,424.4 L42,421.7 L48,418.9 L54,416.2 L60,413.4 L66,410.8 L72,408.2 L78,405.8 L84,403.6 L90,401.7 L96,399.9 L102,398.5 L108,397.4 L114,396.6 L120,396.1 L126,396.0 L132,396.2 L138,396.8 L144,397.7 L150,398.9 L156,400.5 L162,402.3 L168,404.3 L174,406.6 L180,409.1 L186,411.6 L192,414.3 L198,417.1 L204,419.8 L210,422.6 L216,425.2 L222,427.8 L228,430.2 L234,432.4 L240,434.3 L246,436.1 L252,437.5 L258,438.6 L264,439.4 L270,439.9 L276,440.0 L282,439.8 L288,439.2 L294,438.3 L300,437.1 L306,435.5 L312,433.7 L318,431.7 L324,429.4 L330,426.9 L336,424.4 L342,421.7 L348,418.9 L354,416.2 L360,413.4 L366,410.8 L372,408.2 L378,405.8 L384,403.6 L390,401.7 L396,399.9 L402,398.5 L408,397.4 L414,396.6 L420,396.1 L426,396.0 L432,396.2 L438,396.8 L444,397.7 L450,398.9 L456,400.5 L462,402.3 L468,404.3 L474,406.6 L480,409.1 L486,411.6 L492,414.3 L498,417.1 L504,419.8 L510,422.6 L516,425.2 L522,427.8 L528,430.2 L534,432.4 L540,434.3 L546,436.1 L552,437.5 L558,438.6 L564,439.4 L570,439.9 L576,440.0 L582,439.8 L588,439.2 L594,438.3 L600,437.1 L606,435.5 L612,433.7 L618,431.7 L624,429.4 L630,426.9 L636,424.4 L642,421.7 L648,418.9 L654,416.2 L660,413.4 L666,410.8 L672,408.2 L678,405.8 L684,403.6 L690,401.7 L696,399.9 L702,398.5 L708,397.4 L714,396.6 L720,396.1 L726,396.0 L732,396.2 L738,396.8 L744,397.7 L750,398.9 L756,400.5 L762,402.3 L768,404.3 L774,406.6 L780,409.1 L786,411.6 L792,414.3 L798,417.1 L804,419.8 L810,422.6 L816,425.2 L822,427.8 L828,430.2 L834,432.4 L840,434.3 L846,436.1 L852,437.5 L858,438.6 L864,439.4 L870,439.9 L876,440.0 L882,439.8 L888,439.2 L894,438.3 L900,437.1 L906,435.5 L912,433.7 L918,431.7 L924,429.4 L930,426.9 L936,424.4 L942,421.7 L948,418.9 L954,416.2 L960,413.4 L966,410.8 L972,408.2 L978,405.8 L984,403.6 L990,401.7 L996,399.9 L1002,398.5 L1008,397.4 L1014,396.6 L1020,396.1 L1026,396.0 L1032,396.2 L1038,396.8 L1044,397.7 L1050,398.9 L1056,400.5 L1062,402.3 L1068,404.3 L1074,406.6 L1080,409.1 L1086,411.6 L1092,414.3 L1098,417.1 L1104,419.8 L1110,422.6 L1116,425.2 L1122,427.8 L1128,430.2 L1134,432.4 L1140,434.3 L1146,436.1 L1152,437.5 L1158,438.6 L1164,439.4 L1170,439.9 L1176,440.0 L1182,439.8 L1188,439.2 L1194,438.3 L1200,437.1" fill="none" stroke="#F472B6" stroke-width="2.2" stroke-linecap="round" opacity="0.8"/><path class="wave w2" d="M0,398.9 L6,397.7 L12,396.8 L18,396.2 L24,396.0 L30,396.1 L36,396.6 L42,397.4 L48,398.5 L54,399.9 L60,401.7 L66,403.6 L72,405.8 L78,408.2 L84,410.8 L90,413.4 L96,416.2 L102,418.9 L108,421.7 L114,424.4 L120,426.9 L126,429.4 L132,431.7 L138,433.7 L144,435.5 L150,437.1 L156,438.3 L162,439.2 L168,439.8 L174,440.0 L180,439.9 L186,439.4 L192,438.6 L198,437.5 L204,436.1 L210,434.3 L216,432.4 L222,430.2 L228,427.8 L234,425.2 L240,422.6 L246,419.8 L252,417.1 L258,414.3 L264,411.6 L270,409.1 L276,406.6 L282,404.3 L288,402.3 L294,400.5 L300,398.9 L306,397.7 L312,396.8 L318,396.2 L324,396.0 L330,396.1 L336,396.6 L342,397.4 L348,398.5 L354,399.9 L360,401.7 L366,403.6 L372,405.8 L378,408.2 L384,410.8 L390,413.4 L396,416.2 L402,418.9 L408,421.7 L414,424.4 L420,426.9 L426,429.4 L432,431.7 L438,433.7 L444,435.5 L450,437.1 L456,438.3 L462,439.2 L468,439.8 L474,440.0 L480,439.9 L486,439.4 L492,438.6 L498,437.5 L504,436.1 L510,434.3 L516,432.4 L522,430.2 L528,427.8 L534,425.2 L540,422.6 L546,419.8 L552,417.1 L558,414.3 L564,411.6 L570,409.1 L576,406.6 L582,404.3 L588,402.3 L594,400.5 L600,398.9 L606,397.7 L612,396.8 L618,396.2 L624,396.0 L630,396.1 L636,396.6 L642,397.4 L648,398.5 L654,399.9 L660,401.7 L666,403.6 L672,405.8 L678,408.2 L684,410.8 L690,413.4 L696,416.2 L702,418.9 L708,421.7 L714,424.4 L720,426.9 L726,429.4 L732,431.7 L738,433.7 L744,435.5 L750,437.1 L756,438.3 L762,439.2 L768,439.8 L774,440.0 L780,439.9 L786,439.4 L792,438.6 L798,437.5 L804,436.1 L810,434.3 L816,432.4 L822,430.2 L828,427.8 L834,425.2 L840,422.6 L846,419.8 L852,417.1 L858,414.3 L864,411.6 L870,409.1 L876,406.6 L882,404.3 L888,402.3 L894,400.5 L900,398.9 L906,397.7 L912,396.8 L918,396.2 L924,396.0 L930,396.1 L936,396.6 L942,397.4 L948,398.5 L954,399.9 L960,401.7 L966,403.6 L972,405.8 L978,408.2 L984,410.8 L990,413.4 L996,416.2 L1002,418.9 L1008,421.7 L1014,424.4 L1020,426.9 L1026,429.4 L1032,431.7 L1038,433.7 L1044,435.5 L1050,437.1 L1056,438.3 L1062,439.2 L1068,439.8 L1074,440.0 L1080,439.9 L1086,439.4 L1092,438.6 L1098,437.5 L1104,436.1 L1110,434.3 L1116,432.4 L1122,430.2 L1128,427.8 L1134,425.2 L1140,422.6 L1146,419.8 L1152,417.1 L1158,414.3 L1164,411.6 L1170,409.1 L1176,406.6 L1182,404.3 L1188,402.3 L1194,400.5 L1200,398.9" fill="none" stroke="#2DD4BF" stroke-width="2.2" stroke-linecap="round" opacity="0.8"/></g>
+</g>
+<rect x=".5" y=".5" width="1199" height="469" rx="27.5" fill="none" stroke="#fff" stroke-opacity=".08"/>
 
-  <!-- name + tagline -->
-  <text x="70" y="125" class="title" fill="url(#name)" filter="url(#glow)">KRISHNA RAJU</text>
-  <text x="72" y="168" class="sub">&gt; engineer.developer.problem_eliminator()</text>
+<g>
+  <text x="72" y="92" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="18" fill="#9A9AB0">~/krish.exe <tspan fill="#A78BFA">$</tspan> whoami<tspan class="caret" fill="#EDEDF5"> ▍</tspan></text>
+</g>
+<g>
+  <text x="68" y="182" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="88" font-weight="800" letter-spacing="-2.5" fill="#EDEDF5">Krishna Raju</text>
+</g>
+<g>
+  <text x="72" y="236" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="url(#g)">Electrical engineer. Software builder.</text>
+  <text x="72" y="282" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="22" fill="#9A9AB0">I build the software a transformer factory runs on, every shift.</text>
+</g>
+<g><text class="tag t0" x="72" y="352" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="21" fill="#EDEDF5"><tspan fill="#2DD4BF">❯ </tspan>Spreadsheets in. Apps out.</text><text class="tag t1" x="72" y="352" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="21" fill="#EDEDF5"><tspan fill="#2DD4BF">❯ </tspan>30 minutes of manual entry → under 30 seconds.</text><text class="tag t2" x="72" y="352" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="21" fill="#EDEDF5"><tspan fill="#2DD4BF">❯ </tspan>Patent holder  ·  IIT Bombay NEC #7  ·  9 apps shipped</text></g>
 
-  <g transform="translate(72 190)">
-    <rect width="150" height="26" rx="13" fill="#00e5ff"/>
-    <text x="75" y="18" text-anchor="middle" class="tag">FULL STACK</text>
-    <rect x="162" width="150" height="26" rx="13" fill="#ffb300"/>
-    <text x="237" y="18" text-anchor="middle" class="tag">AUTOMATION</text>
-    <rect x="324" width="210" height="26" rx="13" fill="#7cf9ff"/>
-    <text x="429" y="18" text-anchor="middle" class="tag">FACTORY-FLOOR SOFTWARE</text>
-  </g>
-</svg>
+<g transform="translate(838,52)">
+  <rect width="292" height="40" rx="20" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/>
+  <circle class="pulse" cx="22" cy="20" r="5" fill="#2DD4BF"/>
+  <text x="38" y="26" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#EDEDF5">Digitalisation · Indo Tech Transformers</text>
+</g></svg>
