@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="You bring the boring process. I'll bring the button. krishnarajus2004@gmail.com"><title>You bring the boring process. I'll bring the button. krishnarajus2004@gmail.com</title><defs><linearGradient id="board" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F1EAFB"/><stop offset="1" stop-color="#FBEFEA"/></linearGradient>
+<filter id="clay" x="-15%" y="-15%" width="135%" height="145%">
+  <feGaussianBlur in="SourceAlpha" stdDeviation="7" result="b"/>
+  <feOffset in="b" dx="-6" dy="-8" result="up"/>
+  <feComposite in="SourceAlpha" in2="up" operator="arithmetic" k2="1" k3="-1" result="rimBR"/>
+  <feFlood flood-color="#6E56A8" flood-opacity=".28"/><feComposite in2="rimBR" operator="in" result="shade"/>
+  <feOffset in="b" dx="6" dy="8" result="down"/>
+  <feComposite in="SourceAlpha" in2="down" operator="arithmetic" k2="1" k3="-1" result="rimTL"/>
+  <feFlood flood-color="#fff" flood-opacity=".85"/><feComposite in2="rimTL" operator="in" result="light"/>
+  <feGaussianBlur in="SourceAlpha" stdDeviation="11"/><feOffset dx="9" dy="14" result="ds"/>
+  <feFlood flood-color="#6E56A8" flood-opacity=".26"/><feComposite in2="ds" operator="in" result="drop"/>
+  <feMerge><feMergeNode in="drop"/><feMergeNode in="SourceGraphic"/><feMergeNode in="shade"/><feMergeNode in="light"/></feMerge>
+</filter></defs><style>@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><rect width="1200" height="300" rx="34" fill="url(#board)"/><rect x="48" y="40" width="1104" height="220" rx="40" fill="#D9CBFA" filter="url(#clay)"/>
+<text x="600" y="112" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI Variable Display', 'Segoe UI', Nunito, system-ui, sans-serif" font-size="26" font-weight="600" fill="#6B5F80" text-anchor="middle" >You bring the boring process.</text>
+<text x="600" y="166" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI Variable Display', 'Segoe UI', Nunito, system-ui, sans-serif" font-size="50" font-weight="800" fill="#2B2140" text-anchor="middle" letter-spacing="-1">I'll bring the button.</text>
+<rect x="372" y="192" width="456" height="44" rx="22" fill="#FFFFFF" filter="url(#clay)"/>
+<text x="600" y="220" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="18" font-weight="700" fill="#7C5CD6" text-anchor="middle" >krishnarajus2004@gmail.com</text></svg>
