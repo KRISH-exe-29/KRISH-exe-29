@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="300" viewBox="0 0 580 300" role="img" aria-label="Industrial Data System: QR-tagged data capture for transformer tests. Multi-department portal with a 3D model."><title>Industrial Data System: QR-tagged data capture for transformer tests. Multi-department portal with a 3D model.</title><defs>
+<radialGradient id="glow" cx="1" cy="0" r="1"><stop offset="0" stop-color="#A78BFA" stop-opacity=".28"/><stop offset=".6" stop-color="#A78BFA" stop-opacity="0"/></radialGradient>
+<linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="#A78BFA" stop-opacity="0"/><stop offset=".5" stop-color="#A78BFA"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></linearGradient>
+<clipPath id="c"><rect width="580" height="300" rx="22"/></clipPath>
+</defs>
+<style>.shine{animation:shine 6s ease-in-out infinite}@keyframes shine{0%,100%{transform:translateX(-580px)}50%{transform:translateX(580px)}}
+.dot{animation:p 2s ease-in-out infinite}@keyframes p{50%{opacity:.3}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<g clip-path="url(#c)">
+  <rect width="580" height="300" fill="#12121C"/>
+  <rect width="580" height="300" fill="url(#glow)"/>
+  <rect class="shine" width="580" height="2" fill="url(#edge)"/>
+</g>
+<rect x=".5" y=".5" width="579" height="299" rx="21.5" fill="none" stroke="#26263A"/>
+<rect x="32" y="30" width="56" height="56" rx="16" fill="#A78BFA" fill-opacity=".14" stroke="#A78BFA" stroke-opacity=".4"/>
+<text x="60" y="68" text-anchor="middle" font-size="28">📡</text>
+<text x="106" y="60" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" fill="#EDEDF5">Industrial Data System</text>
+<circle class="dot" cx="110" cy="80" r="4" fill="#A78BFA"/>
+<text x="121" y="85" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700" letter-spacing="1" fill="#A78BFA">BUILT</text>
+<text font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="19" fill="#9A9AB0"><tspan x="32" y="128">QR-tagged data capture for transformer tests.</tspan><tspan x="32" y="156">Multi-department portal with a 3D model.</tspan></text>
+<rect x="32" y="196" width="98" height="32" rx="16" fill="#A78BFA" fill-opacity=".12" stroke="#A78BFA" stroke-opacity=".35"/><text x="81" y="217" text-anchor="middle" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#EDEDF5">QR codes</text><rect x="139.6" y="196" width="162" height="32" rx="16" fill="#A78BFA" fill-opacity=".12" stroke="#A78BFA" stroke-opacity=".35"/><text x="221" y="217" text-anchor="middle" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#EDEDF5">OTP admin login</text><rect x="311.6" y="196" width="98" height="32" rx="16" fill="#A78BFA" fill-opacity=".12" stroke="#A78BFA" stroke-opacity=".35"/><text x="360" y="217" text-anchor="middle" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#EDEDF5">Three.js</text>
+<line x1="32" x2="548" y1="250" y2="250" stroke="#26263A"/>
+<text x="32" y="278" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#A78BFA">React · Express · Three.js · Netlify</text></svg>

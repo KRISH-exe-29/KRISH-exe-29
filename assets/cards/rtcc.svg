@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="300" viewBox="0 0 580 300" role="img" aria-label="RTCC &amp; M.Box Tracker: Inspection → testing → clearance, tracked. Chases pending points so nobody has to."><title>RTCC &amp; M.Box Tracker: Inspection → testing → clearance, tracked. Chases pending points so nobody has to.</title><defs>
+<radialGradient id="glow" cx="1" cy="0" r="1"><stop offset="0" stop-color="#FDBA74" stop-opacity=".28"/><stop offset=".6" stop-color="#FDBA74" stop-opacity="0"/></radialGradient>
+<linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="#FDBA74" stop-opacity="0"/><stop offset=".5" stop-color="#FDBA74"/><stop offset="1" stop-color="#FDBA74" stop-opacity="0"/></linearGradient>
+<clipPath id="c"><rect width="580" height="300" rx="22"/></clipPath>
+</defs>
+<style>.shine{animation:shine 6s ease-in-out infinite}@keyframes shine{0%,100%{transform:translateX(-580px)}50%{transform:translateX(580px)}}
+.dot{animation:p 2s ease-in-out infinite}@keyframes p{50%{opacity:.3}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<g clip-path="url(#c)">
+  <rect width="580" height="300" fill="#12121C"/>
+  <rect width="580" height="300" fill="url(#glow)"/>
+  <rect class="shine" width="580" height="2" fill="url(#edge)"/>
+</g>
+<rect x=".5" y=".5" width="579" height="299" rx="21.5" fill="none" stroke="#26263A"/>
+<rect x="32" y="30" width="56" height="56" rx="16" fill="#FDBA74" fill-opacity=".14" stroke="#FDBA74" stroke-opacity=".4"/>
+<text x="60" y="68" text-anchor="middle" font-size="28">🧰</text>
+<text x="106" y="60" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" fill="#EDEDF5">RTCC &amp; M.Box Tracker</text>
+<circle class="dot" cx="110" cy="80" r="4" fill="#2DD4BF"/>
+<text x="121" y="85" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700" letter-spacing="1" fill="#2DD4BF">IN USE</text>
+<text font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="19" fill="#9A9AB0"><tspan x="32" y="128">Inspection → testing → clearance, tracked.</tspan><tspan x="32" y="156">Chases pending points so nobody has to.</tspan></text>
+<rect x="32" y="196" width="162" height="32" rx="16" fill="#FDBA74" fill-opacity=".12" stroke="#FDBA74" stroke-opacity=".35"/><text x="113" y="217" text-anchor="middle" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#EDEDF5">48h auto emails</text><rect x="204.0" y="196" width="116" height="32" rx="16" fill="#FDBA74" fill-opacity=".12" stroke="#FDBA74" stroke-opacity=".35"/><text x="262" y="217" text-anchor="middle" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#EDEDF5">role-based</text><rect x="330.0" y="196" width="171" height="32" rx="16" fill="#FDBA74" fill-opacity=".12" stroke="#FDBA74" stroke-opacity=".35"/><text x="416" y="217" text-anchor="middle" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#EDEDF5">no-code settings</text>
+<line x1="32" x2="548" y1="250" y2="250" stroke="#26263A"/>
+<text x="32" y="278" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#FDBA74">React · Express · node-cron · Supabase</text></svg>

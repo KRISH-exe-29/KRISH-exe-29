@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-label="Milestones: 2024 national finalist; 2025 patent holder, rank 7 at IIT Bombay NEC, runner-up at IIT Bombay E-Summit Fish Tank; 2026 nine apps shipped at Indo Tech Transformers"><title>Milestones: 2024 national finalist; 2025 patent holder, rank 7 at IIT Bombay NEC, runner-up at IIT Bombay E-Summit Fish Tank; 2026 nine apps shipped at Indo Tech Transformers</title><defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="0">
+  <stop offset="0" stop-color="#A78BFA"/><stop offset=".55" stop-color="#F472B6"/><stop offset="1" stop-color="#FDBA74"/>
+</linearGradient></defs>
+<line x1="120" x2="1080" y1="100" y2="100" stroke="#26263A" stroke-width="3" stroke-linecap="round"/>
+<line x1="120" x2="1080" y1="100" y2="100" stroke="url(#g)" stroke-width="3" stroke-linecap="round"/>
+<g>
+  <text x="120" y="58" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" fill="#9A9AB0">2024</text>
+  <circle cx="120" cy="100" r="15" fill="#A78BFA" fill-opacity=".18"/><circle cx="120" cy="100" r="7" fill="#A78BFA"/>
+  <text x="120" y="154" text-anchor="middle" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#EDEDF5">National finalist</text>
+  <text text-anchor="middle" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#9A9AB0"><tspan x="120" y="182">Competitive engineering</tspan><tspan x="120" y="204">technical symposium</tspan></text>
+</g><g>
+  <text x="360" y="58" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" fill="#9A9AB0">2025</text>
+  <circle cx="360" cy="100" r="15" fill="#F472B6" fill-opacity=".18"/><circle cx="360" cy="100" r="7" fill="#F472B6"/>
+  <text x="360" y="154" text-anchor="middle" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#EDEDF5">Patent holder</text>
+  <text text-anchor="middle" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#9A9AB0"><tspan x="360" y="182">Street lighting with</tspan><tspan x="360" y="204">automatic fault detection</tspan></text>
+</g><g>
+  <text x="600" y="58" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" fill="#9A9AB0">2025</text>
+  <circle cx="600" cy="100" r="15" fill="#FDBA74" fill-opacity=".18"/><circle cx="600" cy="100" r="7" fill="#FDBA74"/>
+  <text x="600" y="154" text-anchor="middle" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#EDEDF5">Rank #7 nationally</text>
+  <text text-anchor="middle" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#9A9AB0"><tspan x="600" y="182">IIT Bombay NEC,</tspan><tspan x="600" y="204">1500+ colleges</tspan></text>
+</g><g>
+  <text x="840" y="58" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" fill="#9A9AB0">2025</text>
+  <circle cx="840" cy="100" r="15" fill="#2DD4BF" fill-opacity=".18"/><circle cx="840" cy="100" r="7" fill="#2DD4BF"/>
+  <text x="840" y="154" text-anchor="middle" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#EDEDF5">Runner-up</text>
+  <text text-anchor="middle" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#9A9AB0"><tspan x="840" y="182">Fish Tank pitch,</tspan><tspan x="840" y="204">IIT Bombay E-Summit</tspan></text>
+</g><g>
+  <text x="1080" y="58" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" fill="#9A9AB0">2026</text>
+  <circle cx="1080" cy="100" r="15" fill="#60A5FA" fill-opacity=".18"/><circle cx="1080" cy="100" r="7" fill="#60A5FA"/>
+  <text x="1080" y="154" text-anchor="middle" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#EDEDF5">9 apps shipped</text>
+  <text text-anchor="middle" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#9A9AB0"><tspan x="1080" y="182">Digitalisation team,</tspan><tspan x="1080" y="204">Indo Tech Transformers</tspan></text>
+</g></svg>
