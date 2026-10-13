@@ -3,6 +3,7 @@
 Run:  python scripts/gen_press.py   (facts in scripts/profile_data.py, press photo from scripts/halftone.py)
 """
 import os, sys
+from datetime import date, datetime, timedelta, timezone
 from xml.sax.saxutils import escape as esc
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -70,20 +71,54 @@ class Page:
 
 dots = open(os.path.join(OUT, "halftone.txt"), encoding="utf-8").read().split("\n")
 
+# ── the daily edition ──
+# .github/workflows/daily-edition.yml reruns this script every morning. The dateline, issue number,
+# front-page headline and weather box change with the date (India time); everything else stays put.
+# EDITION_DATE=YYYY-MM-DD prints a specific day's paper.
+TODAY = (date.fromisoformat(os.environ["EDITION_DATE"]) if os.environ.get("EDITION_DATE")
+         else datetime.now(timezone(timedelta(hours=5, minutes=30))).date())
+ISSUE = 2004 + (TODAY - date(2026, 10, 13)).days
+DATELINE = f"{TODAY:%A}, {TODAY.day} {TODAY:%B %Y} · NO. {ISSUE}".upper()
+
+# (first line, second line, deck). Keep the first line under 38 characters and the second under 33.
+HEADLINES = [
+    ("LOCAL ENGINEER DELETES 30-MINUTE TASK;", "FACTORY QUIETLY ASKS FOR MORE",
+     "Trained on transformers, fluent in Git, and “not done yet,” sources confirm."),
+    ("SPREADSHEET FOUND UNRESPONSIVE;", "NINE APPS NAMED IN INQUIRY",
+     "Authorities say the manual step never saw it coming."),
+    ("161 kV TEST BAY BY DAY,", "PYTHON BY AFTERNOON",
+     "Engineer walks the floor in the morning and ships the tool before tea."),
+    ("TEST PLANNING CUT FROM", "TWO HOURS TO FIVE MINUTES",
+     "Planners report an unfamiliar sensation described as “free time.”"),
+    ("TRANSFORMER HUMS AT 100 Hz;", "ENGINEER HUMS ALONG",
+     "SFRA, partial discharge and a pull request, all before lunch."),
+    ("GATE PASS ISSUED", "WITHOUT A SINGLE PHONE CALL",
+     "Dispatch desk stunned as 128 tests quietly do their job."),
+    ("RANKED SEVENTH OF 1500;", "STILL CHECKS THE METER TWICE",
+     "IIT Bombay result confirmed. Humility also confirmed."),
+]
+WEATHER = [
+    ("100% chance", "of deploys. Excel", "clearing by noon."),
+    ("Scattered merges.", "Build turning", "green by evening."),
+    ("High voltage,", "low drama. Light", "refactoring later."),
+    ("Humid. 128 tests", "passing. Zero", "spreadsheets seen."),
+]
+HEAD1, HEAD2, DECK = HEADLINES[TODAY.toordinal() % len(HEADLINES)]
+SKY = WEATHER[TODAY.toordinal() % len(WEATHER)]
+
 for theme, t in THEMES.items():
     # ── front page ──
     p = Page(t, 1200, 1000)
     p.rule(40, 1160, 34, 1)
-    p.text(40, 26, f"VOL. 22 · NO. 2004 · {CITY.upper()}", 13, LABEL, t["soft"], 700, extra='letter-spacing="2"')
+    p.text(40, 26, DATELINE, 13, LABEL, t["soft"], 700, extra='letter-spacing="2"')
     p.text(600, 26, "₹0 · FREE FOR RECRUITERS", 13, LABEL, t["soft"], 700, "middle", extra='letter-spacing="2"')
     p.text(1160, 26, t["edition"], 13, LABEL, t["red"], 700, "end", extra='letter-spacing="2"')
     p.text(600, 124, "The Krishna Chronicle", 70, BLACKLETTER, anchor="middle")
     # ears
     p.add(f'<rect x="40" y="56" width="160" height="86" fill="none" stroke="{t["rule"]}"/>')
     p.text(120, 78, "WEATHER", 12, LABEL, t["red"], 700, "middle", extra='letter-spacing="2"')
-    p.text(120, 102, "100% chance", 13, BODY, anchor="middle", style="italic")
-    p.text(120, 120, "of deploys. Excel", 13, BODY, anchor="middle", style="italic")
-    p.text(120, 137, "clearing by noon.", 13, BODY, anchor="middle", style="italic")
+    for i, line in enumerate(SKY):
+        p.text(120, 102 + i * 17.5, line, 13, BODY, anchor="middle", style="italic")
     p.add(f'<rect x="1000" y="56" width="160" height="86" fill="none" stroke="{t["rule"]}"/>'
           f'<clipPath id="tick"><rect x="1002" y="84" width="156" height="56"/></clipPath>')
     p.text(1080, 78, "MARKETS", 12, LABEL, t["red"], 700, "middle", extra='letter-spacing="2"')
@@ -92,9 +127,9 @@ for theme, t in THEMES.items():
     p.rule(40, 1160, 160, 3)
     p.rule(40, 1160, 166, 1)
     # headline + deck
-    p.text(600, 230, "LOCAL ENGINEER DELETES 30-MINUTE TASK;", 42, DISPLAY, weight=900, anchor="middle", extra='letter-spacing="-1"')
-    p.text(600, 290, "FACTORY QUIETLY ASKS FOR MORE", 54, DISPLAY, weight=900, anchor="middle", extra='letter-spacing="-1"')
-    p.text(600, 346, "Trained on transformers, fluent in Git, and “not done yet,” sources confirm.", 22, BODY, t["soft"], anchor="middle", style="italic")
+    p.text(600, 230, HEAD1, 42, DISPLAY, weight=900, anchor="middle", extra='letter-spacing="-1"')
+    p.text(600, 290, HEAD2, 54, DISPLAY, weight=900, anchor="middle", extra='letter-spacing="-1"')
+    p.text(600, 346, DECK, 22, BODY, t["soft"], anchor="middle", style="italic")
     p.rule(40, 1160, 370, 1)
     # press photo: halftone that prints in, row by row
     ox, oy, cell = 52, 392, 7.6
@@ -130,7 +165,7 @@ for theme, t in THEMES.items():
     p.rule(580, 1160, 924, 2)
     p.text(870, 960, "“Fluent in both Ohm's Law and Git commits.”", 24, DISPLAY, t["red"], 700, "middle", style="italic")
     p.text(870, 986, "— the subject, in their own words", 13, LABEL, t["soft"], 700, "middle", extra='letter-spacing="1.5"')
-    p.save(f"front-{theme}.svg", f"The Krishna Chronicle. Local engineer deletes 30-minute task; factory quietly asks for more. {col1} {col2}",
+    p.save(f"front-{theme}.svg", f"The Krishna Chronicle, {TODAY:%A} {TODAY.day} {TODAY:%B %Y}, No. {ISSUE}. {HEAD1} {HEAD2}. {DECK} {col1} {col2}",
            ".pr{animation:ink .5s ease-out backwards}@keyframes ink{from{opacity:0}}"
            ".roller{animation:roll 2.6s linear .4s backwards}@keyframes roll{from{transform:translateY(0);opacity:.7}to{transform:translateY(504px);opacity:.7}}"
            ".roller{transform:translateY(504px);opacity:0}"

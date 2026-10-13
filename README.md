@@ -1,6 +1,6 @@
-<!-- Editorial / newspaper. The morning edition (light) and night edition (dark) swap with your GitHub theme. Built by scripts/gen_press.py. -->
+<!-- Editorial / newspaper. The morning edition (light) and night edition (dark) swap with your GitHub theme. Built by scripts/gen_press.py and reprinted daily by .github/workflows/daily-edition.yml. -->
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/press/front-dark.svg"/><img src="./assets/press/front-light.svg" width="100%" alt="The Krishna Chronicle. Local engineer deletes 30-minute task; factory quietly asks for more."/></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/press/front-dark.svg"/><img src="./assets/press/front-light.svg" width="100%" alt="The Krishna Chronicle, today's edition. The dateline, headline and weather box are reprinted every morning."/></picture></p>
 
 <p align="center">
   <a href="mailto:krishnarajus2004@gmail.com"><img src="https://img.shields.io/badge/WRITE_TO_THE_EDITOR-B3261E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
