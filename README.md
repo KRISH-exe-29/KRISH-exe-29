@@ -31,3 +31,14 @@
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=KRISH-exe-29&hide_border=true&border_radius=24&background=121212&border=F4F1E8&hide_border=false&border_radius=0&ring=FFD93D&fire=FF6B9D&currStreakLabel=FFD93D&currStreakNum=F4F1E8&sideNums=F4F1E8&sideLabels=F4F1E8&dates=F4F1E8"/><img src="https://streak-stats.demolab.com?user=KRISH-exe-29&hide_border=true&border_radius=24&background=FFF8E7&border=111111&hide_border=false&border_radius=0&ring=111111&fire=FF6B9D&currStreakLabel=111111&currStreakNum=111111&sideNums=111111&sideLabels=111111&dates=111111" width="100%" alt="Contribution streak"/></picture></p>
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/brutal/footer-dark.svg"/><img src="./assets/brutal/footer-light.svg" width="100%" alt="Hire me. Or don't. The scripts run anyway. krishnarajus2004@gmail.com"/></picture></p>
+
+<h3 align="center">🖥️ New: two portfolio sites</h3>
+<p align="center">
+  <a href="https://github.com/KRISH-exe-29/KRISH_Portfolio/tree/portfolio/krish-exe"><img src="./assets/sites/krish-exe.gif" width="49.5%" alt="Krish.exe: a 3D power transformer turns as the page scrolls, under the lines 161,000 volts, one engineer, zero spreadsheets"/></a>
+  <a href="https://github.com/KRISH-exe-29/KRISH_Portfolio/tree/portfolio/sweep"><img src="./assets/sites/sweep.gif" width="49.5%" alt="Sweep: three phase traces sweep from 20 Hz to 2 MHz as the page scrolls, ending on Send it over"/></a>
+</p>
+<p align="center">
+  <b>Krish.exe</b>: 161,000 volts. One engineer. Zero spreadsheets.<br/>
+  <b>Sweep</b>: a whole career read as one frequency sweep, 20 Hz to 2 MHz.<br/>
+  <sub><a href="https://krish-exe-29.github.io/KRISH_Portfolio/">Read the portfolio</a> · twelve designs live on their own branches in <a href="https://github.com/KRISH-exe-29/KRISH_Portfolio">KRISH_Portfolio</a>.</sub>
+</p>
