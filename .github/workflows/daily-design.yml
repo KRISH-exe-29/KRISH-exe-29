@@ -1,0 +1,72 @@
+name: Daily design
+
+# Puts a different profile design on main every morning. Each design lives on its own branch;
+# this copies that branch's README, assets and scripts onto main and works through them in
+# alphabetical order, one a day. Workflows and the live space-shooter GIF always stay main's own.
+# When it lands on the-chronicle, it also prints that day's front page.
+on:
+  schedule:
+    - cron: "30 23 * * *" # 05:00 India time, an hour clear of the arcade and space-shooter jobs
+  workflow_dispatch:
+    inputs:
+      design:
+        description: "Branch to show (leave empty for today's pick)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-design
+
+jobs:
+  rotate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0 # every design branch has to be on hand
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.x"
+      - name: Pick today's design
+        id: pick
+        env:
+          CHOSEN: ${{ inputs.design }}
+        run: |
+          designs=$(git branch -r --format='%(refname:lstrip=3)' \
+            | grep -v -x -e HEAD -e main -e output | grep -v '^copilot/' | sort)
+          count=$(echo "$designs" | wc -l)
+          if [ -n "$CHOSEN" ]; then
+            echo "$designs" | grep -q -x -- "$CHOSEN" || { echo "No design branch called $CHOSEN"; exit 1; }
+            design=$CHOSEN
+          else
+            day=$(( ($(date +%s) + 19800) / 86400 )) # days since 1970 on India time
+            design=$(echo "$designs" | sed -n "$(( day % count + 1 ))p")
+          fi
+          echo "Today's design: $design (one of $count)"
+          echo "design=$design" >> "$GITHUB_OUTPUT"
+      - name: Put it on main
+        env:
+          DESIGN: ${{ steps.pick.outputs.design }}
+        run: |
+          git rm -r -q --ignore-unmatch README.md assets scripts
+          git checkout "origin/$DESIGN" -- README.md assets scripts
+          git checkout HEAD -- assets/space-shooter.gif
+          if [ "$DESIGN" = "the-chronicle" ]; then
+            python -B scripts/gen_press.py
+          fi
+      - name: Deliver it
+        env:
+          DESIGN: ${{ steps.pick.outputs.design }}
+        run: |
+          git add -A README.md assets scripts
+          if git diff --cached --quiet; then
+            echo "Main already shows $DESIGN."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -q -m "Today's design: $DESIGN ($(TZ=Asia/Kolkata date +%F))"
+          git pull --rebase
+          git push
