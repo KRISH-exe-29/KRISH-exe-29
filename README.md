@@ -40,3 +40,14 @@
 4. The legendary card cannot be collected. It can only be hired: **krishnarajus2004@gmail.com**
 
 </details>
+
+<h3 align="center">🖥️ New: two portfolio sites</h3>
+<p align="center">
+  <a href="https://github.com/KRISH-exe-29/KRISH_Portfolio/tree/portfolio/krish-exe"><img src="./assets/sites/krish-exe.gif" width="49.5%" alt="Krish.exe: a 3D power transformer turns as the page scrolls, under the lines 161,000 volts, one engineer, zero spreadsheets"/></a>
+  <a href="https://github.com/KRISH-exe-29/KRISH_Portfolio/tree/portfolio/sweep"><img src="./assets/sites/sweep.gif" width="49.5%" alt="Sweep: three phase traces sweep from 20 Hz to 2 MHz as the page scrolls, ending on Send it over"/></a>
+</p>
+<p align="center">
+  <b>Krish.exe</b>: 161,000 volts. One engineer. Zero spreadsheets.<br/>
+  <b>Sweep</b>: a whole career read as one frequency sweep, 20 Hz to 2 MHz.<br/>
+  <sub><a href="https://krish-exe-29.github.io/KRISH_Portfolio/">Read the portfolio</a> · twelve designs live on their own branches in <a href="https://github.com/KRISH-exe-29/KRISH_Portfolio">KRISH_Portfolio</a>.</sub>
+</p>
