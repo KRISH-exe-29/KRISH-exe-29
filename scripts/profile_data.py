@@ -13,7 +13,7 @@ QUOTE = "Engineering isn't just circuits and code. It's building things that mak
 
 # org, role, when, where, what, win
 EXPERIENCE = [
-    ("Indo Tech Transformers", "Engineer, Testing & Projects → Digitalisation", "2026 – now", "Kanchipuram",
+    ("Indo Tech Transformers", "Associate Engineer, Testing & Projects → Digitalisation", "2026 – now", "Kanchipuram",
      "Started in IEC 60076 testing (SFRA, PD, OLTC). Now writes the plant's software.",
      "Fastener standard pitched to the CEO, approved"),
     ("Bühler India", "Automation Hardware Engineering Intern", "Jun 2025", "Bengaluru",
