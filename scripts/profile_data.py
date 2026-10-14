@@ -68,3 +68,12 @@ SKILLS = {
     "Things": ["ESP8266", "Arduino", "Raspberry Pi", "Proteus", "IoT"],
     "AI": ["Claude", "OpenAI", "LangChain", "LangGraph", "Transformers.js"],
 }
+
+SHORT = {"Dispatch Management": "Dispatch", "Hardware Platform v1.3": "Hardware Platform", "Intelligent Street Lighting": "Street Lighting",
+         "RTCC & M.Box Tracker": "RTCC Tracker", "Industrial Data System": "Industrial Data", "HWE Automation Tool": "HWE Tool",
+         "Flood Alerting System": "Flood Alerts", "Transformer Test Planner": "Test Planner"}
+
+
+def short(name):
+    """Display name that fits a small tile."""
+    return SHORT.get(name, name)
