@@ -24,7 +24,18 @@
   <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/card-flood-dark.svg"/><img src="./assets/panel/card-flood-light.svg" width="49.5%" alt="Flood Alerting System (built): Rising water, instant alerts. 90% lower outage risk"/></picture>
 </p>
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/logbook-dark.svg"/><img src="./assets/panel/logbook-light.svg" width="100%" alt="Shift log: Indo Tech Transformers, Engineer, Testing & Projects → Digitalisation, 2026 – now; Bühler India, Automation Hardware Engineering Intern, Jun 2025; Inovate Technologies, Full Stack Developer Intern, Mar – Jun 2024; Mettur Thermal Power Plant, Electrical Intern, Jun – Jul 2024; Southern Railway, Electrical Intern, Jan 2023"/></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/logbook-dark.svg"/><img src="./assets/panel/logbook-light.svg" width="100%" alt="Shift log: Indo Tech Transformers, Associate Engineer, Testing & Projects → Digitalisation, 2026 – now; Bühler India, Automation Hardware Engineering Intern, Jun 2025; Inovate Technologies, Full Stack Developer Intern, Mar – Jun 2024; Mettur Thermal Power Plant, Electrical Intern, Jun – Jul 2024; Southern Railway, Electrical Intern, Jan 2023"/></picture></p>
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/tags-dark.svg"/><img src="./assets/panel/tags-light.svg" width="100%" alt="Inspection tags: Feb 2025 Rank #7 / 1500+, National Entrepreneurship Challenge, IIT Bombay; Feb 2025 Runner-up, Fish Tank pitch, IIT Bombay E-Summit; Aug 2025 Patent filed, Street lighting with automated fault detection; Jun 2024 National finalist, Technical Symposium, Loyola College"/></picture></p>
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/terminals-dark.svg"/><img src="./assets/panel/terminals-light.svg" width="100%" alt="Skills wired in: Power: IEC 60076 testing, SFRA, MCC panels, VFD · DOL · soft starter, Relays 87T · 63 · 64REF, OLTC, AutoCAD, MATLAB; Code: TypeScript, React, Python, Java, C, Node, Supabase, PostgreSQL, Three.js; Things: ESP8266, Arduino, Raspberry Pi, Proteus, IoT; AI: Claude, OpenAI, LangChain, LangGraph, Transformers.js"/></picture></p>
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/estop-dark.svg"/><img src="./assets/panel/estop-light.svg" width="100%" alt="In case of boring process: break glass, call Krishna. krishnarajus2004@gmail.com"/></picture></p>
+
+<h3 align="center">🖥️ New: two portfolio sites</h3>
+<p align="center">
+  <a href="https://github.com/KRISH-exe-29/KRISH_Portfolio/tree/portfolio/krish-exe"><img src="./assets/sites/krish-exe.gif" width="49.5%" alt="Krish.exe: a 3D power transformer turns as the page scrolls, under the lines 161,000 volts, one engineer, zero spreadsheets"/></a>
+  <a href="https://github.com/KRISH-exe-29/KRISH_Portfolio/tree/portfolio/sweep"><img src="./assets/sites/sweep.gif" width="49.5%" alt="Sweep: three phase traces sweep from 20 Hz to 2 MHz as the page scrolls, ending on Send it over"/></a>
+</p>
+<p align="center">
+  <b>Krish.exe</b>: 161,000 volts. One engineer. Zero spreadsheets.<br/>
+  <b>Sweep</b>: a whole career read as one frequency sweep, 20 Hz to 2 MHz.<br/>
+  <sub><a href="https://krish-exe-29.github.io/KRISH_Portfolio/">Read the portfolio</a> · twelve designs live on their own branches in <a href="https://github.com/KRISH-exe-29/KRISH_Portfolio">KRISH_Portfolio</a>.</sub>
+</p>
