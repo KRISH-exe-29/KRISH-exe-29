@@ -30,7 +30,7 @@
 ## WHERE I WORKED
 
 ```
-2026 – now       INDO TECH TRANSFORMERS       Engineer, Testing & Projects → Digitalisation
+2026 – now       INDO TECH TRANSFORMERS       Associate Engineer, Testing & Projects → Digitalisation
 Jun 2025         BÜHLER INDIA                 Automation Hardware Engineering Intern
 Mar – Jun 2024   INOVATE TECHNOLOGIES         Full Stack Developer Intern
 Jun – Jul 2024   METTUR THERMAL POWER PLANT   Electrical Intern
@@ -62,3 +62,14 @@ Jan 2023         SOUTHERN RAILWAY             Electrical Intern
 <kbd>EMAIL</kbd> krishnarajus2004@gmail.com &nbsp; <kbd>LINKEDIN</kbd> [linkedin.com/in/krishnarajus2004](https://linkedin.com/in/krishnarajus2004)
 
 <sub>NO TEMPLATES. NO GRADIENTS. NO REGRETS. LAST UPDATED: WHEN SOMETHING SHIPPED.</sub>
+
+<h3 align="center">🖥️ New: two portfolio sites</h3>
+<p align="center">
+  <a href="https://github.com/KRISH-exe-29/KRISH_Portfolio/tree/portfolio/krish-exe"><img src="./assets/sites/krish-exe.gif" width="49.5%" alt="Krish.exe: a 3D power transformer turns as the page scrolls, under the lines 161,000 volts, one engineer, zero spreadsheets"/></a>
+  <a href="https://github.com/KRISH-exe-29/KRISH_Portfolio/tree/portfolio/sweep"><img src="./assets/sites/sweep.gif" width="49.5%" alt="Sweep: three phase traces sweep from 20 Hz to 2 MHz as the page scrolls, ending on Send it over"/></a>
+</p>
+<p align="center">
+  <b>Krish.exe</b>: 161,000 volts. One engineer. Zero spreadsheets.<br/>
+  <b>Sweep</b>: a whole career read as one frequency sweep, 20 Hz to 2 MHz.<br/>
+  <sub><a href="https://krish-exe-29.github.io/KRISH_Portfolio/">Read the portfolio</a> · twelve designs live on their own branches in <a href="https://github.com/KRISH-exe-29/KRISH_Portfolio">KRISH_Portfolio</a>.</sub>
+</p>
