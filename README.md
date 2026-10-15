@@ -1,11 +1,17 @@
-<!-- Luxury / premium: Maison KRS. Ivory by day, noir by night, following your GitHub theme. Built by scripts/gen_luxury.py -->
+<!-- Material Design 3: tonal surfaces, elevation and motion. Light and dark tonal schemes follow your GitHub theme. Built by scripts/gen_material.py -->
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/luxury/maison-dark.svg"/><img src="./assets/luxury/maison-light.svg" width="100%" alt="Maison KRS: Krishna Raju S, Haute Ingénierie"/></picture></p>
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/luxury/movement-dark.svg"/><img src="./assets/luxury/movement-light.svg" width="100%" alt="The movement: a watch dial of skills"/></picture></p>
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/luxury/collection-dark.svg"/><img src="./assets/luxury/collection-light.svg" width="100%" alt="The collection"/></picture></p>
-<p align="center"><sub>[N° 01 Dispatch](https://github.com/KRISH-exe-29/Dispatch-ITTL) · [N° 02 Job Lens](https://krishna-ittl.github.io/Candidate-Screener/) · [N° 04 Test Planner](https://transformer-test-planner.vercel.app) · [N° 05 Hardware Platform](https://github.com/KRISH-exe-29/Fasteners-Project) · [N° 07 RTCC Tracker](https://github.com/KRISH-exe-29/Pannel-Box-Transformers-) · [N° 08 Industrial Data](https://github.com/KRISH-exe-29/indotech-transformers)</sub></p>
-<p align="center"><a href="mailto:krishnarajus2004@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/luxury/appointment-dark.svg"/><img src="./assets/luxury/appointment-light.svg" width="100%" alt="By private appointment"/></picture></a></p>
-<p align="center"><sub><a href="https://linkedin.com/in/krishnarajus2004">the atelier on LinkedIn</a></sub></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/material/hero-dark.svg"/><img src="./assets/material/hero-light.svg" width="100%" alt="Krishna Raju S: electrical engineer who builds the software factories run on."/></picture></p>
+
+<p align="center">
+  <a href="mailto:krishnarajus2004@gmail.com"><img src="https://img.shields.io/badge/Email-6750A4?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://linkedin.com/in/krishnarajus2004"><img src="https://img.shields.io/badge/LinkedIn-7D5260?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://krishna-ittl.github.io/Candidate-Screener/"><img src="https://img.shields.io/badge/Open_Job_Lens-21005D?style=for-the-badge&logo=githubpages&logoColor=white" alt="Job Lens"/></a>
+</p>
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/material/projects-dark.svg"/><img src="./assets/material/projects-light.svg" width="100%" alt="Projects list"/></picture></p>
+<p align="center"><sub>tap to open: [Dispatch](https://github.com/KRISH-exe-29/Dispatch-ITTL) · [Job Lens](https://krishna-ittl.github.io/Candidate-Screener/) · [Test Planner](https://transformer-test-planner.vercel.app) · [Hardware Platform](https://github.com/KRISH-exe-29/Fasteners-Project) · [RTCC Tracker](https://github.com/KRISH-exe-29/Pannel-Box-Transformers-) · [Industrial Data](https://github.com/KRISH-exe-29/indotech-transformers)</sub></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/material/career-dark.svg"/><img src="./assets/material/career-light.svg" width="100%" alt="Career stepper"/></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/material/navbar-dark.svg"/><img src="./assets/material/navbar-light.svg" width="100%" alt="Krishna is available for new problems. krishnarajus2004@gmail.com"/></picture></p>
 
 <h3 align="center">🖥️ New: two portfolio sites</h3>
 <p align="center">
