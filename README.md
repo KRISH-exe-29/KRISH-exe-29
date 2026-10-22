@@ -29,8 +29,8 @@
 
 ## This is me :)
 
-Hi, I'm **Krishna**, an electrical engineer from Chennai 🇮🇳 who ended up writing the software
-for the plant he tests transformers in. I test 161 kV transformers by day and write the plant's software by night.
+Hi, I'm **Krishna**, an electrical engineer from Chennai 🇮🇳.
+I test 161 kV transformers by day and write the plant's software by night.
 
 - ⚡ **Associate Engineer at Indo Tech Transformers**: started in IEC 60076 testing (SFRA, PD, OLTC), now digitalising the plant.
 - 🚚 **[Dispatch Management](https://github.com/KRISH-exe-29/Dispatch-ITTL)**: work order → packing → loading → gate pass. 5 roles, 128 tests.
