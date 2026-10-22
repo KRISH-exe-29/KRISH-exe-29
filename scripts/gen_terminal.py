@@ -204,8 +204,8 @@ def stats(data):
         delay = bar_start + i * 0.06
         parts.append(f'<rect class="b" x="{bx:.1f}" y="{bot - bh:.1f}" width="{bw:.1f}" height="{bh:.1f}" rx="3" '
                      f'fill="{GREEN if total == peak else BAR}" style="animation-delay:{delay:.2f}s"/>')
-        parts.append(f'<text x="{bx + bw/2:.1f}" y="{bot + 28}" fill="{MUTED}" font-size="18" text-anchor="middle">'
-                     f'{datetime.date.fromisoformat(month + "-01"):%b}'[:1] + '</text>')
+        letter = f'{datetime.date.fromisoformat(month + "-01"):%b}'[0]
+        parts.append(f'<text x="{bx + bw/2:.1f}" y="{bot + 28}" fill="{MUTED}" font-size="18" text-anchor="middle">{letter}</text>')
         if total == peak:
             parts.append(f'<text class="t" style="animation-delay:{delay + 0.6:.2f}s" x="{bx + bw/2:.1f}" y="{bot - bh - 10:.1f}" '
                          f'fill="{INK}" font-size="18" text-anchor="middle">{peak:,}</text>')
