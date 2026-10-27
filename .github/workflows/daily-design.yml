@@ -35,14 +35,21 @@ jobs:
           CHOSEN: ${{ inputs.design }}
         run: |
           designs=$(git branch -r --format='%(refname:lstrip=3)' \
-            | grep -v -x -e HEAD -e main -e output | grep -v '^copilot/' | sort)
+            | grep -v -x -e HEAD -e main -e output | grep -v -e '^copilot/' -e '^readme/' | LC_ALL=C sort)
           count=$(echo "$designs" | wc -l)
           if [ -n "$CHOSEN" ]; then
             echo "$designs" | grep -q -x -- "$CHOSEN" || { echo "No design branch called $CHOSEN"; exit 1; }
             design=$CHOSEN
           else
-            day=$(( ($(date +%s) + 19800) / 86400 )) # days since 1970 on India time
-            design=$(echo "$designs" | sed -n "$(( day % count + 1 ))p")
+            # Carry on from the last design put on main. Picking by day number instead jumped back to
+            # designs already shown every time a branch was added or removed.
+            last=$(git log -1 --format=%s --grep="^Today's design: " | sed -E "s/^Today's design: ([^ ]+) \((.*)\)$/\1 \2/")
+            if [ "${last#* }" = "$(TZ=Asia/Kolkata date +%F)" ] && echo "$designs" | grep -q -x -- "${last% *}"; then
+              design=${last% *} # already done today, keep it
+            else
+              design=$(echo "$designs" | LC_ALL=C awk -v last="${last% *}" '$0 > last { print; exit }')
+              [ -n "$design" ] || design=$(echo "$designs" | head -1)
+            fi
           fi
           echo "Today's design: $design (one of $count)"
           echo "design=$design" >> "$GITHUB_OUTPUT"
