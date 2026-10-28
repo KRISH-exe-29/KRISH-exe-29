@@ -63,12 +63,13 @@ for th, t in THEMES.items():
     c.save(f"hero-{th}.svg", f"Software for the factory floor. {NAME} ships the tools a transformer plant runs on: dispatch, testing, hiring, attendance.")
 
     # features grid
-    c = Canvas(F, t, 1200, 720)
-    c.add(f'<rect width="1200" height="720" fill="{t["bg"]}"/>')
+    GH = 160 + -(-len(PROJECTS) // 5) * 280  # one more row of cards per five projects
+    c = Canvas(F, t, 1200, GH)
+    c.add(f'<rect width="1200" height="{GH}" fill="{t["bg"]}"/>')
     c.text(60, 70, "Built for real shifts.", 44, t["ink"], SANS, 700, extra='letter-spacing="-1.5"')
-    c.text(60, 106, "Not demo day. Ten things in the wild, each solving one stubborn problem.", 18, t["soft"], SANS)
+    c.text(60, 106, "Not demo day. Ten things in the wild, one on the bench, each solving one stubborn problem.", 18, t["soft"], SANS)
     for i, (slug, name, status, url, hook, impact, stack) in enumerate(PROJECTS):
-        x, y = 60 + (i % 5) * 220, 150 + (i // 5) * 280
+        x, y = 60 + (i % 5) * 220 + (5 - min(5, len(PROJECTS) - i // 5 * 5)) * 110, 150 + (i // 5) * 280  # a short last row sits centred
         c.add(f'<rect x="{x}" y="{y}" width="204" height="256" rx="14" fill="{t["card"]}" stroke="{t["line"]}"/>'
               f'<rect x="{x + 18}" y="{y + 18}" width="44" height="44" rx="10" fill="{t["bg"]}" stroke="{t["line"]}"/>'
               + icon(slug, x + 26, y + 26, 28, t["ink"], t["beam"], t["soft"]))
