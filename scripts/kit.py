@@ -134,5 +134,7 @@ def icon(slug, x, y, s, a, b, c):
                     + f'<circle cx="50" cy="50" r="30" fill="{a}"/><circle cx="50" cy="50" r="13" fill="{c}"/><path d="M44 50h12M50 44v12" stroke="{b}" stroke-width="4"/>',
         "flood": f'<path d="M50 8c14 20 24 32 24 46a24 24 0 0 1-48 0c0-14 10-26 24-46z" fill="{a}"/>'
                  f'<path d="M6 80q11-10 22 0t22 0 22 0 22 0" fill="none" stroke="{b}" stroke-width="7"/><path d="M6 92q11-10 22 0t22 0 22 0 22 0" fill="none" stroke="{c}" stroke-width="6"/>',
+        "capextrace": f'<rect x="32" y="8" width="36" height="22" rx="4" fill="{a}"/><path d="M50 30v14M18 44h64M18 44v12M50 44v12M82 44v12" fill="none" stroke="{c}" stroke-width="5"/>'
+                      f'<rect x="6" y="56" width="24" height="34" rx="4" fill="{b}"/><rect x="38" y="56" width="24" height="34" rx="4" fill="{b}"/><rect x="70" y="56" width="24" height="34" rx="4" fill="{b}"/>',
     }
     return f'<g transform="translate({x} {y}) scale({k:.3f})">{shapes[slug]}</g>'

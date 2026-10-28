@@ -49,6 +49,8 @@ PROJECTS = [
      "Feeder classes, loads and I/O in one click.", "30 min → 30 s at Bühler", "Python · Streamlit"),
     ("flood", "Flood Alerting System", "BUILT", None,
      "Rising water, instant alerts.", "90% lower outage risk", "IoT · Embedded C"),
+    ("capextrace", "CapexTrace", "IN BUILD", None,
+     "Every capex rupee, traced box by box.", "WBS mind map · budget ceilings", "TypeScript · React 19 · React Flow"),
 ]
 
 # when, title, where
