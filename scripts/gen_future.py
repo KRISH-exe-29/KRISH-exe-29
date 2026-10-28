@@ -80,7 +80,7 @@ for th, t in THEMES.items():
     c.add(f'<line x1="{rx - R}" x2="{rx + R}" y1="{ry}" y2="{ry}" stroke="{t["holo"]}" stroke-opacity=".3"/><line x1="{rx}" x2="{rx}" y1="{ry - R}" y2="{ry + R}" stroke="{t["holo"]}" stroke-opacity=".3"/>')
     c.add(f'<g class="sw" style="transform-origin:{rx}px {ry}px"><path d="M{rx},{ry} L{rx + R},{ry} A{R},{R} 0 0 0 {rx + R * math.cos(math.radians(-40)):.1f},{ry + R * math.sin(math.radians(-40)):.1f} Z" fill="url(#sweep)"/></g>')
     for i, (slug, name, status, url, hook, impact, stack) in enumerate(PROJECTS):
-        a = i * 36 - 90
+        a = i * 360 / len(PROJECTS) - 90  # blips spread evenly round the scope
         d = R * (.35 + .55 * ((i * 7) % 10) / 10)
         bx, by = rx + d * math.cos(math.radians(a)), ry + d * math.sin(math.radians(a))
         col = t["hot"] if status in ("PRODUCTION", "LIVE") else t["holo"]
