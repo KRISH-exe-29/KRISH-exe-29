@@ -74,7 +74,7 @@ for th, t in THEMES.items():
     # projects marquee 4x1
     x, y, W, H = tile(c, t, 0, 2, 4, 1)
     c.text(x + 32, y + 50, "Shipped", 26, t["ink"], SANS, 700)
-    c.text(x + W - 32, y + 50, "10 projects →", 16, t["soft"], SANS, anchor="end")
+    c.text(x + W - 32, y + 50, f"{len(PROJECTS)} projects →", 16, t["soft"], SANS, anchor="end")
     c.add(f'<clipPath id="mq"><rect x="{x}" y="{y + 70}" width="{W}" height="190"/></clipPath><g clip-path="url(#mq)"><g class="mq">')
     for rep in range(2):
         for i, (slug, name, status, url, hook, impact, stack) in enumerate(PROJECTS):
@@ -129,7 +129,7 @@ for th, t in THEMES.items():
                  ".mq{animation:mq 40s linear infinite}@keyframes mq{to{transform:translateX(-2360px)}}"
                  ".ping{transform-box:fill-box;transform-origin:center;animation:pg 2s ease-out infinite}@keyframes pg{to{transform:scale(2.4);opacity:0}}"
                  ".arrow{animation:ar 1.4s ease-in-out infinite}@keyframes ar{50%{transform:translate(4px,-4px)}}")
-    c.save(f"board-{th}.svg", f"Bento board for {NAME}: 9 apps in production, now shipping KioskSentinel, 30 minutes to 30 seconds, patent filed, 10 projects, the journey from Southern Railway to Indo Tech Transformers, speaks {', '.join(LANGUAGES)}. {EMAIL}")
+    c.save(f"board-{th}.svg", f"Bento board for {NAME}: 9 apps in production, now shipping KioskSentinel, 30 minutes to 30 seconds, patent filed, {len(PROJECTS)} projects, the journey from Southern Railway to Indo Tech Transformers, speaks {', '.join(LANGUAGES)}. {EMAIL}")
 
 links = " · ".join(f"[{short(p[1])}]({p[3]})" for p in PROJECTS if p[3])
 write_readme(f"""
