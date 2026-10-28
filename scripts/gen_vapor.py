@@ -69,12 +69,13 @@ for th, t in THEMES.items():
     c.save(f"scene-{th}.svg", f"Vaporwave scene: KRISHNA in wide letters, Japanese text for engineer, electrical, software; a pixel portrait in a Paint window, and an error: too much manual work detected, automate it now? Automate or Automate.")
 
     # program manager: projects as desktop icons + start bar
-    c = Canvas(F, t, 1200, 520)
-    c.add('<rect width="1200" height="520" fill="#008080"/>')
-    win(c, 30, 24, 1140, 430, "Program Manager · C:\\KRISHNA\\SHIPPED", True)
-    c.add('<rect x="40" y="58" width="1120" height="386" fill="#FFFFFF"/>')
+    EX = (-(-len(PROJECTS) // 5) - 2) * 180  # the window grows a row of icons per five projects
+    c = Canvas(F, t, 1200, 520 + EX)
+    c.add(f'<rect width="1200" height="{520 + EX}" fill="#008080"/>')
+    win(c, 30, 24, 1140, 430 + EX, "Program Manager · C:\\KRISHNA\\SHIPPED", True)
+    c.add(f'<rect x="40" y="58" width="1120" height="{386 + EX}" fill="#FFFFFF"/>')
     for i, (slug, name, status, url, hook, impact, stack) in enumerate(PROJECTS):
-        x, y = 70 + (i % 5) * 220, 80 + (i // 5) * 180
+        x, y = 70 + (i % 5) * 220 + (5 - min(5, len(PROJECTS) - i // 5 * 5)) * 110, 80 + (i // 5) * 180  # a short last row sits centred
         exe = slug.upper().replace("-", "_")[:8] + ".EXE"
         c.add(f'<rect x="{x + 60}" y="{y}" width="64" height="64" fill="{["#FF71CE", "#01CDFE", "#05FFA1", "#B967FF", "#FFFB96"][i % 5]}" stroke="#000" stroke-width="2"/>'
               f'<rect x="{x + 66}" y="{y + 6}" width="52" height="10" fill="#000080"/>')
@@ -82,12 +83,12 @@ for th, t in THEMES.items():
         c.text(x + 92, y + 88, exe, 13, "#000", W95, 700, "middle")
         c.text(x + 92, y + 108, short(name), 12, "#000", W95, anchor="middle")
         c.text(x + 92, y + 126, hook[:28] + ("…" if len(hook) > 28 else ""), 11, "#404040", W95, anchor="middle")
-    c.add('<rect y="476" width="1200" height="44" fill="#C0C0C0"/><path d="M0 477H1200" stroke="#FFF" stroke-width="2"/>'
+    c.add(f'<g transform="translate(0 {EX})">' + '<rect y="476" width="1200" height="44" fill="#C0C0C0"/><path d="M0 477H1200" stroke="#FFF" stroke-width="2"/>'
           '<rect x="6" y="482" width="90" height="32" fill="#C0C0C0"/><path d="M6 514V482H96" stroke="#FFF" stroke-width="2" fill="none"/><path d="M6 514H96V482" stroke="#000" stroke-width="2" fill="none"/>'
-          '<rect x="1060" y="482" width="134" height="32" fill="none" stroke="#808080"/>')
-    c.text(51, 504, "⊞ Start", 15, "#000", W95, 700, "middle")
-    c.text(1127, 504, "2:00 AM", 14, "#000", W95, anchor="middle")
-    c.text(120, 504, "▶ shipping_kiosk_sentinel.exe", 13, "#000", W95)
+          '<rect x="1060" y="482" width="134" height="32" fill="none" stroke="#808080"/></g>')
+    c.text(51, 504 + EX, "⊞ Start", 15, "#000", W95, 700, "middle")
+    c.text(1127, 504 + EX, "2:00 AM", 14, "#000", W95, anchor="middle")
+    c.text(120, 504 + EX, "▶ shipping_kiosk_sentinel.exe", 13, "#000", W95)
     c.save(f"desktop-{th}.svg", "Program Manager window listing shipped projects as .EXE icons: " + "; ".join(p[1] for p in PROJECTS))
 
 links = " · ".join(f"[{short(p[1]).upper()}.EXE]({p[3]})" for p in PROJECTS if p[3])
