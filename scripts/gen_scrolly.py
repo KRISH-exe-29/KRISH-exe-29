@@ -45,7 +45,7 @@ for th, t in THEMES.items():
             y += 200
         if name == "DISTRIBUTION":
             nodes.append(("branches", y))
-            y += 440
+            y += 250 + -(-len(PROJECTS) // 5) * 190  # room for every row of project boxes
         y += 40
     end = y
     # spine wire + flowing current
@@ -85,7 +85,7 @@ for th, t in THEMES.items():
             boxes = []
             for k, (slug, name, status, url, hook, impact, stack) in enumerate(PROJECTS):
                 col, row = k % 5, k // 5
-                bx, by = 140 + col * 230, top + 160 + row * 190
+                bx, by = 140 + col * 230 + (5 - min(5, len(PROJECTS) - row * 5)) * 115, top + 160 + row * 190  # a short last row sits centred
                 c.add(f'<path d="M600,{top} C600,{top + 60} {bx},{by - 100} {bx},{by - 30}" fill="none" stroke="{t["wire"]}" stroke-width="4"/>'
                       f'<path class="flow" d="M600,{top} C600,{top + 60} {bx},{by - 100} {bx},{by - 30}" fill="none" stroke="{t["acc"]}" stroke-width="2.5" stroke-dasharray="4 14"/>')
                 boxes.append((bx, by, name, impact, status))
@@ -105,7 +105,7 @@ for th, t in THEMES.items():
     c.css.append(".flow{animation:fl 1.2s linear infinite}@keyframes fl{to{stroke-dashoffset:-32}}"
                  ".lit{animation:lt 3s ease-in-out infinite}@keyframes lt{0%,20%{opacity:.15}40%,100%{opacity:1}}")
     c.save(f"grid-{th}.svg", f"{NAME}: a life story wired as a power grid. Generation: born in Chennai, B.E. at {COLLEGE}. Transmission: Southern Railway, Mettur, Inovate. "
-                             "Transformation: NEC rank 7, Bühler 30 minutes to 30 seconds, patent filed. Distribution: ten projects at Indo Tech Transformers. Load: the plant runs on it.")
+                             f"Transformation: NEC rank 7, Bühler 30 minutes to 30 seconds, patent filed. Distribution: {len(PROJECTS)} projects at Indo Tech Transformers. Load: the plant runs on it.")
 
 links = " · ".join(f"[{short(p[1])}]({p[3]})" for p in PROJECTS if p[3])
 write_readme(f"""
