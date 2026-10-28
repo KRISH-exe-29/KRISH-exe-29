@@ -69,12 +69,13 @@ for th, t in THEMES.items():
     c.save(f"panel-{th}.svg", f"Soft UI panel for {NAME}: soft on the eyes, hard on manual work. Automation on, manual entry off, chai on. Output knob at 9 apps. Now shipping KioskSentinel.")
 
     # projects: raised tiles with pressed icon wells
-    c = Canvas(F, t, 1200, 700)
+    PH = 140 + -(-len(PROJECTS) // 5) * 280  # one more row of tiles per five projects
+    c = Canvas(F, t, 1200, PH)
     soft_defs(c, t)
-    c.add(f'<rect width="1200" height="700" fill="{t["bg"]}"/>')
+    c.add(f'<rect width="1200" height="{PH}" fill="{t["bg"]}"/>')
     c.text(60, 76, "Projects", 34, t["ink"], SANS, 700)
     for i, (slug, name, status, url, hook, impact, stack) in enumerate(PROJECTS):
-        x, y = 60 + (i % 5) * 220, 120 + (i // 5) * 280
+        x, y = 60 + (i % 5) * 220 + (5 - min(5, len(PROJECTS) - i // 5 * 5)) * 110, 120 + (i // 5) * 280  # a short last row sits centred
         raised(c, t, x, y, 190, 250, 30)
         c.add(f'<circle cx="{x + 95}" cy="{y + 72}" r="44" fill="{t["bg"]}" filter="url(#in)"/>' + icon(slug, x + 70, y + 47, 50, t["acc"], t["ink"], t["soft"]))
         c.text(x + 95, y + 148, short(name), 17, t["ink"], SANS, 700, "middle")
