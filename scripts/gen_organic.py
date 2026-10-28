@@ -12,6 +12,8 @@ THEMES = {"light": dict(bg="#F5EFE3", blob="#E6DCC8", ink="#2F3A2C", soft="#6E7A
           "dark": dict(bg="#101716", blob="#18221F", ink="#E6EFE3", soft="#9DB09A", bark="#8A6A50", leaf=["#4F7A5A", "#7FB685", "#5E9C6B", "#E08A5E"], soil="#1E2622", glow="#FFE87A", night=1)}
 LEAF = "M0,0 C 18,-22 52,-22 74,0 C 52,22 18,22 0,0 Z"
 
+COUNT = {10: "Ten", 11: "Eleven", 12: "Twelve"}.get(len(PROJECTS), str(len(PROJECTS)))
+
 for th, t in THEMES.items():
     rnd = random.Random(25)
     c = Canvas(F, t, 1200, 1140)
@@ -59,7 +61,7 @@ for th, t in THEMES.items():
         half = len(short(name)) * 8
         ox = min(ox, 1160 - half) if anc == "start" else max(ox, 40 + half) if anc == "end" else ox
         c.text(ox, oy + 5, short(name), 14, t["ink"], SANS, 700, anc)
-    c.text(600, 420, "ten leaves, all still growing", 15, t["soft"], SERIF, 400, "middle", 'font-style="italic"')
+    c.text(600, 420, f"{COUNT.lower()} leaves, all still growing", 15, t["soft"], SERIF, 400, "middle", 'font-style="italic"')
     # fireflies by night, drifting pollen by day
     for i in range(22):
         x, y = rnd.uniform(40, 1160), rnd.uniform(200, 1000)
