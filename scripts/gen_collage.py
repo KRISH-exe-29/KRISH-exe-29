@@ -89,13 +89,14 @@ for th, t in THEMES.items():
     c.save(f"zine-{th}.svg", f"Collage cover: ransom-note letters spelling KRISHNA RAJU S, a halftone photo cut-out, strips reading electrical engineer and software builder, 9 apps on a real factory floor, 30 minutes to 30 seconds, patent filed; an NEC rank 7 stamp and a ticket: admit one, hire Krishna.")
 
     # projects as pinned clippings
-    c = Canvas(F, t, 1200, 760)
+    WH = 160 + -(-len(PROJECTS) // 5) * 300  # one more row of clippings per five projects
+    c = Canvas(F, t, 1200, WH)
     c.defs.append('<filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="3" seed="8"/><feColorMatrix values="0 0 0 0 .3 0 0 0 0 .25 0 0 0 0 .2 0 0 0 .18 0"/>'
                   '<feComposite in2="SourceAlpha" operator="in"/></filter>')
-    c.add(f'<rect width="1200" height="760" fill="{t["cork"]}"/><rect width="1200" height="760" fill="#000" filter="url(#grain)"/>')
+    c.add(f'<rect width="1200" height="{WH}" fill="{t["cork"]}"/><rect width="1200" height="{WH}" fill="#000" filter="url(#grain)"/>')
     ransom(c, t, "THE WORK", 60, 90, 54, rnd)
     for i, (slug, name, status, url, hook, impact, stack) in enumerate(PROJECTS):
-        x, y = 50 + (i % 5) * 226, 140 + (i // 5) * 300
+        x, y = 50 + (i % 5) * 226 + (5 - min(5, len(PROJECTS) - i // 5 * 5)) * 113, 140 + (i // 5) * 300  # a short last row sits centred
         rot = rnd.uniform(-4, 4)
         bg = t["papers"][[0, 1, 3, 6, 5][i % 5]]
         c.add(f'<g class="wig" style="animation-delay:-{i * .3:.1f}s;transform-origin:{x + 100}px {y}px"><g transform="rotate({rot:.1f} {x + 100} {y + 120})">'
