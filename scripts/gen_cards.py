@@ -21,6 +21,7 @@ DECK = {
     "industrial-data": ("Grass", 90, ("QR Capture", 1, 40), ("3D Render", 2, 80), "Paper forms", "Every test reading, tagged and traceable."),
     "hwe-tool": ("Electric", 30, ("Feeder Classify", 1, 30), ("I/O Budget", 2, 60), "Manual calcs", "30 minutes of MCC paperwork. Thirty seconds."),
     "flood": ("Water", 90, ("Rising Alert", 1, 50), ("Outage Shield", 2, 90), "Silence", "Cuts outage risk by 90%."),
+    "capextrace": ("Grass", 60, ("Budget Ceiling", 1, 30), ("PO Limit Check", 2, 60), "Overruns", "Every box on the tree has a budget. No child outspends its parent."),
 }
 photo = photo_grid(F, 40, sys.argv[1] if len(sys.argv) > 1 else None)
 W, H = 420, 588
@@ -71,12 +72,12 @@ for n, (slug, name, status, url, hook, impact, stack) in enumerate(PROJECTS, 1):
     c.text(38, 506, f"weakness: {weak}", 12, "#333", FONT, 600)
     c.text(W - 38, 506, f"resistance: manual work −30", 12, "#333", FONT, 600, "end")
     c.text(38, 530, flav, 11, "#333", FONT, extra='font-style="italic"')
-    c.text(38, 552, f"KRS {n:02d}/10 · {stack}", 10, "#333", FONT)
+    c.text(38, 552, f"KRS {n:02d}/{len(PROJECTS)} · {stack}", 10, "#333", FONT)
     c.text(W - 38, 552, "★" if status in ("PRODUCTION", "LIVE", "PATENT FILED") else "◆", 14, "#111", FONT, 700, "end")
     c.css.append(".spark{transform-box:fill-box;transform-origin:center;animation:sp 1.5s ease-in-out infinite}@keyframes sp{50%{transform:scale(.3);opacity:.2}}")
     if status in ("PRODUCTION", "LIVE", "PATENT FILED"):
         shimmer(c)
-    c.save(f"card-{slug}.svg", f"Trading card {n:02d}/10: {name}, {ty} type, HP {hp}. Attacks: {a1[0]} {a1[2]} ({hook}); {a2[0]} {a2[2]} ({impact}). {flav}")
+    c.save(f"card-{slug}.svg", f"Trading card {n:02d}/{len(PROJECTS)}: {name}, {ty} type, HP {hp}. Attacks: {a1[0]} {a1[2]} ({hook}); {a2[0]} {a2[2]} ({impact}). {flav}")
 
 # the legendary card
 c = Canvas(F, {}, W, H)
@@ -102,7 +103,7 @@ for i, (an, dmg, d) in enumerate([("30-Second Strike", 30, "Turns any 30-minute 
     c.text(W - 38, y, str(dmg), 21, "#FFD86B", FONT, 700, "end")
     c.text(38, y + 20, d, 12, "#E8DFFF", FONT)
 c.text(38, 530, "Patent filed · NEC #7 of 1500+ · 9 apps in production", 11, "#FFD86B", FONT, 600)
-c.text(38, 552, "KRS 00/10 · secret rare", 10, "#E8DFFF", FONT)
+c.text(38, 552, f"KRS 00/{len(PROJECTS)} · secret rare", 10, "#E8DFFF", FONT)
 c.text(W - 38, 552, "★★★", 14, "#FFD86B", FONT, 700, "end")
 shimmer(c)
 c.save("card-legend.svg", f"Legendary card: {NAME}, Electric/Code dual type, HP 2004. Ability Chai Engine. Attacks: 30-Second Strike, Ohm's Law times Git 9000.")

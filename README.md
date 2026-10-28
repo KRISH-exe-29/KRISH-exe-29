@@ -29,6 +29,7 @@
 </p>
 <p align="center">
   <img src="./assets/cards/card-flood.svg" width="32%" alt="Trading card: Flood Alerting System"/>
+  <img src="./assets/cards/card-capextrace.svg" width="32%" alt="Trading card: CapexTrace"/>
 </p>
 
 <details>
