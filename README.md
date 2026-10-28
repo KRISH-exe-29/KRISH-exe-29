@@ -34,6 +34,7 @@
 | [Industrial Data](https://github.com/KRISH-exe-29/indotech-transformers) | Live | QR-tagged test data + a 3D transformer. | 4 role modules · OTP admin |
 | HWE Tool | Shipped | Feeder classes, loads and I/O in one click. | 30 min → 30 s at Bühler |
 | Flood Alerts | Built | Rising water, instant alerts. | 90% lower outage risk |
+| CapexTrace | In Build | Every capex rupee, traced box by box. | WBS mind map · budget ceilings |
 
 ## 4. Corporate history
 
