@@ -64,13 +64,14 @@ for th, t in THEMES.items():
     c.save(f"hero-{th}.svg", f"Totally radical engineer: {NAME}. 9 apps live.")
 
     # projects as playful tiles
-    c = Canvas(F, t, 1200, 820)
+    MH = 160 + -(-len(PROJECTS) // 5) * 330  # one more row of tiles per five projects
+    c = Canvas(F, t, 1200, MH)
     c.defs.append(f'<pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="2.5" fill="{t["ink"]}"/></pattern>')
-    c.add(f'<rect width="1200" height="820" fill="{t["bg"]}"/>')
-    confetti(c, t, 1200, 820, 18, 11)
+    c.add(f'<rect width="1200" height="{MH}" fill="{t["bg"]}"/>')
+    confetti(c, t, 1200, MH, 18, 11)
     c.text(600, 80, "STUFF I MADE (AND YES, IT WORKS)", 40, t["ink"], FUN, 900, "middle", f'style="paint-order:stroke" stroke="{t["yellow"]}" stroke-width="8"')
     for i, (slug, name, status, url, hook, impact, stack) in enumerate(PROJECTS):
-        x, y = 50 + (i % 5) * 224, 130 + (i // 5) * 330
+        x, y = 50 + (i % 5) * 224 + (5 - min(5, len(PROJECTS) - i // 5 * 5)) * 112, 130 + (i // 5) * 330  # a short last row sits centred
         col = t[COLS[i % 6]]
         shape = i % 3
         c.add(f'<rect x="{x + 10}" y="{y + 10}" width="200" height="290" fill="url(#dots)" opacity=".6"/>'
