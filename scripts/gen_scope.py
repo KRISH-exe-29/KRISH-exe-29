@@ -60,12 +60,13 @@ for th, t in THEMES.items():
     c.save(f"scope-{th}.svg", f"Oscilloscope: a sine wave sharpens into a square wave, analog to digital. Measurements for {NAME}: 9 apps live, 128 tests, 30 minutes to 30 seconds, NEC rank 7 of 1500+, patent filed, CGPA 8.38.")
 
     # captured traces: one per project, plus Lissajous
-    c = Canvas(F, t, 1200, 700)
+    SH = 100 + -(-len(PROJECTS) // 2) * 120  # one more row per two traces
+    c = Canvas(F, t, 1200, SH)
     c.defs.append(glow)
-    c.add(f'<rect width="1200" height="700" rx="18" fill="{t["bg"]}"/>')
-    c.text(40, 54, "SAVED TRACES  ·  10 CAPTURES", 18, t["ink"], MONO, 700, extra='filter="url(#ph)"')
+    c.add(f'<rect width="1200" height="{SH}" rx="18" fill="{t["bg"]}"/>')
+    c.text(40, 54, f"SAVED TRACES  ·  {len(PROJECTS)} CAPTURES", 18, t["ink"], MONO, 700, extra='filter="url(#ph)"')
     for i, (slug, name, status, url, hook, impact, stack) in enumerate(PROJECTS):
-        x, y = 40 + (i % 2) * 560, 84 + (i // 2) * 120
+        x, y = 40 + (i % 2) * 560 + (280 if i == len(PROJECTS) - 1 and i % 2 == 0 else 0), 84 + (i // 2) * 120  # an odd last trace sits centred
         c.add(f'<rect x="{x}" y="{y}" width="540" height="104" rx="8" fill="{t["screen"]}" stroke="{t["faint"]}" stroke-width="1.5"/>')
         f = (lambda u, i=i: math.sin(2 * math.pi * (u * (2 + i % 4)) + i) * (.4 + .6 * abs(math.sin(math.pi * u * (1 + i % 3)))))
         c.add(f'<path class="trace" style="animation-delay:{i * .3:.1f}s" d="{path(f, x + 300, 220, y + 56, 34, 120)}" fill="none" stroke="{t["ink"]}" stroke-width="2" filter="url(#ph)"/>')
