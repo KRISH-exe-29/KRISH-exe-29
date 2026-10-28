@@ -12,6 +12,8 @@ THEMES = {"light": dict(bg="#F7F3EC", ink="#141210", soft="#8A8175", gold="#B08D
           "dark": dict(bg="#0E0D0C", ink="#F2ECE2", soft="#8F8679", gold="#C9A66B", line="#2E2A25")}
 photo = photo_grid(F, 60, sys.argv[1] if len(sys.argv) > 1 else None)
 
+COUNT = {10: "Ten", 11: "Eleven", 12: "Twelve"}.get(len(PROJECTS), str(len(PROJECTS)))
+
 for th, t in THEMES.items():
     # maison hero
     c = Canvas(F, t, 1200, 720)
@@ -69,10 +71,11 @@ for th, t in THEMES.items():
     c.save(f"movement-{th}.svg", "The movement: calibre electrical and electronics; complications power, code, IoT; 9 apps in production; accuracy 30 minutes to 30 seconds; patent filed.")
 
     # the collection
-    c = Canvas(F, t, 1200, 760)
-    c.add(f'<rect width="1200" height="760" fill="{t["bg"]}"/>')
+    LH = 180 + -(-len(PROJECTS) // 2) * 116  # one more line per two pieces
+    c = Canvas(F, t, 1200, LH)
+    c.add(f'<rect width="1200" height="{LH}" fill="{t["bg"]}"/>')
     c.text(600, 80, "The Collection", 44, t["ink"], DIDOT, 400, "middle", 'font-style="italic"')
-    c.text(600, 112, "TEN PIECES · EACH MADE TO MEASURE", 11, t["soft"], THIN, 400, "middle", 'letter-spacing="5"')
+    c.text(600, 112, f"{COUNT.upper()} PIECES · EACH MADE TO MEASURE", 11, t["soft"], THIN, 400, "middle", 'letter-spacing="5"')
     for i, (slug, name, status, url, hook, impact, stack) in enumerate(PROJECTS):
         col, row = i % 2, i // 2
         x, y = 80 + col * 540, 160 + row * 116
