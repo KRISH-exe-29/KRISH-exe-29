@@ -16,6 +16,8 @@ def strip(content_fn, speed, cls):
     return f'<g class="{cls}" style="animation-duration:{speed}s">{content_fn(0)}{content_fn(W)}</g>'
 
 
+COUNT = {10: "Ten", 11: "Eleven", 12: "Twelve"}.get(len(PROJECTS), str(len(PROJECTS)))
+
 for th, t in THEMES.items():
     rnd = random.Random(7)
     c = Canvas(F, t, W, 600)
@@ -67,15 +69,16 @@ for th, t in THEMES.items():
     c.save(f"landscape-{th}.svg", f"Parallax landscape for {NAME}: clouds, mountains, power pylons, a city skyline and dispatch trucks each moving at a different speed.")
 
     # depth cards
-    c = Canvas(F, t, W, 720)
+    DH = 120 + -(-len(PROJECTS) // 5) * 300  # one more row per five cards
+    c = Canvas(F, t, W, DH)
     c.defs.append(f'<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{t["sky1"]}"/><stop offset="1" stop-color="{t["sky2"]}"/></linearGradient>'
                   + "".join(f'<filter id="d{k}"><feGaussianBlur stdDeviation="{k * .5}"/></filter>' for k in range(3)))
-    c.add(f'<rect width="{W}" height="720" fill="url(#sky)"/>')
-    c.text(W / 2, 64, "Ten projects at three depths", 32, t["ink"], SANS, 800, "middle")
+    c.add(f'<rect width="{W}" height="{DH}" fill="url(#sky)"/>')
+    c.text(W / 2, 64, f"{COUNT} projects at three depths", 32, t["ink"], SANS, 800, "middle")
     for i, (slug, name, status, url, hook, impact, stack) in enumerate(PROJECTS):
-        depth = [2, 0, 1, 0, 2, 1, 0, 2, 1, 0][i]
+        depth = [2, 0, 1, 0, 2, 1, 0, 2, 1, 0, 1, 2][i]
         sc = [1, .86, .72][depth]
-        x, y = 40 + (i % 5) * 228, 110 + (i // 5) * 300 + depth * 24
+        x, y = 40 + (i % 5) * 228 + (5 - min(5, len(PROJECTS) - i // 5 * 5)) * 114, 110 + (i // 5) * 300 + depth * 24
         w, h = 210 * sc, 250 * sc
         x += (210 - w) / 2
         c.add(f'<g class="fl" style="animation-duration:{4 + depth * 2}s;animation-delay:-{i * .7:.1f}s" opacity="{[1, .85, .7][depth]}" filter="url(#d{depth})">'
@@ -92,7 +95,7 @@ for th, t in THEMES.items():
             c.text(x + w / 2, y + h * .6 + j * 20 * sc, l, 14 * sc, t["ink"], SANS, anchor="middle", extra='opacity=".8"')
         c.add("</g>")
     c.css.append(".fl{animation:fl ease-in-out infinite}@keyframes fl{50%{transform:translateY(-14px)}}")
-    c.save(f"depth-{th}.svg", "Ten projects floating at three depths: " + "; ".join(f"{p[1]}, {p[4]}" for p in PROJECTS))
+    c.save(f"depth-{th}.svg", f"{COUNT} projects floating at three depths: " + "; ".join(f"{p[1]}, {p[4]}" for p in PROJECTS))
 
 links = " · ".join(f"[{short(p[1])}]({p[3]})" for p in PROJECTS if p[3])
 write_readme(f"""
