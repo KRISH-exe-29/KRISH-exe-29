@@ -85,7 +85,7 @@ for th, t in THEMES.items():
     c.text(60, 76, "latent space · t-SNE of the work (hand-placed, vibes-accurate)", 14, t["soft"], MONO)
     clusters = {"factory ops": (230, 230, t["a"]), "people & HR": (500, 200, t["c"]), "hardware & IoT": (230, 450, t["d"]), "testing & data": (480, 440, t["b"])}
     member = {"dispatch": "factory ops", "rtcc": "factory ops", "kiosk-sentinel": "people & HR", "job-lens": "people & HR", "street-light": "hardware & IoT",
-              "flood": "hardware & IoT", "hardware": "hardware & IoT", "test-planner": "testing & data", "industrial-data": "testing & data", "hwe-tool": "factory ops"}
+              "flood": "hardware & IoT", "hardware": "hardware & IoT", "test-planner": "testing & data", "industrial-data": "testing & data", "hwe-tool": "factory ops", "capextrace": "factory ops"}
     for name, (cx, cy, col) in clusters.items():
         c.add(f'<circle cx="{cx}" cy="{cy}" r="96" fill="{col}" opacity=".08"/>')
         c.text(cx, cy - 104, name, 13, col, MONO, 700, "middle")
