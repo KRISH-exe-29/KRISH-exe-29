@@ -33,6 +33,8 @@ PROJECTS = [
      "A full exam simulator in one HTML file.", "Timed mocks · 990 checks · offline", "HTML · CSS · JavaScript"),
     ("shop-floor", "🏭", "Shop Floor Job Status", "IN DESIGN", None,
      "Live job status for every bay.", "Cycle-time norms · worker efficiency", "Requirements · flowcharts"),
+    ("capextrace", "💰", "CapexTrace", "IN BUILD", None,
+     "Every capex rupee, traced box by box.", "WBS mind map · budget ceilings", "TypeScript · React 19 · React Flow"),
 ]
 
 MILESTONES = [  # year, title, detail

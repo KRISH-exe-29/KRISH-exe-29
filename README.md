@@ -27,6 +27,7 @@
   <a href="https://github.com/KRISH-exe-29/indotech-transformers"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/glass/card-industrial-data-dark.svg"/><img src="./assets/glass/card-industrial-data-light.svg" width="24.5%" alt="Industrial Data System: QR-tagged test data with a 3D model."/></picture></a>
   <a href="https://krishna-ittl.github.io/dmat-practice/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/glass/card-dmat-dark.svg"/><img src="./assets/glass/card-dmat-light.svg" width="24.5%" alt="dMAT Practice: A full exam simulator in one HTML file."/></picture></a>
   <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/glass/card-shop-floor-dark.svg"/><img src="./assets/glass/card-shop-floor-light.svg" width="24.5%" alt="Shop Floor Job Status: Live job status for every bay."/></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/glass/card-capextrace-dark.svg"/><img src="./assets/glass/card-capextrace-light.svg" width="24.5%" alt="CapexTrace: Every capex rupee, traced box by box."/></picture>
 </p>
 
 <h3 align="center">The highlight reel.</h3>
