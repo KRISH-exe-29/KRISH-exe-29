@@ -51,16 +51,17 @@ for th, t in THEMES.items():
     c.save(f"marquee-{th}.svg", f"The {NAME} Electric Company. Engineering, software, automation. Established 2004, Chennai.")
 
     # exhibits: projects in stepped frames
-    c = Canvas(F, t, 1200, 780)
+    EH = 140 + -(-len(PROJECTS) // 5) * 320  # one more row of frames per five exhibits
+    c = Canvas(F, t, 1200, EH)
     golds(c, t)
-    c.add(f'<rect width="1200" height="780" fill="{t["bg"]}"/>')
+    c.add(f'<rect width="1200" height="{EH}" fill="{t["bg"]}"/>')
     c.text(600, 70, "THE EXHIBITS", 34, "url(#gold)", DECO, 700, "middle", 'letter-spacing="12"')
     c.add(f'<path d="M420 92 H780" stroke="url(#gold)" stroke-width="2"/>')
     for i, (slug, name, status, url, hook, impact, stack) in enumerate(PROJECTS):
-        x, y = 50 + (i % 5) * 222, 120 + (i // 5) * 320
+        x, y = 50 + (i % 5) * 222 + (5 - min(5, len(PROJECTS) - i // 5 * 5)) * 111, 120 + (i // 5) * 320  # a short last row sits centred
         c.add(f'<path d="{stepped(x, y, 206, 300, 10)}" fill="{t["panel"]}" stroke="url(#gold)" stroke-width="2"/>')
         c.add(f'<g opacity=".9">{fan(x + 103, y + 110, 70, 12)}</g><circle cx="{x + 103}" cy="{y + 110}" r="22" fill="url(#gold)"/>')
-        c.text(x + 103, y + 116, ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"][i], 15, t["bg"], DECO, 700, "middle")
+        c.text(x + 103, y + 116, ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"][i], 15, t["bg"], DECO, 700, "middle")
         nm = short(name).upper()
         c.text(x + 103, y + 166, nm, 15 if len(nm) < 15 else 12, t["ink"], CAPS, 700, "middle", 'letter-spacing="2"')
         c.add(f'<path d="M{x + 60} {y + 180} H{x + 146}" stroke="url(#gold)"/>')
