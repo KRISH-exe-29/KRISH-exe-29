@@ -23,6 +23,7 @@
   <a href="https://github.com/KRISH-exe-29/indotech-transformers"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/brutal/card-industrial-data-dark.svg"/><img src="./assets/brutal/card-industrial-data-light.svg" width="49.5%" alt="Industrial Data System: QR-tagged test data with a 3D model."/></picture></a>
   <a href="https://krishna-ittl.github.io/dmat-practice/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/brutal/card-dmat-dark.svg"/><img src="./assets/brutal/card-dmat-light.svg" width="49.5%" alt="dMAT Practice: A full exam simulator in one HTML file."/></picture></a>
   <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/brutal/card-shop-floor-dark.svg"/><img src="./assets/brutal/card-shop-floor-light.svg" width="49.5%" alt="Shop Floor Job Status: Live job status for every bay."/></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/brutal/card-capextrace-dark.svg"/><img src="./assets/brutal/card-capextrace-light.svg" width="49.5%" alt="CapexTrace: Every capex rupee, traced box by box."/></picture>
 </p>
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/brutal/flex-dark.svg"/><img src="./assets/brutal/flex-light.svg" width="100%" alt="Hall of flex: 2024 National finalist, Technical symposium; 2025 Patent holder, Street-light fault detection; 2025 Rank #7 of 1500+, IIT Bombay NEC; 2025 Runner-up, Fish Tank, IIT B E-Summit; 2026 9 apps shipped, Indo Tech Transformers"/></picture></p>
