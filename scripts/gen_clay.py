@@ -143,7 +143,8 @@ for slug, icon, name, color, status, desc, stack in cards:
 minis = [("epms", "📅", "EPMS", "Gantt-powered project HQ", LILAC),
          ("industrial-data", "📡", "Industrial Data", "QR capture + a 3D model", SKY),
          ("dmat", "🧠", "dMAT Practice", "A whole exam in 1 HTML file", MINT),
-         ("shop-floor", "🏭", "Shop Floor Status", "In design: live bay status", BUTTER)]
+         ("shop-floor", "🏭", "Shop Floor Status", "In design: live bay status", BUTTER),
+         ("capextrace", "💰", "CapexTrace", "In build: budgets as a tree", PEACH)]
 for slug, icon, name, line, color in minis:
     write(f"mini-{slug}.svg", 300, 190, f"""{blob(18, 18, 264, 154, color, 28)}
 {text(46, 76, icon, 30)}{text(46, 116, name, 24, INK, 800)}{text(46, 146, line, 17, SOFT, 600)}""", f"{name}: {line}")

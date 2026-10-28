@@ -29,6 +29,7 @@
   <a href="https://github.com/KRISH-exe-29/indotech-transformers"><img src="./assets/clay/mini-industrial-data.svg" width="24.5%" alt="Industrial Data: QR capture and a 3D model"/></a>
   <a href="https://krishna-ittl.github.io/dmat-practice/"><img src="./assets/clay/mini-dmat.svg" width="24.5%" alt="dMAT Practice: a whole exam in one HTML file"/></a>
   <img src="./assets/clay/mini-shop-floor.svg" width="24.5%" alt="Shop Floor Status: in design"/>
+  <img src="./assets/clay/mini-capextrace.svg" width="24.5%" alt="CapexTrace: in build, budgets as a tree"/>
 </p>
 
 <p align="center">
