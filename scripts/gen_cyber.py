@@ -81,11 +81,11 @@ for th, t in THEMES.items():
     for j, (col, row) in enumerate(path):
         x, y = 84 + col * 72, 150 + row * 72
         c.add(f'<rect class="hit" style="animation-delay:{j * .5:.1f}s" x="{x - 28}" y="{y - 32}" width="56" height="44" fill="none" stroke="{t["y"]}" stroke-width="3"/>')
-    c.text(54, 620, "▶ DAEMONS UPLOADED: 10/10", 18, t["c"], COND, 700, extra='letter-spacing="2"')
+    c.text(54, 620, f"▶ DAEMONS UPLOADED: {len(PROJECTS)}/{len(PROJECTS)}", 18, t["c"], COND, 700, extra='letter-spacing="2"')
     c.add(f'<path d="{chamfer(580, 30, 590, 620, 24)}" fill="{t["panel"]}" stroke="{t["y"]}" stroke-width="2"/>')
     c.text(604, 74, "QUICKHACKS // SHIPPED", 28, t["y"], COND, 700, extra='letter-spacing="3"')
     for i, (slug, name, status, url, hook, impact, stack) in enumerate(PROJECTS):
-        y = 120 + i * 52
+        y = 120 + i * min(52, 470 / (len(PROJECTS) - 1))  # rows tighten so the list stays inside the panel
         c.add(f'<rect x="604" y="{y - 22}" width="542" height="44" fill="{t["bg"]}" opacity=".6"/><rect x="604" y="{y - 22}" width="4" height="44" fill="{t["r"] if status in ("PRODUCTION", "LIVE") else t["c"]}"/>')
         c.text(620, y - 2, short(name).upper(), 18, t["ink"], COND, 700, extra='letter-spacing="1"')
         c.text(620, y + 16, impact, 12, t["soft"], MONO)
