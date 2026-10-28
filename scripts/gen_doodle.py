@@ -102,14 +102,15 @@ for th, t in THEMES.items():
     c.save(f"notebook-{th}.svg", f"Notebook page: {NAME}, electrical engineer who codes too. Test it, automate it, ship it. 9 apps in production; 30 minutes became 30 seconds; 128 tests; patent filed; NEC rank 7.")
 
     # sticky notes of projects
-    c = Canvas(F, t, 1200, 720)
-    page(c, t, 1200, 720)
+    NH = 140 + -(-len(PROJECTS) // 5) * 290  # one more row of notes per five projects
+    c = Canvas(F, t, 1200, NH)
+    page(c, t, 1200, NH)
     c.add(f"<g{flt}>")
     c.text(130, 80, "things I built (& still maintain):", 36, ink, HAND, 700)
     c.add(stroke(pen.line(130, 96, 700, 92), t["red"], 3))
     rnd = random.Random(4)
     for i, (slug, name, status, url, hook, impact, stack) in enumerate(PROJECTS):
-        x, y = 120 + (i % 5) * 210, 130 + (i // 5) * 290
+        x, y = 120 + (i % 5) * 210 + (5 - min(5, len(PROJECTS) - i // 5 * 5)) * 105, 130 + (i // 5) * 290  # a short last row sits centred
         rot = rnd.uniform(-5, 5)
         c.add(f'<g transform="rotate({rot:.1f} {x + 90} {y + 120})"><rect x="{x}" y="{y}" width="185" height="240" fill="{t["note"][i % 4]}" '
               f'{"" if t["chalk"] else "style=" + chr(34) + "filter:drop-shadow(2px 4px 3px rgba(0,0,0,.18))" + chr(34)}/>')
@@ -121,7 +122,7 @@ for th, t in THEMES.items():
             c.text(x + 14, y + 82 + j * 24, l, 16, ink, HAND)
         c.text(x + 14, y + 216, ("✓ " if status in ("PRODUCTION", "LIVE", "IN USE") else "~ ") + status.lower(), 16, t["red"], HAND, 700)
         c.add("</g>")
-    c.text(130, 700, f"p.s. email me → {EMAIL}", 24, t["red"], HAND, 700)
+    c.text(130, NH - 20, f"p.s. email me → {EMAIL}", 24, t["red"], HAND, 700)
     c.add("</g>")
     c.save(f"notes-{th}.svg", "Sticky notes of things I built: " + "; ".join(f"{p[1]}, {p[4]}" for p in PROJECTS))
 
