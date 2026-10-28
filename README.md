@@ -35,6 +35,7 @@ I test 161 kV transformers by day and write the plant's software by night.
 - ⚡ **Associate Engineer at Indo Tech Transformers**: started in IEC 60076 testing (SFRA, PD, OLTC), now digitalising the plant.
 - 🚚 **[Dispatch Management](https://github.com/KRISH-exe-29/Dispatch-ITTL)**: work order → packing → loading → gate pass. 5 roles, 128 tests.
 - 🔎 **[Job Lens](https://krishna-ittl.github.io/Candidate-Screener/)**: 100 resumes in, a ranked shortlist out. Offline AI, in the browser.
+- 🧮 **CapexTrace** (in build): capex budgets as a tree, so no line can outspend the one above it.
 - 🏆 **Rank #7 of 1500+** at the National Entrepreneurship Challenge, IIT Bombay. One patent filed on self-diagnosing street lighting.
 - 🛠️ At Bühler I turned 30 minutes of panel paperwork into 30 seconds with a Python tool. That's the whole idea, really.
 - 💬 Talk to me about **power systems, shop-floor software, or AI that runs offline**.
