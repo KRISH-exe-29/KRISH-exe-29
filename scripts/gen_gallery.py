@@ -30,7 +30,8 @@ def composition(x, y, w, h, key, big=False):
         L = r.uniform(.2, .6) * w
         out.append(f'<line x1="{x1:.0f}" y1="{y1:.0f}" x2="{x1 + L * math.cos(a):.0f}" y2="{y1 + L * math.sin(a):.0f}" stroke="#111" stroke-width="{r.uniform(1, 4):.1f}"/>')
     out.append(f'<rect x="{x + r.uniform(.1, .7) * w:.0f}" y="{y + r.uniform(.1, .7) * h:.0f}" width="{.18 * w:.0f}" height="{.08 * h:.0f}" fill="{r.choice(PAL)}"/>')
-    return f'<clipPath id="cp{key[:6]}{w}"><rect x="{x}" y="{y}" width="{w}" height="{h}"/></clipPath><g clip-path="url(#cp{key[:6]}{w})">{"".join(out)}</g>'
+    cid = "cp" + "".join(ch for ch in key[:6] if ch.isalnum()) + str(w)  # ids must be XML-safe ("RTCC &" broke the file)
+    return f'<clipPath id="{cid}"><rect x="{x}" y="{y}" width="{w}" height="{h}"/></clipPath><g clip-path="url(#{cid})">{"".join(out)}</g>'
 
 
 def framed(c, t, x, y, w, h, key, big=False):
@@ -67,17 +68,19 @@ for th, t in THEMES.items():
     c.save(f"hall-{th}.svg", f"Museum hall: {NAME}, selected works 2023 to 2026. Featured: Composition No. 9 (Nine Apps), 2026, on permanent loan to Indo Tech Transformers.")
 
     # salon hang of the ten works
-    c = Canvas(F, t, 1200, 860)
+    GH = 140 + -(-len(PROJECTS) // 5) * 360  # one more row of the hang per five works
+    c = Canvas(F, t, 1200, GH)
     c.defs.append(spot)
-    c.add(f'<rect width="1200" height="860" fill="{t["wall"]}"/><rect y="800" width="1200" height="60" fill="{t["floor"]}"/>')
+    c.add(f'<rect width="1200" height="{GH}" fill="{t["wall"]}"/><rect y="{GH - 60}" width="1200" height="60" fill="{t["floor"]}"/>')
     c.text(600, 60, "GALLERY 2 · THE PERMANENT COLLECTION", 18, t["ink"], MUSEUM, 700, "middle", 'letter-spacing="5"')
-    sizes = [(200, 240), (240, 180), (180, 180), (220, 260), (200, 200), (240, 200), (180, 240), (220, 180), (200, 220), (220, 200)]
+    sizes = [(200, 240), (240, 180), (180, 180), (220, 260), (200, 200), (240, 200), (180, 240), (220, 180), (200, 220), (220, 200), (240, 220)]
     for i, (slug, name, status, url, hook, impact, stack) in enumerate(PROJECTS):
         w, h = sizes[i]
-        x = 60 + (i % 5) * 224 + (204 - w) / 2 + 10
+        ox = (5 - min(5, len(PROJECTS) - i // 5 * 5)) * 112  # a short last row hangs centred
+        x = ox + 60 + (i % 5) * 224 + (204 - w) / 2 + 10
         y = 110 + (i // 5) * 360 + (260 - h) / 2
         framed(c, t, x, y, w * .85, h * .85, name)
-        px, py = 60 + (i % 5) * 224 + 10, 110 + (i // 5) * 360 + 270
+        px, py = ox + 60 + (i % 5) * 224 + 10, 110 + (i // 5) * 360 + 270
         c.add(f'<rect x="{px}" y="{py}" width="200" height="66" fill="{t["mat"]}"/>')
         c.text(px + 10, py + 22, short(name), 14, "#1E1E1E", SERIF, 700, extra='font-style="italic"')
         c.text(px + 10, py + 40, f"{stack.split(' · ')[0]} · {status.lower()}", 11, "#55524C", MUSEUM)
