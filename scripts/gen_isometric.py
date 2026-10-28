@@ -38,14 +38,15 @@ def building(x, y, w, d, h, col, t, lit):
 
 
 LOTS = [(-8, -1, 2, 2, 2), (-4.5, -1, 2, 2, 3), (-1, -1, 2, 2, 2), (2.5, -1, 2, 2, 4), (6, -1, 2, 2, 2),
-        (-8, 4.4, 2, 2, 3), (-4.5, 4.4, 2, 2, 2), (-1, 4.4, 2, 2, 2), (2.5, 4.4, 2, 2, 3), (6, 4.4, 2, 2, 2)]
+        (-8, 4.4, 2, 2, 3), (-4.5, 4.4, 2, 2, 2), (-1, 4.4, 2, 2, 2), (2.5, 4.4, 2, 2, 3), (6, 4.4, 2, 2, 2),
+        (9.5, -1, 2, 2, 2)]
 
 for th, t in THEMES.items():
     c = Canvas(F, t, 1200, 760)
     c.add(f'<rect width="1200" height="760" fill="{t["bg"]}"/>')
-    c.add(f'<polygon points="{pts(iso(-9, -3), iso(10, -3), iso(10, 8), iso(-9, 8))}" fill="{t["ground"]}"/>')
-    c.add(f'<polygon points="{pts(iso(-9, 1.6), iso(10, 1.6), iso(10, 3.2), iso(-9, 3.2))}" fill="{t["road"]}"/>')
-    c.add("".join(f'<polygon points="{pts(iso(x, 2.35), iso(x + .6, 2.35), iso(x + .6, 2.45), iso(x, 2.45))}" fill="#FFFFFF" opacity=".7"/>' for x in range(-9, 10)))
+    c.add(f'<polygon points="{pts(iso(-9, -3), iso(13, -3), iso(13, 8), iso(-9, 8))}" fill="{t["ground"]}"/>')
+    c.add(f'<polygon points="{pts(iso(-9, 1.6), iso(13, 1.6), iso(13, 3.2), iso(-9, 3.2))}" fill="{t["road"]}"/>')
+    c.add("".join(f'<polygon points="{pts(iso(x, 2.35), iso(x + .6, 2.35), iso(x + .6, 2.45), iso(x, 2.45))}" fill="#FFFFFF" opacity=".7"/>' for x in range(-9, 13)))
     order = sorted(range(len(PROJECTS)), key=lambda i: LOTS[i][0] + LOTS[i][1])
     labels = []
     for i in order:
@@ -66,7 +67,7 @@ for th, t in THEMES.items():
     c.add("".join(f'<circle class="smoke" style="animation-delay:{k * .8}s" cx="{bx:.0f}" cy="{by - 10:.0f}" r="{10 + k * 3}" fill="{t["soft"]}" opacity=".35"/>' for k in range(3)))
     for k in range(2):
         tx, ty = iso(-9, 2.0 + k * .8)
-        dx, dy = iso(10, 2.0 + k * .8)
+        dx, dy = iso(13, 2.0 + k * .8)
         c.add(f'<g class="drive" style="animation-delay:-{k * 4}s;--dx:{dx - tx:.0f}px;--dy:{dy - ty:.0f}px">'
               f'<polygon points="{pts((tx, ty), (tx + 30, ty + 17), (tx + 30, ty + 3), (tx, ty - 14))}" fill="#E85D04"/>'
               f'<polygon points="{pts((tx + 30, ty + 17), (tx + 42, ty + 10), (tx + 42, ty - 4), (tx + 30, ty + 3))}" fill="#F48C06"/></g>')
