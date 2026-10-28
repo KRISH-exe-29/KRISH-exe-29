@@ -209,7 +209,7 @@ for theme, t in THEMES.items():
     # ── project clippings ──
     for i, (slug, name, status, url, hook, impact, stack) in enumerate(PROJECTS):
         p = Page(t, 600, 330)
-        rot = [-1.4, 1.1, -.8, 1.5, -1.2, .9, -1.6, 1.2, -.7, 1.3][i]
+        rot = [-1.4, 1.1, -.8, 1.5, -1.2, .9, -1.6, 1.2, -.7, 1.3, -1.0, 1.4][i]
         teeth = "".join(f"L{x},{(14 if (x // 12) % 2 else 20)}" for x in range(24, 577, 12))
         bteeth = "".join(f"L{x},{(312 if (x // 12) % 2 else 306)}" for x in range(576, 23, -12))
         clip_fill = "#FBF8F1" if theme == "light" else "#221F19"
