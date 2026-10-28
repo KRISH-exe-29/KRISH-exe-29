@@ -25,6 +25,8 @@ def texture(c, t, w, h):
     c.add(f'<rect width="{w}" height="{h}" fill="{t["paper"]}"/><rect width="{w}" height="{h}" fill="#000" filter="url(#age)"/>')
 
 
+COUNT = {10: "Ten", 11: "Eleven", 12: "Twelve"}.get(len(PROJECTS), str(len(PROJECTS)))
+
 for th, t in THEMES.items():
     c = Canvas(F, t, 1200, 900)
     texture(c, t, 1200, 900)
@@ -62,12 +64,13 @@ for th, t in THEMES.items():
     c.save(f"ad-{th}.svg", f"Vintage ad: Amazing! The KRISHNA Automatic Paperwork Eliminator. 98% less waiting. Nine models in production, 128 tests, patent filed, ranked 7 of 1500+. Ask your plant manager today!")
 
     # catalogue
-    c = Canvas(F, t, 1200, 760)
-    texture(c, t, 1200, 760)
+    CH = 160 + -(-len(PROJECTS) // 5) * 300  # one more row of products per five
+    c = Canvas(F, t, 1200, CH)
+    texture(c, t, 1200, CH)
     c.text(600, 80, "The 2026 Catalogue", 44, t["ink"], SCRIPT, 400, "middle")
-    c.text(600, 112, "TEN FINE PRODUCTS · EACH ONE GUARANTEED TO SAVE YOU TIME", 14, t["soft"], SLAB, 700, "middle", 'letter-spacing="2"')
+    c.text(600, 112, f"{COUNT.upper()} FINE PRODUCTS · EACH ONE GUARANTEED TO SAVE YOU TIME", 14, t["soft"], SLAB, 700, "middle", 'letter-spacing="2"')
     for i, (slug, name, status, url, hook, impact, stack) in enumerate(PROJECTS):
-        x, y = 50 + (i % 5) * 222, 140 + (i // 5) * 300
+        x, y = 50 + (i % 5) * 222 + (5 - min(5, len(PROJECTS) - i // 5 * 5)) * 111, 140 + (i // 5) * 300  # a short last row sits centred
         c.add(f'<rect x="{x}" y="{y}" width="208" height="280" fill="none" stroke="{t["ink"]}" stroke-width="2"/><rect x="{x + 6}" y="{y + 6}" width="196" height="268" fill="none" stroke="{t["ink"]}" stroke-width=".8"/>')
         c.add(f'<circle cx="{x + 104}" cy="{y + 70}" r="44" fill="{[t["teal"], t["red"], t["mustard"]][i % 3]}" opacity=".9"/>' + icon(slug, x + 74, y + 40, 60, t["paper"], t["ink"], t["ink"]))
         c.text(x + 104, y + 146, f"No. {i + 1}", 13, t["soft"], SLAB, 700, "middle")
@@ -78,7 +81,7 @@ for th, t in THEMES.items():
         for j, l in enumerate(wrap(hook, 13, 186, .5)[:3]):
             c.text(x + 104, hy + j * 17, l, 13, t["ink"], SERIF, anchor="middle", extra='font-style="italic"')
         c.text(x + 104, y + 264, "₹0 · satisfaction guaranteed" if url else "by appointment only", 11, t["red"], SLAB, 700, "middle")
-    c.save(f"catalogue-{th}.svg", "Catalogue of ten products: " + "; ".join(f"No. {i + 1} {p[1]}, {p[4]}" for i, p in enumerate(PROJECTS)))
+    c.save(f"catalogue-{th}.svg", f"Catalogue of {COUNT.lower()} products: " + "; ".join(f"No. {i + 1} {p[1]}, {p[4]}" for i, p in enumerate(PROJECTS)))
 
     # coupon
     c = Canvas(F, t, 1200, 320)
