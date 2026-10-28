@@ -14,6 +14,7 @@ $ git branch --list 'feature/*'
   * feature/industrial-data    QR-tagged test data + a 3D transformer.
     feature/hwe-tool           Feeder classes, loads and I/O in one click.
     feature/flood              Rising water, instant alerts.
+    feature/capextrace         Every capex rupee, traced box by box.
 ```
 
 ```console
