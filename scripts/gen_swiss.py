@@ -41,10 +41,11 @@ for th, t in THEMES.items():
     c.save(f"poster-{th}.svg", f"{NAME}. Discipline: electrical and electronics engineering. Practice: software for the factory floor. Output: 9 apps, 128 tests, 1 patent filed.")
 
     # index of works: typographic table
-    c = Canvas(F, t, 1200, 760)
-    grid(c, t, 760)
+    IH = 180 + len(PROJECTS) * 58  # one more line per work
+    c = Canvas(F, t, 1200, IH)
+    grid(c, t, IH)
     c.text(COL * .5, 90, "Index of works", 64, t["ink"], HEL, 700, extra='letter-spacing="-3"')
-    c.text(COL * 11.5, 90, "10", 64, t["red"], HEL, 700, "end")
+    c.text(COL * 11.5, 90, str(len(PROJECTS)), 64, t["red"], HEL, 700, "end")
     for i, (slug, name, status, url, hook, impact, stack) in enumerate(PROJECTS):
         y = 160 + i * 58
         c.add(f'<line x1="{COL * .5}" x2="{COL * 11.5}" y1="{y - 34}" y2="{y - 34}" stroke="{t["ink"]}" stroke-width="{2 if i == 0 else 1}"/>')
