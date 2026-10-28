@@ -13,7 +13,7 @@ THEMES = {  # Material 3 tonal palette from seed #6750A4
     "dark": dict(surf="#141218", cont="#211F26", high="#2B2930", pri="#D0BCFF", onpri="#381E72", pcont="#4F378B", onpc="#EADDFF",
                  sec="#4A4458", tert="#EFB8C8", tcont="#633B48", ink="#E6E0E9", soft="#CAC4D0", line="#49454F", shadow=".5"),
 }
-STATUS_COL = {"PRODUCTION": "pcont", "LIVE": "pcont", "IN USE": "sec", "SHIPPED": "sec", "NEW": "tcont", "PATENT FILED": "tcont", "BUILT": "high"}
+STATUS_COL = {"PRODUCTION": "pcont", "LIVE": "pcont", "IN USE": "sec", "SHIPPED": "sec", "NEW": "tcont", "PATENT FILED": "tcont", "BUILT": "high", "IN BUILD": "tcont"}
 
 
 def elev(c, t, level=1):
@@ -65,12 +65,13 @@ for th, t in THEMES.items():
     c.save(f"hero-{th}.svg", f"{NAME}: electrical engineer who builds the software factories run on. Nine apps in production, one patent filed.")
 
     # projects as a Material list
-    c = Canvas(F, t, 1200, 860)
+    H = 130 + len(PROJECTS) * 73  # grows with the list
+    c = Canvas(F, t, 1200, H)
     elev(c, t, 1)
-    c.add(f'<rect width="1200" height="860" fill="{t["surf"]}"/>')
+    c.add(f'<rect width="1200" height="{H}" fill="{t["surf"]}"/>')
     c.text(48, 64, "Projects", 32, t["ink"], ROBOTO, 400)
-    c.text(1152, 64, "10 items", 14, t["soft"], ROBOTO, anchor="end")
-    c.add(f'<rect x="32" y="88" width="1136" height="752" rx="24" fill="{t["cont"]}" filter="url(#e1)"/>')
+    c.text(1152, 64, f"{len(PROJECTS)} items", 14, t["soft"], ROBOTO, anchor="end")
+    c.add(f'<rect x="32" y="88" width="1136" height="{H - 108}" rx="24" fill="{t["cont"]}" filter="url(#e1)"/>')
     for i, (slug, name, status, url, hook, impact, stack) in enumerate(PROJECTS):
         y = 104 + i * 73
         if i:
