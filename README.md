@@ -29,12 +29,14 @@ Less talk. More deploys. Most of these run on a real factory floor, every shift.
 | [**Industrial Data System**](https://github.com/KRISH-exe-29/indotech-transformers) | QR-tagged test data with a 3D model. | `built` |
 | [**dMAT Practice**](https://krishna-ittl.github.io/dmat-practice/) | A full exam simulator in one HTML file. | `live app` |
 | **Shop Floor Job Status** | Live job status for every bay. | `in design` |
+| **CapexTrace** | Every capex rupee, traced box by box. | `in build` |
 
 ### lately
 
 - **mapping the shop floor**: live job status for every bay, from cycle-time norms and worker efficiency
 - **directing an AI film**: an 11-scene workplace-safety video, cast from our own team
 - **hardening KioskSentinel**: attendance kiosks that keep counting through power cuts
+- **building CapexTrace**: capex budgets as a tree, so no line can outspend the one above it
 
 ### lab
 
