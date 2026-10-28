@@ -37,6 +37,8 @@ def orb(c, x, y, r, delay):
           f'<ellipse cx="{x - r * .3:.0f}" cy="{y - r * .4:.0f}" rx="{r * .35:.0f}" ry="{r * .18:.0f}" fill="#FFFFFF" opacity=".8"/></g>')
 
 
+COUNT = {10: "Ten", 11: "Eleven", 12: "Twelve"}.get(len(PROJECTS), str(len(PROJECTS)))
+
 for th, t in THEMES.items():
     c = Canvas(F, t, 1200, 640)
     backdrop(c, t, 1200, 640)
@@ -97,11 +99,12 @@ for th, t in THEMES.items():
     c.save(f"cube-{th}.svg", f"A turning glass cube with faces ELECTRICAL, SOFTWARE, AUTOMATION and IoT, beside a frosted panel: {NAME}, four faces, one engineer.")
 
     # projects on glass tiles with tiny 3D blocks
-    c = Canvas(F, t, 1200, 700)
-    backdrop(c, t, 1200, 700)
-    c.text(600, 70, "Ten things, rendered in production", 34, t["ink"], SANS, 800, "middle", 'letter-spacing="-1"')
+    TH = 120 + -(-len(PROJECTS) // 5) * 290  # one more row of tiles per five projects
+    c = Canvas(F, t, 1200, TH)
+    backdrop(c, t, 1200, TH)
+    c.text(600, 70, f"{COUNT} things, rendered in glass", 34, t["ink"], SANS, 800, "middle", 'letter-spacing="-1"')
     for i, (slug, name, status, url, hook, impact, stack) in enumerate(PROJECTS):
-        x, y = 50 + (i % 5) * 224, 110 + (i // 5) * 290
+        x, y = 50 + (i % 5) * 224 + (5 - min(5, len(PROJECTS) - i // 5 * 5)) * 112, 110 + (i // 5) * 290  # a short last row sits centred
         c.add(f'<rect x="{x}" y="{y}" width="204" height="268" rx="24" fill="#FFFFFF" fill-opacity=".14" stroke="#FFFFFF" stroke-opacity=".55"/>')
         bx, by, s = x + 102, y + 80, 26
         hgt = 20 + (len(hook) % 5) * 8
@@ -120,7 +123,7 @@ for th, t in THEMES.items():
         for j, l in enumerate(lines[:2]):
             c.text(x + 102, y + 210 + j * 19, l, 13, t["ink"], SANS, anchor="middle")
     c.css.append(".bob{animation:bob 5s ease-in-out infinite}@keyframes bob{50%{transform:translateY(-8px)}}")
-    c.save(f"tiles-{th}.svg", "Ten projects on glass tiles: " + "; ".join(f"{p[1]}, {p[4]}" for p in PROJECTS))
+    c.save(f"tiles-{th}.svg", f"{COUNT} projects on glass tiles: " + "; ".join(f"{p[1]}, {p[4]}" for p in PROJECTS))
 
 links = " · ".join(f"[{short(p[1])}]({p[3]})" for p in PROJECTS if p[3])
 write_readme(f"""
