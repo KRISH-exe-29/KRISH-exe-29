@@ -86,6 +86,7 @@
 | Industrial Data | 4 role modules · OTP admin |
 | HWE Tool | 30 min → 30 s at Bühler |
 | Flood Alerts | 90% lower outage risk |
+| CapexTrace | WBS mind map · budget ceilings |
 
 </details>
 
