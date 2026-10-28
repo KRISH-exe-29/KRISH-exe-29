@@ -24,6 +24,7 @@
 | 08 | [Industrial Data System](https://github.com/KRISH-exe-29/indotech-transformers) | LIVE | QR-tagged test data + a 3D transformer. | `React · Three.js` |
 | 09 | HWE Automation Tool | SHIPPED | Feeder classes, loads and I/O in one click. | `Python · Streamlit` |
 | 10 | Flood Alerting System | BUILT | Rising water, instant alerts. | `IoT · Embedded C` |
+| 11 | CapexTrace | IN BUILD | Every capex rupee, traced box by box. | `TypeScript · React 19 · React Flow` |
 
 ***
 
