@@ -47,8 +47,9 @@ for th, t in THEMES.items():
     c.save(f"numbers-{th}.svg", "30 minutes of paperwork became 30 seconds. 9 apps in production, 128 tests, rank 7 of 1500+, 1 patent filed.")
 
     # 3. works as a typographic list
-    c = Canvas(F, t, 1200, 860)
-    c.add(f'<rect width="1200" height="860" fill="{t["bg"]}"/>')
+    WH = 140 + len(PROJECTS) * 72  # one more line per work
+    c = Canvas(F, t, 1200, WH)
+    c.add(f'<rect width="1200" height="{WH}" fill="{t["bg"]}"/>')
     c.text(30, 70, "SELECTED WORKS", 16, t["soft"], MONO, extra='letter-spacing="3"')
     for i, (slug, name, status, url, hook, impact, stack) in enumerate(PROJECTS):
         y = 140 + i * 72
@@ -58,7 +59,7 @@ for th, t in THEMES.items():
                extra=f'letter-spacing="-3" {"" if live else f"stroke={chr(34)}{t["ink"]}{chr(34)} stroke-width={chr(34)}1.6{chr(34)}"}')
         c.text(1170, y - 30, f"{i + 1:02d}", 16, t["acc"], MONO, 700, "end")
         c.text(1170, y - 6, hook, 18, t["soft"], SERIF, anchor="end", extra='font-style="italic"')
-    c.text(30, 845, "SOLID = IN PRODUCTION OR LIVE.   OUTLINE = SHIPPED, BUILT OR COMING.", 14, t["soft"], MONO, extra='letter-spacing="2"')
+    c.text(30, WH - 15, "SOLID = IN PRODUCTION OR LIVE.   OUTLINE = SHIPPED, BUILT OR COMING.", 14, t["soft"], MONO, extra='letter-spacing="2"')
     c.save(f"works-{th}.svg", "Selected works: " + "; ".join(f"{p[1]}, {p[4]}" for p in PROJECTS))
 
     # 4. sign-off
