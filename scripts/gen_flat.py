@@ -54,12 +54,13 @@ for th, t in THEMES.items():
     c.save(f"stats-{th}.svg", "9 apps in production; 128 tests on dispatch; 30 seconds that used to be 30 minutes; rank 7 of 1500+ colleges")
 
     # project grid: 10 flat tiles
-    c = Canvas(F, t, 1200, 700)
-    c.add(f'<rect width="1200" height="700" fill="{t["bg"]}"/>')
+    PH = 140 + -(-len(PROJECTS) // 5) * 280  # one more row of tiles per five projects
+    c = Canvas(F, t, 1200, PH)
+    c.add(f'<rect width="1200" height="{PH}" fill="{t["bg"]}"/>')
     c.text(600, 64, "Things I shipped", 40, t["ink"], HEAD, anchor="middle")
     c.text(600, 98, "flat design, zero fluff. like my code reviews.", 18, t["soft"], BODY, anchor="middle")
     for i, (slug, name, status, url, hook, impact, stack) in enumerate(PROJECTS):
-        x, y = 40 + (i % 5) * 228, 130 + (i // 5) * 280
+        x, y = 40 + (i % 5) * 228 + (5 - min(5, len(PROJECTS) - i // 5 * 5)) * 114, 130 + (i // 5) * 280  # a short last row sits centred
         col = t[PAL[i % 4]]
         c.add(f'<rect x="{x}" y="{y}" width="212" height="262" rx="18" fill="{t["card"]}"/><rect x="{x}" y="{y}" width="212" height="110" rx="18" fill="{col}"/>'
               f'<rect x="{x}" y="{y + 80}" width="212" height="30" fill="{col}"/>')
