@@ -20,7 +20,7 @@ THEMES = {
                  face="#FFF1CF", glow=1, wall="#15181C", paper="#E9E2CC"),
 }
 LED = {"PRODUCTION": "#39FF6A", "LIVE": "#39FF6A", "IN USE": "#FFB020", "SHIPPED": "#FFB020", "NEW": "#3FA9FF",
-       "PATENT FILED": "#FF4FD8", "BUILT": "#B8C2CC"}
+       "PATENT FILED": "#FF4FD8", "BUILT": "#B8C2CC", "IN BUILD": "#3FA9FF"}
 REDUCE = "@media (prefers-reduced-motion: reduce){*{animation:none!important}}"
 
 
