@@ -1,92 +1,65 @@
-<!-- Interactive / motion-first: an animated title and a playable choose-your-own-adventure made from nested <details>. Built by scripts/gen_quest.py -->
+<!-- Raw brutalism: default fonts, default blue links, hard rules, no polish. Built by scripts/gen_raw.py -->
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/quest/title-dark.svg"/><img src="./assets/quest/title-light.svg" width="100%" alt="KRISH QUEST"/></picture></p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/raw/banner-dark.svg"/><img src="./assets/raw/banner-light.svg" width="100%" alt="Krishna Raju S: this page has no design system, it has a deadline."/></picture>
 
-> 🏭 **You wake up on a factory floor.** A mountain of spreadsheets blocks the exit. Somewhere, a printer is jammed. It is 4:55 PM.
->
-> **What do you do?** *(click to choose)*
+# KRISHNA RAJU S
 
-<details>
-<summary>⚔️ <b>Path A</b>: find the electrical engineer who "does computers"</summary>
+**ELECTRICAL ENGINEER.** WRITES SOFTWARE. SHIPS IT. GOES HOME.
 
-> You find **Krishna Raju S** testing a transformer. They look up. *"Spreadsheets? Give me an evening."*
->
-> **HP** ∞ · **Weapon** automation · **Armour** 128 tests · **Fuel** chai
+~~beautiful landing page~~ → working software on a factory floor.
 
-<details>
-<summary>🗡️ <b>A1</b>: "Show me something you built."</summary>
+***
 
-> Three scrolls appear. Pick one.
+## WHAT I MADE
 
-<details><summary>📜 The scroll of <b>Dispatch</b></summary>
+| # | THING | STATE | WHAT IT DOES | MADE OF |
+|---|---|---|---|---|
+| 01 | [Dispatch Management](https://github.com/KRISH-exe-29/Dispatch-ITTL) | PRODUCTION | Work order → packing → loading → gate pass. | `React 19 · Supabase · PL/pgSQL` |
+| 02 | [Job Lens](https://krishna-ittl.github.io/Candidate-Screener/) | LIVE | 100 resumes in. A ranked shortlist out. | `TypeScript · Transformers.js` |
+| 03 | KioskSentinel | NEW | Attendance that survives power cuts. | `Java 21 · SQLite · Postgres` |
+| 04 | [Test Planner](https://transformer-test-planner.vercel.app) | LIVE | Every IEC 60076 test, scheduled. | `TypeScript · Next.js` |
+| 05 | [Hardware Platform v1.3](https://github.com/KRISH-exe-29/Fasteners-Project) | IN USE | Hardware PDF in, weighted BOM out. | `Python · PyQt5 · Pandas` |
+| 06 | Intelligent Street Lighting | PATENT FILED | A light bubble that follows the car. | `C · ESP8266 · MERN` |
+| 07 | [RTCC & M.Box Tracker](https://github.com/KRISH-exe-29/Pannel-Box-Transformers-) | IN USE | Chases pending points so nobody has to. | `React · Express · node-cron` |
+| 08 | [Industrial Data System](https://github.com/KRISH-exe-29/indotech-transformers) | LIVE | QR-tagged test data + a 3D transformer. | `React · Three.js` |
+| 09 | HWE Automation Tool | SHIPPED | Feeder classes, loads and I/O in one click. | `Python · Streamlit` |
+| 10 | Flood Alerting System | BUILT | Rising water, instant alerts. | `IoT · Embedded C` |
+| 11 | CapexTrace | IN BUILD | Every capex rupee, traced box by box. | `TypeScript · React 19 · React Flow` |
 
-> **Dispatch Management** · Work order → packing → loading → gate pass. 5 roles · 128 tests · auto escalations. → [open](https://github.com/KRISH-exe-29/Dispatch-ITTL)
+***
 
-</details>
-<details><summary>📜 The scroll of <b>Job Lens</b></summary>
+## WHERE I WORKED
 
-> **Job Lens** · 100 resumes in. A ranked shortlist out. Offline AI · OCR · Excel reports. → [open](https://krishna-ittl.github.io/Candidate-Screener/)
+```
+2026 – now       INDO TECH TRANSFORMERS       Associate Engineer, Testing & Projects → Digitalisation
+Jun 2025         BÜHLER INDIA                 Automation Hardware Engineering Intern
+Mar – Jun 2024   INOVATE TECHNOLOGIES         Full Stack Developer Intern
+Jun – Jul 2024   METTUR THERMAL POWER PLANT   Electrical Intern
+Jan 2023         SOUTHERN RAILWAY             Electrical Intern
+```
 
-</details>
-<details><summary>📜 The scroll of <b>KioskSentinel</b></summary>
+***
 
-> **KioskSentinel** · Attendance that survives power cuts. Offline-first · 3 shifts · locked down. (company-internal)
+## PROOF
 
-</details>
-</details>
+- **RANK #7 / 1500+**: National Entrepreneurship Challenge, IIT Bombay (Feb 2025)
+- **RUNNER-UP**: Fish Tank pitch, IIT Bombay E-Summit (Feb 2025)
+- **PATENT FILED**: Street lighting with automated fault detection (Aug 2025)
+- **NATIONAL FINALIST**: Technical Symposium, Loyola College (Jun 2024)
+- **DEGREE**: B.E. ELECTRICAL & ELECTRONICS, ST. JOSEPH'S COLLEGE OF ENGINEERING, CGPA 8.38
+- **CERTS**: Arduino & C · UC Irvine / Raspberry Pi & Python · UC Irvine / Intro to IoT · NPTEL / Digital Circuits · NPTEL / Supply Chain Mgmt · CII
 
-<details>
-<summary>🧠 <b>A2</b>: "I'll test you first." (pop quiz)</summary>
+***
 
-> **Q1.** At Bühler, MCC paperwork took 30 minutes. After the tool?
-> <details><summary>reveal</summary>30 seconds. ⚡ +100 XP</details>
->
-> **Q2.** How many automated tests guard the dispatch system?
-> <details><summary>reveal</summary>128. 🛡️ +100 XP</details>
->
-> **Q3.** Where did they rank at IIT Bombay's National Entrepreneurship Challenge?
-> <details><summary>reveal</summary>#7 of 1500+ colleges. 🏆 +100 XP</details>
->
-> **Q4.** What does the patented street light do?
-> <details><summary>reveal</summary>It forms a light bubble that follows the car, saving 60% energy, and reports faults over GPS. 💡 +100 XP · <b>Quiz cleared!</b></details>
+## RULES I WORK BY
 
-</details>
-</details>
+1. IF A HUMAN DOES IT TWICE A DAY, A SCRIPT DOES IT FROM NOW ON.
+2. SHIP IT. THEN IMPROVE IT.
+3. TESTS OR IT DIDN'T HAPPEN. (DISPATCH HAS 128.)
+4. FLUENT IN OHM'S LAW AND GIT. NO OTHER LANGUAGE REQUIRED.
 
-<details>
-<summary>📋 <b>Path B</b>: copy the spreadsheets by hand</summary>
+***
 
-> It is 9:40 PM. You are on row 4,812. The printer is still jammed.
->
-> 💀 **BAD ENDING.** Scroll up and choose again.
+<kbd>EMAIL</kbd> krishnarajus2004@gmail.com &nbsp; <kbd>LINKEDIN</kbd> [linkedin.com/in/krishnarajus2004](https://linkedin.com/in/krishnarajus2004)
 
-</details>
-
-<details>
-<summary>🤝 <b>Path C</b>: skip the quest and hire the engineer</summary>
-
-> The spreadsheets dissolve. The printer un-jams itself. Somewhere, a dispatch truck leaves on time.
->
-> 🏆 **TRUE ENDING UNLOCKED.** Claim it: **[krishnarajus2004@gmail.com](mailto:krishnarajus2004@gmail.com)** · [LinkedIn](https://linkedin.com/in/krishnarajus2004)
-
-</details>
-
-<details>
-<summary>🎒 Inventory</summary>
-
-| Item | Effect |
-|:--|:--|
-| Dispatch | 5 roles · 128 tests · auto escalations |
-| Job Lens | Offline AI · OCR · Excel reports |
-| KioskSentinel | Offline-first · 3 shifts · locked down |
-| Test Planner | 40 tests · multi-unit · Excel export |
-| Hardware Platform | 20–30 min → under 60 s |
-| Street Lighting | 60% less energy · GPS fault alerts |
-| RTCC Tracker | 48-hour auto follow-ups |
-| Industrial Data | 4 role modules · OTP admin |
-| HWE Tool | 30 min → 30 s at Bühler |
-| Flood Alerts | 90% lower outage risk |
-
-</details>
-
-<sub>Saves automatically. Difficulty: real factory floor.</sub>
+<sub>NO TEMPLATES. NO GRADIENTS. NO REGRETS. LAST UPDATED: WHEN SOMETHING SHIPPED.</sub>
