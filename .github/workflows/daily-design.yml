@@ -72,8 +72,9 @@ jobs:
             echo "Main already shows $DESIGN."
             exit 0
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -q -m "Today's design: $DESIGN ($(TZ=Asia/Kolkata date +%F))"
+          # Commit as the account owner so the daily design lands on the contribution graph
+          git config user.name "KRISHNA RAJU S"
+          git config user.email "100017249+KRISH-exe-29@users.noreply.github.com"
+          TZ=Asia/Kolkata git commit -q -m "Today's design: $DESIGN ($(TZ=Asia/Kolkata date +%F))"
           git pull --rebase
           git push
