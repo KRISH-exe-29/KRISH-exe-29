@@ -1,65 +1,31 @@
-<!-- Raw brutalism: default fonts, default blue links, hard rules, no polish. Built by scripts/gen_raw.py -->
+<!-- Retro-futurist synthwave arcade. Sunrise (light) and midnight (dark) swap with your GitHub theme. Built by scripts/gen_retro.py. -->
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/raw/banner-dark.svg"/><img src="./assets/raw/banner-light.svg" width="100%" alt="Krishna Raju S: this page has no design system, it has a deadline."/></picture>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/retro/hero-dark.svg"/><img src="./assets/retro/hero-light.svg" width="100%" alt="Krishna Raju, engineer: electrical by degree, software by choice. A neon truck hauls a transformer past power pylons."/></picture></p>
 
-# KRISHNA RAJU S
+<p align="center">
+  <a href="mailto:krishnarajus2004@gmail.com"><img src="https://img.shields.io/badge/PLAYER_2%3F_EMAIL_ME-F72585?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://linkedin.com/in/krishnarajus2004"><img src="https://img.shields.io/badge/LINKEDIN-3A0CA3?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://krishna-ittl.github.io/Candidate-Screener/"><img src="https://img.shields.io/badge/PLAY_JOB_LENS-4CC9F0?style=for-the-badge&logo=githubpages&logoColor=07011A" alt="Job Lens live demo"/></a>
+</p>
 
-**ELECTRICAL ENGINEER.** WRITES SOFTWARE. SHIPS IT. GOES HOME.
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/retro/player-dark.svg"/><img src="./assets/retro/player-light.svg" width="100%" alt="Player 1: pixel portrait of Krishna Raju S, class Engineer-Mage, level 22, home Chennai."/></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/retro/stages-dark.svg"/><img src="./assets/retro/stages-light.svg" width="100%" alt="Career mode: Indo Tech Transformers, Associate Engineer, Testing & Projects → Digitalisation, 2026 – now; Bühler India, Automation Hardware Engineering Intern, Jun 2025; Inovate Technologies, Full Stack Developer Intern, Mar – Jun 2024; Mettur Thermal Power Plant, Electrical Intern, Jun – Jul 2024; Southern Railway, Electrical Intern, Jan 2023"/></picture></p>
 
-~~beautiful landing page~~ → working software on a factory floor.
+<h3 align="center">🕹️ Choose your cartridge</h3>
+<p align="center">
+  <a href="https://github.com/KRISH-exe-29/Dispatch-ITTL"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/retro/card-dispatch-dark.svg"/><img src="./assets/retro/card-dispatch-light.svg" width="49.5%" alt="Dispatch Management (production): Work order → packing → loading → gate pass. 5 roles · 128 tests · auto escalations"/></picture></a>
+  <a href="https://krishna-ittl.github.io/Candidate-Screener/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/retro/card-job-lens-dark.svg"/><img src="./assets/retro/card-job-lens-light.svg" width="49.5%" alt="Job Lens (live): 100 resumes in. A ranked shortlist out. Offline AI · OCR · Excel reports"/></picture></a>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/retro/card-kiosk-sentinel-dark.svg"/><img src="./assets/retro/card-kiosk-sentinel-light.svg" width="49.5%" alt="KioskSentinel (new): Attendance that survives power cuts. Offline-first · 3 shifts · locked down"/></picture>
+  <a href="https://transformer-test-planner.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/retro/card-test-planner-dark.svg"/><img src="./assets/retro/card-test-planner-light.svg" width="49.5%" alt="Test Planner (live): Every IEC 60076 test, scheduled. 40 tests · multi-unit · Excel export"/></picture></a>
+  <a href="https://github.com/KRISH-exe-29/Fasteners-Project"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/retro/card-hardware-dark.svg"/><img src="./assets/retro/card-hardware-light.svg" width="49.5%" alt="Hardware Platform v1.3 (in use): Hardware PDF in, weighted BOM out. 20–30 min → under 60 s"/></picture></a>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/retro/card-street-light-dark.svg"/><img src="./assets/retro/card-street-light-light.svg" width="49.5%" alt="Intelligent Street Lighting (patent filed): A light bubble that follows the car. 60% less energy · GPS fault alerts"/></picture>
+  <a href="https://github.com/KRISH-exe-29/Pannel-Box-Transformers-"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/retro/card-rtcc-dark.svg"/><img src="./assets/retro/card-rtcc-light.svg" width="49.5%" alt="RTCC & M.Box Tracker (in use): Chases pending points so nobody has to. 48-hour auto follow-ups"/></picture></a>
+  <a href="https://github.com/KRISH-exe-29/indotech-transformers"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/retro/card-industrial-data-dark.svg"/><img src="./assets/retro/card-industrial-data-light.svg" width="49.5%" alt="Industrial Data System (live): QR-tagged test data + a 3D transformer. 4 role modules · OTP admin"/></picture></a>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/retro/card-hwe-tool-dark.svg"/><img src="./assets/retro/card-hwe-tool-light.svg" width="49.5%" alt="HWE Automation Tool (shipped): Feeder classes, loads and I/O in one click. 30 min → 30 s at Bühler"/></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/retro/card-flood-dark.svg"/><img src="./assets/retro/card-flood-light.svg" width="49.5%" alt="Flood Alerting System (built): Rising water, instant alerts. 90% lower outage risk"/></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/retro/card-capextrace-dark.svg"/><img src="./assets/retro/card-capextrace-light.svg" width="49.5%" alt="CapexTrace (in build): Every capex rupee, traced box by box. WBS mind map · budget ceilings"/></picture>
+</p>
 
-***
-
-## WHAT I MADE
-
-| # | THING | STATE | WHAT IT DOES | MADE OF |
-|---|---|---|---|---|
-| 01 | [Dispatch Management](https://github.com/KRISH-exe-29/Dispatch-ITTL) | PRODUCTION | Work order → packing → loading → gate pass. | `React 19 · Supabase · PL/pgSQL` |
-| 02 | [Job Lens](https://krishna-ittl.github.io/Candidate-Screener/) | LIVE | 100 resumes in. A ranked shortlist out. | `TypeScript · Transformers.js` |
-| 03 | KioskSentinel | NEW | Attendance that survives power cuts. | `Java 21 · SQLite · Postgres` |
-| 04 | [Test Planner](https://transformer-test-planner.vercel.app) | LIVE | Every IEC 60076 test, scheduled. | `TypeScript · Next.js` |
-| 05 | [Hardware Platform v1.3](https://github.com/KRISH-exe-29/Fasteners-Project) | IN USE | Hardware PDF in, weighted BOM out. | `Python · PyQt5 · Pandas` |
-| 06 | Intelligent Street Lighting | PATENT FILED | A light bubble that follows the car. | `C · ESP8266 · MERN` |
-| 07 | [RTCC & M.Box Tracker](https://github.com/KRISH-exe-29/Pannel-Box-Transformers-) | IN USE | Chases pending points so nobody has to. | `React · Express · node-cron` |
-| 08 | [Industrial Data System](https://github.com/KRISH-exe-29/indotech-transformers) | LIVE | QR-tagged test data + a 3D transformer. | `React · Three.js` |
-| 09 | HWE Automation Tool | SHIPPED | Feeder classes, loads and I/O in one click. | `Python · Streamlit` |
-| 10 | Flood Alerting System | BUILT | Rising water, instant alerts. | `IoT · Embedded C` |
-| 11 | CapexTrace | IN BUILD | Every capex rupee, traced box by box. | `TypeScript · React 19 · React Flow` |
-
-***
-
-## WHERE I WORKED
-
-```
-2026 – now       INDO TECH TRANSFORMERS       Associate Engineer, Testing & Projects → Digitalisation
-Jun 2025         BÜHLER INDIA                 Automation Hardware Engineering Intern
-Mar – Jun 2024   INOVATE TECHNOLOGIES         Full Stack Developer Intern
-Jun – Jul 2024   METTUR THERMAL POWER PLANT   Electrical Intern
-Jan 2023         SOUTHERN RAILWAY             Electrical Intern
-```
-
-***
-
-## PROOF
-
-- **RANK #7 / 1500+**: National Entrepreneurship Challenge, IIT Bombay (Feb 2025)
-- **RUNNER-UP**: Fish Tank pitch, IIT Bombay E-Summit (Feb 2025)
-- **PATENT FILED**: Street lighting with automated fault detection (Aug 2025)
-- **NATIONAL FINALIST**: Technical Symposium, Loyola College (Jun 2024)
-- **DEGREE**: B.E. ELECTRICAL & ELECTRONICS, ST. JOSEPH'S COLLEGE OF ENGINEERING, CGPA 8.38
-- **CERTS**: Arduino & C · UC Irvine / Raspberry Pi & Python · UC Irvine / Intro to IoT · NPTEL / Digital Circuits · NPTEL / Supply Chain Mgmt · CII
-
-***
-
-## RULES I WORK BY
-
-1. IF A HUMAN DOES IT TWICE A DAY, A SCRIPT DOES IT FROM NOW ON.
-2. SHIP IT. THEN IMPROVE IT.
-3. TESTS OR IT DIDN'T HAPPEN. (DISPATCH HAS 128.)
-4. FLUENT IN OHM'S LAW AND GIT. NO OTHER LANGUAGE REQUIRED.
-
-***
-
-<kbd>EMAIL</kbd> krishnarajus2004@gmail.com &nbsp; <kbd>LINKEDIN</kbd> [linkedin.com/in/krishnarajus2004](https://linkedin.com/in/krishnarajus2004)
-
-<sub>NO TEMPLATES. NO GRADIENTS. NO REGRETS. LAST UPDATED: WHEN SOMETHING SHIPPED.</sub>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/retro/scores-dark.svg"/><img src="./assets/retro/scores-light.svg" width="100%" alt="High scores: Feb 2025 Rank #7 / 1500+, National Entrepreneurship Challenge, IIT Bombay; Feb 2025 Runner-up, Fish Tank pitch, IIT Bombay E-Summit; Aug 2025 Patent filed, Street lighting with automated fault detection; Jun 2024 National finalist, Technical Symposium, Loyola College"/></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KRISH-exe-29/KRISH-exe-29/output/snake-dark.svg"/><img src="https://raw.githubusercontent.com/KRISH-exe-29/KRISH-exe-29/output/snake.svg" width="100%" alt="A snake eating my contribution graph"/></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/retro/coin-dark.svg"/><img src="./assets/retro/coin-light.svg" width="100%" alt="Insert coin to hire. One coin equals one boring process, deleted. krishnarajus2004@gmail.com"/></picture></p>
