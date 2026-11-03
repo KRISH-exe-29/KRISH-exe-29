@@ -4,3 +4,6 @@
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/doodle/notes-dark.svg"/><img src="./assets/doodle/notes-light.svg" width="100%" alt="Sticky notes of things I built"/></picture></p>
 <p align="center">✏️ [Dispatch](https://github.com/KRISH-exe-29/Dispatch-ITTL) · [Job Lens](https://krishna-ittl.github.io/Candidate-Screener/) · [Test Planner](https://transformer-test-planner.vercel.app) · [Hardware Platform](https://github.com/KRISH-exe-29/Fasteners-Project) · [RTCC Tracker](https://github.com/KRISH-exe-29/Pannel-Box-Transformers-) · [Industrial Data](https://github.com/KRISH-exe-29/indotech-transformers)</p>
 <p align="center"><sub><a href="mailto:krishnarajus2004@gmail.com">email</a> · <a href="https://linkedin.com/in/krishnarajus2004">linkedin</a> · drawn with code, not a pen</sub></p>
+
+<!-- REPOS:START -->
+<!-- REPOS:END -->
