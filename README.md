@@ -26,6 +26,9 @@
   <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/retro/card-capextrace-dark.svg"/><img src="./assets/retro/card-capextrace-light.svg" width="49.5%" alt="CapexTrace (in build): Every capex rupee, traced box by box. WBS mind map · budget ceilings"/></picture>
 </p>
 
+<!-- REPOS:START -->
+<!-- REPOS:END -->
+
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/retro/scores-dark.svg"/><img src="./assets/retro/scores-light.svg" width="100%" alt="High scores: Feb 2025 Rank #7 / 1500+, National Entrepreneurship Challenge, IIT Bombay; Feb 2025 Runner-up, Fish Tank pitch, IIT Bombay E-Summit; Aug 2025 Patent filed, Street lighting with automated fault detection; Jun 2024 National finalist, Technical Symposium, Loyola College"/></picture></p>
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KRISH-exe-29/KRISH-exe-29/output/snake-dark.svg"/><img src="https://raw.githubusercontent.com/KRISH-exe-29/KRISH-exe-29/output/snake.svg" width="100%" alt="A snake eating my contribution graph"/></picture></p>
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/retro/coin-dark.svg"/><img src="./assets/retro/coin-light.svg" width="100%" alt="Insert coin to hire. One coin equals one boring process, deleted. krishnarajus2004@gmail.com"/></picture></p>
