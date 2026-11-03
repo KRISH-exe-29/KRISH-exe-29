@@ -24,6 +24,9 @@
   <a href="https://github.com/KRISH-exe-29/Fasteners-Project"><img src="./assets/clay/card-fasteners.svg" width="49.5%" alt="Fasteners Automation: a 30-minute job, now 30 seconds"/></a>
 </p>
 
+<!-- REPOS:START -->
+<!-- REPOS:END -->
+
 <p align="center">
   <a href="https://github.com/KRISH-exe-29/PMS"><img src="./assets/clay/mini-epms.svg" width="24.5%" alt="EPMS: Gantt-powered project HQ"/></a>
   <a href="https://github.com/KRISH-exe-29/indotech-transformers"><img src="./assets/clay/mini-industrial-data.svg" width="24.5%" alt="Industrial Data: QR capture and a 3D model"/></a>
