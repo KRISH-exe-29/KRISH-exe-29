@@ -164,4 +164,7 @@ Pan and zoom: every pin is a chapter.
 
 The apps in chapter VI, for the curious: [Dispatch](https://github.com/KRISH-exe-29/Dispatch-ITTL) · [Job Lens](https://krishna-ittl.github.io/Candidate-Screener/) · [Test Planner](https://transformer-test-planner.vercel.app) · [Hardware Platform](https://github.com/KRISH-exe-29/Fasteners-Project) · [RTCC Tracker](https://github.com/KRISH-exe-29/Pannel-Box-Transformers-) · [Industrial Data](https://github.com/KRISH-exe-29/indotech-transformers)
 
+<!-- REPOS:START -->
+<!-- REPOS:END -->
+
 <p align="center"><b>Chapter VII is unwritten.</b> Maybe you're in it: <a href="mailto:krishnarajus2004@gmail.com">krishnarajus2004@gmail.com</a> · <a href="https://linkedin.com/in/krishnarajus2004">LinkedIn</a></p>
