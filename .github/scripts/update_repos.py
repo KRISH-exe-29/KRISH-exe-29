@@ -29,7 +29,8 @@ def pick(repos):
     own = [r for r in repos
            if not r["fork"] and not r["archived"] and not r["private"]
            and r["name"].lower() != USER.lower()
-           and r["description"] and not r["description"].startswith(SKIP_DESC)]
+           and r["description"] and not r["description"].startswith(SKIP_DESC)
+           and "no code yet" not in r["description"].lower()]  # empty WIP repos
     return sorted(own, key=lambda r: r["pushed_at"], reverse=True)[:COUNT]
 
 
@@ -71,7 +72,7 @@ def selftest():
                             "description": "d", "pushed_at": "2026-01-01T00:00:00Z", "language": "Python",
                             "stargazers_count": 0, "html_url": "u", **kw}
     got = pick([r("a"), r("b", fork=True), r(USER), r("c", description=None),
-                r("d", description="Study copy of x"), r("e", pushed_at="2026-05-01T00:00:00Z")])
+                r("d", description="Study copy of x"), r("f", description="WIP: no code yet."), r("e", pushed_at="2026-05-01T00:00:00Z")])
     assert [x["name"] for x in got] == ["e", "a"], got
     assert "a \\| b" in render([r("x", description="a | b")])
     b1, b2 = render([r("one")]), render([r("two")])
