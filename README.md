@@ -8,4 +8,7 @@
 
 [Dispatch](https://github.com/KRISH-exe-29/Dispatch-ITTL) — [Job Lens](https://krishna-ittl.github.io/Candidate-Screener/) — [Test Planner](https://transformer-test-planner.vercel.app) — [Hardware Platform](https://github.com/KRISH-exe-29/Fasteners-Project) — [RTCC Tracker](https://github.com/KRISH-exe-29/Pannel-Box-Transformers-) — [Industrial Data](https://github.com/KRISH-exe-29/indotech-transformers)
 
+<!-- REPOS:START -->
+<!-- REPOS:END -->
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/swiss/chronology-dark.svg"/><img src="./assets/swiss/chronology-light.svg" width="100%" alt="Chronology and distinctions"/></picture>
