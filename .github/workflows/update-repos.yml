@@ -1,0 +1,41 @@
+name: Update repo list
+
+# Keeps the "Latest repos" block in README.md current, whichever daily design is on main.
+on:
+  schedule:
+    - cron: "15 */6 * * *"
+  workflow_run:
+    workflows: ["Daily design"] # re-fill the block right after each rotation
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-repos
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.x"
+      - name: Fill the repo block
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python .github/scripts/update_repos.py --selftest
+          python .github/scripts/update_repos.py README.md
+      - name: Commit if changed
+        run: |
+          git diff --quiet README.md && { echo "Nothing to commit."; exit 0; }
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -q -m "Update repo list" README.md
+          git pull --rebase
+          git push
