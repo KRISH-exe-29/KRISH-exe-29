@@ -25,6 +25,9 @@
   <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/card-capextrace-dark.svg"/><img src="./assets/panel/card-capextrace-light.svg" width="49.5%" alt="CapexTrace (in build): Every capex rupee, traced box by box. WBS mind map · budget ceilings"/></picture>
 </p>
 
+<!-- REPOS:START -->
+<!-- REPOS:END -->
+
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/logbook-dark.svg"/><img src="./assets/panel/logbook-light.svg" width="100%" alt="Shift log: Indo Tech Transformers, Associate Engineer, Testing & Projects → Digitalisation, 2026 – now; Bühler India, Automation Hardware Engineering Intern, Jun 2025; Inovate Technologies, Full Stack Developer Intern, Mar – Jun 2024; Mettur Thermal Power Plant, Electrical Intern, Jun – Jul 2024; Southern Railway, Electrical Intern, Jan 2023"/></picture></p>
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/tags-dark.svg"/><img src="./assets/panel/tags-light.svg" width="100%" alt="Inspection tags: Feb 2025 Rank #7 / 1500+, National Entrepreneurship Challenge, IIT Bombay; Feb 2025 Runner-up, Fish Tank pitch, IIT Bombay E-Summit; Aug 2025 Patent filed, Street lighting with automated fault detection; Jun 2024 National finalist, Technical Symposium, Loyola College"/></picture></p>
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/terminals-dark.svg"/><img src="./assets/panel/terminals-light.svg" width="100%" alt="Skills wired in: Power: IEC 60076 testing, SFRA, MCC panels, VFD · DOL · soft starter, Relays 87T · 63 · 64REF, OLTC, AutoCAD, MATLAB; Code: TypeScript, React, Python, Java, C, Node, Supabase, PostgreSQL, Three.js; Things: ESP8266, Arduino, Raspberry Pi, Proteus, IoT; AI: Claude, OpenAI, LangChain, LangGraph, Transformers.js"/></picture></p>
