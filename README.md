@@ -90,4 +90,7 @@
 
 </details>
 
+<!-- REPOS:START -->
+<!-- REPOS:END -->
+
 <sub>Saves automatically. Difficulty: real factory floor.</sub>
