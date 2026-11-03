@@ -26,6 +26,9 @@
   <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/brutal/card-capextrace-dark.svg"/><img src="./assets/brutal/card-capextrace-light.svg" width="49.5%" alt="CapexTrace: Every capex rupee, traced box by box."/></picture>
 </p>
 
+<!-- REPOS:START -->
+<!-- REPOS:END -->
+
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/brutal/flex-dark.svg"/><img src="./assets/brutal/flex-light.svg" width="100%" alt="Hall of flex: 2024 National finalist, Technical symposium; 2025 Patent holder, Street-light fault detection; 2025 Rank #7 of 1500+, IIT Bombay NEC; 2025 Runner-up, Fish Tank, IIT B E-Summit; 2026 9 apps shipped, Indo Tech Transformers"/></picture></p>
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/brutal/weapons-dark.svg"/><img src="./assets/brutal/weapons-light.svg" width="100%" alt="Weapons of choice: Factory floor: IEC 60076 testing, MCC panels, Protection relays, OLTC, ESP8266, Proteus; Code: TypeScript, React, Next.js, Python, Java, Node, Supabase, PostgreSQL, Three.js; AI: Claude, OpenAI, LangChain, LangGraph, Transformers.js, Tesseract"/></picture></p>
 
