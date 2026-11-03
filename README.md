@@ -4,3 +4,6 @@
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/collage/work-dark.svg"/><img src="./assets/collage/work-light.svg" width="100%" alt="Pinned clippings of the work"/></picture></p>
 <p align="center">[Dispatch](https://github.com/KRISH-exe-29/Dispatch-ITTL) ✂ [Job Lens](https://krishna-ittl.github.io/Candidate-Screener/) ✂ [Test Planner](https://transformer-test-planner.vercel.app) ✂ [Hardware Platform](https://github.com/KRISH-exe-29/Fasteners-Project) ✂ [RTCC Tracker](https://github.com/KRISH-exe-29/Pannel-Box-Transformers-) ✂ [Industrial Data](https://github.com/KRISH-exe-29/indotech-transformers)</p>
 <p align="center"><sub>cut, taped and pinned in code · <a href="mailto:krishnarajus2004@gmail.com">krishnarajus2004@gmail.com</a> · <a href="https://linkedin.com/in/krishnarajus2004">linkedin</a></sub></p>
+
+<!-- REPOS:START -->
+<!-- REPOS:END -->
