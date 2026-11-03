@@ -36,6 +36,9 @@
 | Flood Alerts | Built | Rising water, instant alerts. | 90% lower outage risk |
 | CapexTrace | In Build | Every capex rupee, traced box by box. | WBS mind map · budget ceilings |
 
+<!-- REPOS:START -->
+<!-- REPOS:END -->
+
 ## 4. Corporate history
 
 ```mermaid
