@@ -10,4 +10,7 @@
 
 <p align="center"><b>~*~ Top 8, clickable ~*~</b><br/>[Dispatch](https://github.com/KRISH-exe-29/Dispatch-ITTL) · [Job Lens](https://krishna-ittl.github.io/Candidate-Screener/) · [Test Planner](https://transformer-test-planner.vercel.app) · [Hardware Platform](https://github.com/KRISH-exe-29/Fasteners-Project) · [RTCC Tracker](https://github.com/KRISH-exe-29/Pannel-Box-Transformers-) · [Industrial Data](https://github.com/KRISH-exe-29/indotech-transformers)</p>
 
+<!-- REPOS:START -->
+<!-- REPOS:END -->
+
 <p align="center"><sub>best viewed in any browser at 1024×768 ✨ sign my guestbook: krishnarajus2004@gmail.com</sub></p>
