@@ -30,6 +30,9 @@
   <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/glass/card-capextrace-dark.svg"/><img src="./assets/glass/card-capextrace-light.svg" width="24.5%" alt="CapexTrace: Every capex rupee, traced box by box."/></picture>
 </p>
 
+<!-- REPOS:START -->
+<!-- REPOS:END -->
+
 <h3 align="center">The highlight reel.</h3>
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/glass/milestones-dark.svg"/><img src="./assets/glass/milestones-light.svg" width="100%" alt="2024 National finalist, Technical symposium; 2025 Patent holder, Street-light fault detection; 2025 Rank #7 of 1500+, IIT Bombay NEC; 2025 Runner-up, Fish Tank, IIT B E-Summit; 2026 9 apps shipped, Indo Tech Transformers"/></picture></p>
 
