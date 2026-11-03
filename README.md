@@ -12,3 +12,6 @@
 <p align="center"><sub>tap to open: [Dispatch](https://github.com/KRISH-exe-29/Dispatch-ITTL) · [Job Lens](https://krishna-ittl.github.io/Candidate-Screener/) · [Test Planner](https://transformer-test-planner.vercel.app) · [Hardware Platform](https://github.com/KRISH-exe-29/Fasteners-Project) · [RTCC Tracker](https://github.com/KRISH-exe-29/Pannel-Box-Transformers-) · [Industrial Data](https://github.com/KRISH-exe-29/indotech-transformers)</sub></p>
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/material/career-dark.svg"/><img src="./assets/material/career-light.svg" width="100%" alt="Career stepper"/></picture></p>
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/material/navbar-dark.svg"/><img src="./assets/material/navbar-light.svg" width="100%" alt="Krishna is available for new problems. krishnarajus2004@gmail.com"/></picture></p>
+
+<!-- REPOS:START -->
+<!-- REPOS:END -->
