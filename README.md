@@ -39,5 +39,8 @@
   <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/press/card-capextrace-dark.svg"/><img src="./assets/press/card-capextrace-light.svg" width="49.5%" alt="CapexTrace (in build): Every capex rupee, traced box by box. WBS mind map · budget ceilings"/></picture>
 </p>
 
+<!-- REPOS:START -->
+<!-- REPOS:END -->
+
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/press/scores-dark.svg"/><img src="./assets/press/scores-light.svg" width="100%" alt="Scores and standings: Feb 2025 Rank #7 / 1500+, National Entrepreneurship Challenge, IIT Bombay; Feb 2025 Runner-up, Fish Tank pitch, IIT Bombay E-Summit; Aug 2025 Patent filed, Street lighting with automated fault detection; Jun 2024 National finalist, Technical Symposium, Loyola College"/></picture></p>
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/press/classifieds-dark.svg"/><img src="./assets/press/classifieds-light.svg" width="100%" alt="Classifieds. Wanted: boring, repetitive processes. Will automate. Reply to krishnarajus2004@gmail.com"/></picture></p>
