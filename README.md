@@ -40,6 +40,9 @@
 
 <p align="center"><img width="400" src="https://github-readme-stats.vercel.app/api?username=KRISH-exe-29&show_icons=true&hide_rank=true&hide_border=true&border_radius=16&bg_color=14100D&title_color=E8B49A&text_color=B3A595&icon_color=D9894A&custom_title=GitHub%20at%20a%20glance" alt="GitHub at a glance"/></p>
 
+<!-- REPOS:START -->
+<!-- REPOS:END -->
+
 <img src="./assets/chapters/career.svg" width="100%" alt="06 Career: Indo Tech Transformers, Bühler India, Inovate Technologies, Mettur Thermal Power Plant, Southern Railway."/>
 
 <img src="./assets/chapters/title-connect.svg" width="100%" alt="07 Connect"/>
