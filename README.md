@@ -32,6 +32,9 @@
   <img src="./assets/cards/card-capextrace.svg" width="32%" alt="Trading card: CapexTrace"/>
 </p>
 
+<!-- REPOS:START -->
+<!-- REPOS:END -->
+
 <details>
 <summary><b>📖 How to play</b></summary>
 
