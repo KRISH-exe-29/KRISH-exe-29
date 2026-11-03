@@ -49,4 +49,7 @@ fatal: needs one more contributor. try: krishnarajus2004@gmail.com
 
 **Checkout a feature:** [`feature/dispatch`](https://github.com/KRISH-exe-29/Dispatch-ITTL) · [`feature/job-lens`](https://krishna-ittl.github.io/Candidate-Screener/) · [`feature/test-planner`](https://transformer-test-planner.vercel.app) · [`feature/hardware`](https://github.com/KRISH-exe-29/Fasteners-Project) · [`feature/rtcc`](https://github.com/KRISH-exe-29/Pannel-Box-Transformers-) · [`feature/industrial-data`](https://github.com/KRISH-exe-29/indotech-transformers)
 
+<!-- REPOS:START -->
+<!-- REPOS:END -->
+
 <sub>[linkedin](https://linkedin.com/in/krishnarajus2004) · no history was rewritten in the making of this README</sub>
