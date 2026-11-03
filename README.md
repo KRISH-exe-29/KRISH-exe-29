@@ -31,6 +31,9 @@ Less talk. More deploys. Most of these run on a real factory floor, every shift.
 | **Shop Floor Job Status** | Live job status for every bay. | `in design` |
 | **CapexTrace** | Every capex rupee, traced box by box. | `in build` |
 
+<!-- REPOS:START -->
+<!-- REPOS:END -->
+
 ### lately
 
 - **mapping the shop floor**: live job status for every bay, from cycle-time norms and worker efficiency
