@@ -40,6 +40,9 @@ I test 161 kV transformers by day and write the plant's software by night.
 - 🛠️ At Bühler I turned 30 minutes of panel paperwork into 30 seconds with a Python tool. That's the whole idea, really.
 - 💬 Talk to me about **power systems, shop-floor software, or AI that runs offline**.
 
+<!-- REPOS:START -->
+<!-- REPOS:END -->
+
 <br>
 
 <div align="center">
