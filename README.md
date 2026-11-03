@@ -8,4 +8,7 @@
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/vapor/desktop-dark.svg"/><img src="./assets/vapor/desktop-light.svg" width="100%" alt="Program Manager with shipped projects"/></picture></p>
 <p align="center">[DISPATCH.EXE](https://github.com/KRISH-exe-29/Dispatch-ITTL) · [JOB LENS.EXE](https://krishna-ittl.github.io/Candidate-Screener/) · [TEST PLANNER.EXE](https://transformer-test-planner.vercel.app) · [HARDWARE PLATFORM.EXE](https://github.com/KRISH-exe-29/Fasteners-Project) · [RTCC TRACKER.EXE](https://github.com/KRISH-exe-29/Pannel-Box-Transformers-) · [INDUSTRIAL DATA.EXE](https://github.com/KRISH-exe-29/indotech-transformers)</p>
 
+<!-- REPOS:START -->
+<!-- REPOS:END -->
+
 <p align="center"><a href="mailto:krishnarajus2004@gmail.com">ｅｍａｉｌ</a> · <a href="https://linkedin.com/in/krishnarajus2004">ｌｉｎｋｅｄｉｎ</a></p>
