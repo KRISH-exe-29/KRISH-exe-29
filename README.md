@@ -8,6 +8,9 @@
 
 <p align="center"><code>[dispatch](https://github.com/KRISH-exe-29/Dispatch-ITTL) / [job lens](https://krishna-ittl.github.io/Candidate-Screener/) / [test planner](https://transformer-test-planner.vercel.app) / [hardware platform](https://github.com/KRISH-exe-29/Fasteners-Project) / [rtcc tracker](https://github.com/KRISH-exe-29/Pannel-Box-Transformers-) / [industrial data](https://github.com/KRISH-exe-29/indotech-transformers)</code></p>
 
+<!-- REPOS:START -->
+<!-- REPOS:END -->
+
 <a href="mailto:krishnarajus2004@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/type/signoff-dark.svg"/><img src="./assets/type/signoff-light.svg" width="100%" alt="Say hi."/></picture></a>
 
 <p align="center"><sub><a href="https://linkedin.com/in/krishnarajus2004">linkedin</a></sub></p>
