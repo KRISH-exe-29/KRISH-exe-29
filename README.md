@@ -12,4 +12,7 @@
 <p align="center"><sub>[Dispatch](https://github.com/KRISH-exe-29/Dispatch-ITTL) · [Job Lens](https://krishna-ittl.github.io/Candidate-Screener/) · [Test Planner](https://transformer-test-planner.vercel.app) · [Hardware Platform](https://github.com/KRISH-exe-29/Fasteners-Project) · [RTCC Tracker](https://github.com/KRISH-exe-29/Pannel-Box-Transformers-) · [Industrial Data](https://github.com/KRISH-exe-29/indotech-transformers)</sub></p>
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/modern/changelog-dark.svg"/><img src="./assets/modern/changelog-light.svg" width="100%" alt="Changelog"/></picture></p>
 
+<!-- REPOS:START -->
+<!-- REPOS:END -->
+
 <p align="center"><sub>Electrical by degree · software by choice · krishnarajus2004@gmail.com</sub></p>
