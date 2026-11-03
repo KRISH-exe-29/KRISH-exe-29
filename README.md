@@ -9,4 +9,7 @@ $ npm run hire   # → krishnarajus2004@gmail.com
 
 **Open a project:** [`dispatch`](https://github.com/KRISH-exe-29/Dispatch-ITTL) · [`job-lens`](https://krishna-ittl.github.io/Candidate-Screener/) · [`test-planner`](https://transformer-test-planner.vercel.app) · [`hardware`](https://github.com/KRISH-exe-29/Fasteners-Project) · [`rtcc`](https://github.com/KRISH-exe-29/Pannel-Box-Transformers-) · [`industrial-data`](https://github.com/KRISH-exe-29/indotech-transformers)
 
+<!-- REPOS:START -->
+<!-- REPOS:END -->
+
 <sub>⑂ main · ✓ 0 problems · [linkedin](https://linkedin.com/in/krishnarajus2004) · [email](mailto:krishnarajus2004@gmail.com)</sub>
