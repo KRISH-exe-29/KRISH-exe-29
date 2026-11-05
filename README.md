@@ -11,18 +11,6 @@
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/press/business-dark.svg"/><img src="./assets/press/business-light.svg" width="100%" alt="Business and industry, the career section: Indo Tech Transformers, Associate Engineer, Testing & Projects → Digitalisation, 2026 – now; Bühler India, Automation Hardware Engineering Intern, Jun 2025; Inovate Technologies, Full Stack Developer Intern, Mar – Jun 2024; Mettur Thermal Power Plant, Electrical Intern, Jun – Jul 2024; Southern Railway, Electrical Intern, Jan 2023"/></picture></p>
 
-<h3 align="center">🗞️ Stop press: two new front pages</h3>
-<p align="center"><sub>Same engineer, two new ways to read him. Turn the sound on for both.</sub></p>
-<p align="center">
-  <a href="https://github.com/KRISH-exe-29/KRISH_Portfolio/tree/portfolio/krish-exe"><img src="./assets/sites/krish-exe.gif" width="49.5%" alt="Krish.exe: a 3D power transformer turns as the page scrolls, under the lines 161,000 volts, one engineer, zero spreadsheets"/></a>
-  <a href="https://github.com/KRISH-exe-29/KRISH_Portfolio/tree/portfolio/sweep"><img src="./assets/sites/sweep.gif" width="49.5%" alt="Sweep: three phase traces sweep from 20 Hz to 2 MHz as the page scrolls, ending on Send it over"/></a>
-</p>
-<p align="center">
-  <b>Krish.exe</b>: 161,000 volts. One engineer. Zero spreadsheets.<br/>
-  <b>Sweep</b>: a whole career read as one frequency sweep, 20 Hz to 2 MHz.<br/>
-  <sub>Twelve portfolio designs live on their own branches and tags in <a href="https://github.com/KRISH-exe-29/KRISH_Portfolio">KRISH_Portfolio</a>.</sub>
-</p>
-
 <h3 align="center">📰 Today's clippings</h3>
 <p align="center"><sub>Every story links to the source.</sub></p>
 <p align="center">
