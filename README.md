@@ -5,8 +5,8 @@
 <p align="center">
   <a href="mailto:krishnarajus2004@gmail.com"><img src="https://img.shields.io/badge/WRITE_TO_THE_EDITOR-B3261E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://linkedin.com/in/krishnarajus2004"><img src="https://img.shields.io/badge/LINKEDIN-1A1A1A?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://krish-exe-29.github.io/KRISH_Portfolio/"><img src="https://img.shields.io/badge/READ_THE_PORTFOLIO-B3261E?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Portfolio"/></a>
-  <a href="https://krishna-ittl.github.io/Candidate-Screener/"><img src="https://img.shields.io/badge/TRY_JOB_LENS-F3EEE3?style=for-the-badge&logo=githubpages&logoColor=1A1A1A" alt="Job Lens live demo"/></a>
+  <a href="https://krish-exe.vercel.app/"><img src="https://img.shields.io/badge/READ_THE_PORTFOLIO-B3261E?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://krishna-ittl.github.io/Candidate-Screener/"><img src="https://img.shields.io/badge/TRY_JOB_LENS-F3EEE3?style=for-the-badge&logo=vercel&logoColor=1A1A1A" alt="Job Lens live demo"/></a>
 </p>
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/press/business-dark.svg"/><img src="./assets/press/business-light.svg" width="100%" alt="Business and industry, the career section: Indo Tech Transformers, Associate Engineer, Testing & Projects → Digitalisation, 2026 – now; Bühler India, Automation Hardware Engineering Intern, Jun 2025; Inovate Technologies, Full Stack Developer Intern, Mar – Jun 2024; Mettur Thermal Power Plant, Electrical Intern, Jun – Jul 2024; Southern Railway, Electrical Intern, Jan 2023"/></picture></p>
