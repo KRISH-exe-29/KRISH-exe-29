@@ -17,7 +17,7 @@
 
 <a href="https://linkedin.com/in/krishnarajus2004"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;&nbsp;
 <a href="mailto:krishnarajus2004@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=aa9bef" alt="Email"></a>&nbsp;&nbsp;
-<a href="https://krish-exe-29.github.io/KRISH_Portfolio/"><img src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=githubpages&logoColor=aa9bef" alt="Portfolio"></a>
+<a href="https://krish-exe.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=aa9bef" alt="Portfolio"></a>
 
 <br>
 
