@@ -122,7 +122,7 @@ for theme, t in THEMES.items():
     p.add(f'<rect x="1000" y="56" width="160" height="86" fill="none" stroke="{t["rule"]}"/>'
           f'<clipPath id="tick"><rect x="1002" y="84" width="156" height="56"/></clipPath>')
     p.text(1080, 78, "MARKETS", 12, LABEL, t["red"], 700, "middle", extra='letter-spacing="2"')
-    tape = "$KRISH ▲ 9 apps   $TESTS ▲ 128   $TIME ▼ 98%   $CGPA 8.38   "
+    tape = "$KRISH ▲ 9 apps   $TESTS ▲ 128   $TIME ▼ 98%   $CGPA 8.55   "
     p.add(f'<g clip-path="url(#tick)"><g class="tick"><text x="1002" y="118" font-family="{LABEL}" font-size="17" font-weight="700" fill="{t["ink"]}" xml:space="preserve">{esc(tape * 3)}</text></g></g>')
     p.rule(40, 1160, 160, 3)
     p.rule(40, 1160, 166, 1)
