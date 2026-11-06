@@ -44,7 +44,7 @@ for th, t in THEMES.items():
     # measurement panel
     c.add(f'<rect x="860" y="30" width="310" height="500" rx="10" fill="{t["screen"]}" stroke="{t["dim"]}" stroke-width="2"/>')
     c.text(880, 66, "MEASURE", 16, t["ink"], MONO, 700, extra='filter="url(#ph)"')
-    meas = [("APPS", "9 live"), ("TESTS", "128 pass"), ("Δt TASK", "30m → 30s"), ("NEC RANK", "7 / 1500+"), ("PATENT", "filed"), ("CGPA", "8.38"), ("LANG", "ta en kn hi"), ("FUEL", "chai")]
+    meas = [("APPS", "9 live"), ("TESTS", "128 pass"), ("Δt TASK", "30m → 30s"), ("NEC RANK", "7 / 1500+"), ("PATENT", "filed"), ("CGPA", "8.55"), ("LANG", "ta en kn hi"), ("FUEL", "chai")]
     for i, (k, v) in enumerate(meas):
         y = 110 + i * 52
         c.add(f'<line x1="880" x2="1150" y1="{y + 16}" y2="{y + 16}" stroke="{t["faint"]}"/>')
@@ -57,7 +57,7 @@ for th, t in THEMES.items():
               f'<line x1="{x}" y1="585" x2="{x + 14 * math.cos(i + .5):.1f}" y2="{585 - 14 * math.sin(i + .5):.1f}" stroke="{t["ink"]}" stroke-width="3"/>')
         c.text(x + 36, 590, lab, 12, t["dim"], MONO)
     c.text(1150, 592, f"{EMAIL}", 13, t["ink"], MONO, 700, "end")
-    c.save(f"scope-{th}.svg", f"Oscilloscope: a sine wave sharpens into a square wave, analog to digital. Measurements for {NAME}: 9 apps live, 128 tests, 30 minutes to 30 seconds, NEC rank 7 of 1500+, patent filed, CGPA 8.38.")
+    c.save(f"scope-{th}.svg", f"Oscilloscope: a sine wave sharpens into a square wave, analog to digital. Measurements for {NAME}: 9 apps live, 128 tests, 30 minutes to 30 seconds, NEC rank 7 of 1500+, patent filed, CGPA 8.55.")
 
     # captured traces: one per project, plus Lissajous
     SH = 100 + -(-len(PROJECTS) // 2) * 120  # one more row per two traces
