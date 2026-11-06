@@ -176,7 +176,7 @@ for theme, t in THEMES.items():
     p.steel(20, 20, 1160, 350, 18)
     p.screws(20, 20, 1160, 350)
     for i, (v, mx, lab, unit, fmt) in enumerate([(9, 12, "APPS IN PRODUCTION", "APPS", "{:.0f}"), (128, 150, "TESTS GUARDING DISPATCH", "TESTS", "{:.0f}"),
-                                                  (98, 100, "MANUAL TIME DELETED", "%", "{:.0f}%"), (8.38, 10, "CGPA", "/ 10", "{:.2f}")]):
+                                                  (98, 100, "MANUAL TIME DELETED", "%", "{:.0f}%"), (8.55, 10, "CGPA", "/ 10", "{:.2f}")]):
         gauge(p, 165 + i * 290, 180, 104, v, mx, lab, unit, fmt=fmt)
     p.save(f"meters-{theme}.svg", f"Meters: 9 apps in production, 128 tests guarding dispatch, 98% of manual time deleted, CGPA {CGPA} of 10.", GAUGE_CSS)
 

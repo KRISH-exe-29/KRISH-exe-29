@@ -8,7 +8,7 @@
   <a href="https://krishna-ittl.github.io/Candidate-Screener/"><img src="https://img.shields.io/badge/TRY_JOB_LENS-FFC400?style=for-the-badge&logo=githubpages&logoColor=151515" alt="Job Lens live demo"/></a>
 </p>
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/meters-dark.svg"/><img src="./assets/panel/meters-light.svg" width="100%" alt="Meters: 9 apps in production, 128 tests guarding dispatch, 98% of manual time deleted, CGPA 8.38"/></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/meters-dark.svg"/><img src="./assets/panel/meters-light.svg" width="100%" alt="Meters: 9 apps in production, 128 tests guarding dispatch, 98% of manual time deleted, CGPA 8.55 (85.5%)"/></picture></p>
 
 <h3 align="center">🔌 Breakers: flip one open</h3>
 <p align="center">
