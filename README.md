@@ -1,12 +1,12 @@
 <!-- Editorial profile in numbered chapters. Built by scripts/gen_chapters.py: edit scripts/profile_data.py, then rerun. -->
 
-<a href="https://krish-exe-29.github.io/KRISH_Portfolio/"><img src="./assets/chapters/hero.svg" width="100%" alt="Krishna Raju S: electrical engineer who ships software. Nine apps in production."/></a>
+<a href="https://krish-exe.vercel.app/"><img src="./assets/chapters/hero.svg" width="100%" alt="Krishna Raju S: electrical engineer who ships software. Nine apps in production."/></a>
 
 <p align="center">
   <a href="mailto:krishnarajus2004@gmail.com"><img src="https://img.shields.io/badge/Email-krishnarajus2004-7A3E1D?style=for-the-badge&labelColor=14100D&logoColor=F4EADF&logo=gmail" alt="Email"/></a>
   <a href="https://linkedin.com/in/krishnarajus2004"><img src="https://img.shields.io/badge/LinkedIn-7A3E1D?style=for-the-badge&labelColor=14100D&logoColor=F4EADF&logo=linkedin" alt="LinkedIn"/></a>
-  <a href="https://krish-exe-29.github.io/KRISH_Portfolio/"><img src="https://img.shields.io/badge/Portfolio-7A3E1D?style=for-the-badge&labelColor=14100D&logoColor=F4EADF&logo=githubpages" alt="Portfolio"/></a>
-  <a href="https://krishna-ittl.github.io/Candidate-Screener/"><img src="https://img.shields.io/badge/Job_Lens-7A3E1D?style=for-the-badge&labelColor=14100D&logoColor=F4EADF&logo=githubpages" alt="Job Lens"/></a>
+  <a href="https://krish-exe.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-7A3E1D?style=for-the-badge&labelColor=14100D&logoColor=F4EADF&logo=vercel" alt="Portfolio"/></a>
+  <a href="https://krishna-ittl.github.io/Candidate-Screener/"><img src="https://img.shields.io/badge/Job_Lens-7A3E1D?style=for-the-badge&labelColor=14100D&logoColor=F4EADF&logo=vercel" alt="Job Lens"/></a>
 </p>
 
 <img src="./assets/chapters/about.svg" width="100%" alt="01 About: tests 161 kV transformers by day, writes the plant's software by night."/>
@@ -19,7 +19,7 @@
 <p align="center"><a href="https://github.com/KRISH-exe-29/Dispatch-ITTL"><img src="https://img.shields.io/badge/Repository-7A3E1D?style=for-the-badge&labelColor=14100D&logoColor=F4EADF&logo=github" alt="Repository"/></a></p>
 
 <p align="center"><a href="https://krishna-ittl.github.io/Candidate-Screener/"><img src="./assets/chapters/project-job-lens.svg" width="100%" alt="Job Lens: 100 resumes in. A ranked shortlist out."/></a></p>
-<p align="center"><a href="https://krishna-ittl.github.io/Candidate-Screener/"><img src="https://img.shields.io/badge/Live_demo-7A3E1D?style=for-the-badge&labelColor=14100D&logoColor=F4EADF&logo=githubpages" alt="Live demo"/></a></p>
+<p align="center"><a href="https://krishna-ittl.github.io/Candidate-Screener/"><img src="https://img.shields.io/badge/Live_demo-7A3E1D?style=for-the-badge&labelColor=14100D&logoColor=F4EADF&logo=vercel" alt="Live demo"/></a></p>
 
 <p align="center"><a href="https://transformer-test-planner.vercel.app"><img src="./assets/chapters/project-test-planner.svg" width="100%" alt="Test Planner: Every IEC 60076 test, scheduled."/></a></p>
 <p align="center"><a href="https://transformer-test-planner.vercel.app"><img src="https://img.shields.io/badge/Live_demo-7A3E1D?style=for-the-badge&labelColor=14100D&logoColor=F4EADF&logo=vercel" alt="Live demo"/></a></p>
@@ -50,8 +50,8 @@
 <p align="center">
   <a href="mailto:krishnarajus2004@gmail.com"><img src="https://img.shields.io/badge/Email-krishnarajus2004-7A3E1D?style=for-the-badge&labelColor=14100D&logoColor=F4EADF&logo=gmail" alt="Email"/></a>
   <a href="https://linkedin.com/in/krishnarajus2004"><img src="https://img.shields.io/badge/LinkedIn-7A3E1D?style=for-the-badge&labelColor=14100D&logoColor=F4EADF&logo=linkedin" alt="LinkedIn"/></a>
-  <a href="https://krish-exe-29.github.io/KRISH_Portfolio/"><img src="https://img.shields.io/badge/Portfolio-7A3E1D?style=for-the-badge&labelColor=14100D&logoColor=F4EADF&logo=githubpages" alt="Portfolio"/></a>
-  <a href="https://krishna-ittl.github.io/Candidate-Screener/"><img src="https://img.shields.io/badge/Job_Lens-7A3E1D?style=for-the-badge&labelColor=14100D&logoColor=F4EADF&logo=githubpages" alt="Job Lens"/></a>
+  <a href="https://krish-exe.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-7A3E1D?style=for-the-badge&labelColor=14100D&logoColor=F4EADF&logo=vercel" alt="Portfolio"/></a>
+  <a href="https://krishna-ittl.github.io/Candidate-Screener/"><img src="https://img.shields.io/badge/Job_Lens-7A3E1D?style=for-the-badge&labelColor=14100D&logoColor=F4EADF&logo=vercel" alt="Job Lens"/></a>
 </p>
 
-<a href="https://krish-exe-29.github.io/KRISH_Portfolio/"><img src="./assets/chapters/signature.svg" width="100%" alt="Krishna. Send it over. I'll turn it into a button."/></a>
+<a href="https://krish-exe.vercel.app/"><img src="./assets/chapters/signature.svg" width="100%" alt="Krishna. Send it over. I'll turn it into a button."/></a>
