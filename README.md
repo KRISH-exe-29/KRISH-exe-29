@@ -26,7 +26,7 @@
 
 <p><b>Electrical Engineer · Ships Software · Nine Apps in Production</b></p>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-krish--exe--29.github.io-0d1117?style=for-the-badge&logo=githubpages&logoColor=white)](https://krish-exe-29.github.io/KRISH_Portfolio/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-krish--exe--29.github.io-0d1117?style=for-the-badge&logo=vercel&logoColor=white)](https://krish-exe.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-krishnarajus2004-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/krishnarajus2004)
 [![Email](https://img.shields.io/badge/Email-krishnarajus2004-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:krishnarajus2004@gmail.com)
 [![Job Lens](https://img.shields.io/badge/⚡_Job_Lens-live_demo-22d3ee?style=for-the-badge&logo=gnometerminal&logoColor=black)](https://krishna-ittl.github.io/Candidate-Screener/)
