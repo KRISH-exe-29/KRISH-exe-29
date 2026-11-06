@@ -64,7 +64,7 @@ gantt
 |:--|:--|
 | Krishna Raju S | Chairman, CEO, CTO, intern |
 | Chai | Independent director, never absent |
-| St. Joseph's College of Engineering | Founding investor (B.E. EEE, CGPA 8.55 (85.5%)) |
+| St. Joseph's College of Engineering | Founding investor (B.E. EEE, CGPA 8.55, 85.5%) |
 
 ## 6. Risk factors
 

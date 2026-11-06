@@ -3,7 +3,7 @@ Run: python scripts/gen_corporate.py"""
 import os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from kit import Canvas, pic, write_readme, SANS, SERIF
-from profile_data import NAME, EMAIL, LINKEDIN, PROJECTS, CGPA, COLLEGE, short
+from profile_data import NAME, EMAIL, LINKEDIN, PROJECTS, CGPA, PERCENTAGE, COLLEGE, short
 
 F = "corporate"
 THEMES = {"light": dict(bg="#FFFFFF", ink="#0B1F3A", soft="#5B6B82", line="#D9E1EC", navy="#0B2A5B", blue="#1F6FEB", teal="#0E9F8E", gold="#C9A227", card="#F5F8FC"),
@@ -125,7 +125,7 @@ gantt
 |:--|:--|
 | Krishna Raju S | Chairman, CEO, CTO, intern |
 | Chai | Independent director, never absent |
-| {COLLEGE} | Founding investor (B.E. EEE, CGPA {CGPA}) |
+| {COLLEGE} | Founding investor (B.E. EEE, CGPA {CGPA}, {PERCENTAGE}) |
 
 ## 6. Risk factors
 
