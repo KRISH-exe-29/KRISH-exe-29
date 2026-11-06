@@ -3,7 +3,7 @@ Run: python scripts/gen_raw.py"""
 import os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from kit import Canvas, pic, write_readme
-from profile_data import NAME, EMAIL, LINKEDIN, PROJECTS, EXPERIENCE, WINS, CERTS, COLLEGE, CGPA, short
+from profile_data import NAME, EMAIL, LINKEDIN, PROJECTS, EXPERIENCE, WINS, CERTS, COLLEGE, CGPA, PERCENTAGE, short
 
 F = "raw"
 TIMES = "'Times New Roman', Times, serif"
@@ -62,7 +62,7 @@ write_readme(f"""
 ## PROOF
 
 {chr(10).join(f"- **{a.upper()}**: {b} ({w})" for w, a, b in WINS)}
-- **DEGREE**: B.E. ELECTRICAL & ELECTRONICS, {COLLEGE.upper()}, CGPA {CGPA}
+- **DEGREE**: B.E. ELECTRICAL & ELECTRONICS, {COLLEGE.upper()}, CGPA {CGPA} ({PERCENTAGE})
 - **CERTS**: {" / ".join(CERTS)}
 
 ***
