@@ -49,7 +49,7 @@ Jan 2023         SOUTHERN RAILWAY             Electrical Intern
 - **RUNNER-UP**: Fish Tank pitch, IIT Bombay E-Summit (Feb 2025)
 - **PATENT FILED**: Street lighting with automated fault detection (Aug 2025)
 - **NATIONAL FINALIST**: Technical Symposium, Loyola College (Jun 2024)
-- **DEGREE**: B.E. ELECTRICAL & ELECTRONICS, ST. JOSEPH'S COLLEGE OF ENGINEERING, CGPA 8.38
+- **DEGREE**: B.E. ELECTRICAL & ELECTRONICS, ST. JOSEPH'S COLLEGE OF ENGINEERING, CGPA 8.55 (85.5%)
 - **CERTS**: Arduino & C · UC Irvine / Raspberry Pi & Python · UC Irvine / Intro to IoT · NPTEL / Digital Circuits · NPTEL / Supply Chain Mgmt · CII
 
 ***
