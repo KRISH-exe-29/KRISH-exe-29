@@ -28,7 +28,7 @@
 <img src="https://img.shields.io/badge/College-St.%20Joseph's%20College%20of%20Engineering-8A2BE2?style=flat-square" alt="College"/>
 <img src="https://img.shields.io/badge/Degree-B.E.%20EEE%202026-1E90FF?style=flat-square" alt="Degree"/>
 <img src="https://img.shields.io/badge/CGPA-8.55-FFD700?style=flat-square" alt="CGPA"/>
-<img src="https://img.shields.io/badge/Percentage-85.5%25-FF8C00?style=flat-square" alt="CGPA"/>
+<img src="https://img.shields.io/badge/Percentage-85.5%25-FF8C00?style=flat-square" alt="Percentage"/>
 <img src="https://img.shields.io/badge/Projects-11-28A745?style=flat-square" alt="Projects"/>
 <img src="https://img.shields.io/badge/Patent-Filed-FF1744?style=flat-square" alt="Patent"/>
 
@@ -40,7 +40,7 @@
 
 Hello, I am **Krishna Raju S**, an Electrical & Electronics Engineer from Chennai, India.
 
-I graduated **B.E. EEE from St. Joseph's College of Engineering (2026, CGPA 8.55 (85.5%))** and joined **Indo Tech Transformers** as an Associate Engineer. I started in IEC 60076 transformer testing (SFRA, PD, OLTC) and now write the plant's software.
+I graduated **B.E. EEE from St. Joseph's College of Engineering (2026, CGPA 8.55, 85.5%)** and joined **Indo Tech Transformers** as an Associate Engineer. I started in IEC 60076 transformer testing (SFRA, PD, OLTC) and now write the plant's software.
 
 My work in one line:
 
@@ -73,7 +73,8 @@ mindmap
     Degree
       B.E. EEE
       SJCE Chennai
-      CGPA 8.55 (85.5%)
+      CGPA 8.55
+      Percentage 85.5
     Day Job
       Indo Tech Transformers
       IEC 60076 testing

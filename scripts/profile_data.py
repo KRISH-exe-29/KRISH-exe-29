@@ -7,6 +7,7 @@ CITY = "Chennai, India"
 COLLEGE = "St. Joseph's College of Engineering"
 DEGREE = "B.E. Electrical & Electronics"
 CGPA = "8.55"
+PERCENTAGE = "85.5%"
 GRAD = "2026"
 LANGUAGES = ["Tamil", "English", "Kannada", "Hindi"]
 QUOTE = "Engineering isn't just circuits and code. It's building things that make a real difference."
