@@ -142,7 +142,7 @@ projects = [
      ["48h auto emails", "role-based", "no-code settings"], "React · Express · node-cron · Supabase"),
     ("industrial-data", "📡", "Industrial Data System", VIOLET, "BUILT",
      ["QR-tagged data capture for transformer tests.", "Multi-department portal with a 3D model."],
-     ["QR codes", "OTP admin login", "Three.js"], "React · Express · Three.js · Netlify"),
+     ["QR codes", "OTP admin login", "Three.js"], "React · Express · Three.js · Vercel"),
     ("epms", "📅", "EPMS Project HQ", PINK, "BUILT",
      ["Projects, milestones, budgets, daily reports.", "Interactive Gantt behind a black-hole login."],
      ["Gantt", "5 roles", "budget & billing"], "TypeScript · React 19 · Supabase · Framer Motion"),
