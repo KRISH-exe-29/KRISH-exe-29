@@ -4218,3 +4218,12 @@ endsolid transformer
 
 <!-- REPOS:START -->
 <!-- REPOS:END -->
+
+<!-- git-koi -->
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/KRISH-exe-29/KRISH-exe-29/main/koi/koi.gif" width="256" alt="My git-koi, redrawn every night from my GitHub activity"/>
+
+<sub>My <a href="https://github.com/yalongwastaken/git-koi">git-koi</a>, redrawn every night from my GitHub activity</sub>
+
+</div>
