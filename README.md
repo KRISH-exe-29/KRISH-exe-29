@@ -12,3 +12,12 @@
 <!-- REPOS:END -->
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/swiss/chronology-dark.svg"/><img src="./assets/swiss/chronology-light.svg" width="100%" alt="Chronology and distinctions"/></picture>
+
+<!-- git-koi -->
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/KRISH-exe-29/KRISH-exe-29/main/koi/koi.gif" width="256" alt="My git-koi, redrawn every night from my GitHub activity"/>
+
+<sub>My <a href="https://github.com/yalongwastaken/git-koi">git-koi</a>, redrawn every night from my GitHub activity</sub>
+
+</div>
