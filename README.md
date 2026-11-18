@@ -309,3 +309,12 @@ I am happy to talk about **power systems, shop-floor software, and AI that runs 
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=120&section=footer" width="100%"/>
   <p><em>Built in Chennai, one shop-floor problem at a time. 💙</em></p>
 </div>
+
+<!-- git-koi -->
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/KRISH-exe-29/KRISH-exe-29/main/koi/koi.gif" width="256" alt="My git-koi, redrawn every night from my GitHub activity"/>
+
+<sub>My <a href="https://github.com/yalongwastaken/git-koi">git-koi</a>, redrawn every night from my GitHub activity</sub>
+
+</div>
