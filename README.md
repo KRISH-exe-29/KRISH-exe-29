@@ -66,3 +66,12 @@ Jan 2023         SOUTHERN RAILWAY             Electrical Intern
 <kbd>EMAIL</kbd> krishnarajus2004@gmail.com &nbsp; <kbd>LINKEDIN</kbd> [linkedin.com/in/krishnarajus2004](https://linkedin.com/in/krishnarajus2004)
 
 <sub>NO TEMPLATES. NO GRADIENTS. NO REGRETS. LAST UPDATED: WHEN SOMETHING SHIPPED.</sub>
+
+<!-- git-koi -->
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/KRISH-exe-29/KRISH-exe-29/main/koi/koi.gif" width="256" alt="My git-koi, redrawn every night from my GitHub activity"/>
+
+<sub>My <a href="https://github.com/yalongwastaken/git-koi">git-koi</a>, redrawn every night from my GitHub activity</sub>
+
+</div>
