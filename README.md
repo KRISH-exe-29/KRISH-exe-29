@@ -14,3 +14,12 @@
 <a href="mailto:krishnarajus2004@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/type/signoff-dark.svg"/><img src="./assets/type/signoff-light.svg" width="100%" alt="Say hi."/></picture></a>
 
 <p align="center"><sub><a href="https://linkedin.com/in/krishnarajus2004">linkedin</a></sub></p>
+
+<!-- git-koi -->
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/KRISH-exe-29/KRISH-exe-29/main/koi/koi.gif" width="256" alt="My git-koi, redrawn every night from my GitHub activity"/>
+
+<sub>My <a href="https://github.com/yalongwastaken/git-koi">git-koi</a>, redrawn every night from my GitHub activity</sub>
+
+</div>
