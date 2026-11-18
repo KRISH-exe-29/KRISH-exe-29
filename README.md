@@ -12,3 +12,12 @@
 <!-- REPOS:END -->
 
 <p align="center"><a href="mailto:krishnarajus2004@gmail.com">ｅｍａｉｌ</a> · <a href="https://linkedin.com/in/krishnarajus2004">ｌｉｎｋｅｄｉｎ</a></p>
+
+<!-- git-koi -->
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/KRISH-exe-29/KRISH-exe-29/main/koi/koi.gif" width="256" alt="My git-koi, redrawn every night from my GitHub activity"/>
+
+<sub>My <a href="https://github.com/yalongwastaken/git-koi">git-koi</a>, redrawn every night from my GitHub activity</sub>
+
+</div>
