@@ -32,3 +32,12 @@
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/tags-dark.svg"/><img src="./assets/panel/tags-light.svg" width="100%" alt="Inspection tags: Feb 2025 Rank #7 / 1500+, National Entrepreneurship Challenge, IIT Bombay; Feb 2025 Runner-up, Fish Tank pitch, IIT Bombay E-Summit; Aug 2025 Patent filed, Street lighting with automated fault detection; Jun 2024 National finalist, Technical Symposium, Loyola College"/></picture></p>
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/terminals-dark.svg"/><img src="./assets/panel/terminals-light.svg" width="100%" alt="Skills wired in: Power: IEC 60076 testing, SFRA, MCC panels, VFD · DOL · soft starter, Relays 87T · 63 · 64REF, OLTC, AutoCAD, MATLAB; Code: TypeScript, React, Python, Java, C, Node, Supabase, PostgreSQL, Three.js; Things: ESP8266, Arduino, Raspberry Pi, Proteus, IoT; AI: Claude, OpenAI, LangChain, LangGraph, Transformers.js"/></picture></p>
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/estop-dark.svg"/><img src="./assets/panel/estop-light.svg" width="100%" alt="In case of boring process: break glass, call Krishna. krishnarajus2004@gmail.com"/></picture></p>
+
+<!-- git-koi -->
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/KRISH-exe-29/KRISH-exe-29/main/koi/koi.gif" width="256" alt="My git-koi, redrawn every night from my GitHub activity"/>
+
+<sub>My <a href="https://github.com/yalongwastaken/git-koi">git-koi</a>, redrawn every night from my GitHub activity</sub>
+
+</div>
