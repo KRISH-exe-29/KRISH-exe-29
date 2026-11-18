@@ -44,3 +44,12 @@
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KRISH-exe-29/KRISH-exe-29/output/snake-dark.svg"/><img src="https://raw.githubusercontent.com/KRISH-exe-29/KRISH-exe-29/output/snake.svg" width="100%" alt="A snake eating my contribution graph"/></picture></p>
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/glass/footer-dark.svg"/><img src="./assets/glass/footer-light.svg" width="100%" alt="Your next quick manual step is my next app. krishnarajus2004@gmail.com"/></picture></p>
+
+<!-- git-koi -->
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/KRISH-exe-29/KRISH-exe-29/main/koi/koi.gif" width="256" alt="My git-koi, redrawn every night from my GitHub activity"/>
+
+<sub>My <a href="https://github.com/yalongwastaken/git-koi">git-koi</a>, redrawn every night from my GitHub activity</sub>
+
+</div>
