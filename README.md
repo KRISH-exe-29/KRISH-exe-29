@@ -62,3 +62,12 @@ Less talk. More deploys. Most of these run on a real factory floor, every shift.
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/ascii/dancer-dark.svg"/><img src="./assets/ascii/dancer-light.svg" width="100%" alt="An ASCII stick figure dancing: me when the deploy goes green."/></picture>
 
 <p align="center"><sub>quietly shipping since 2024 &nbsp;·&nbsp; <a href="mailto:krishnarajus2004@gmail.com">krishnarajus2004@gmail.com</a></sub></p>
+
+<!-- git-koi -->
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/KRISH-exe-29/KRISH-exe-29/main/koi/koi.gif" width="256" alt="My git-koi, redrawn every night from my GitHub activity"/>
+
+<sub>My <a href="https://github.com/yalongwastaken/git-koi">git-koi</a>, redrawn every night from my GitHub activity</sub>
+
+</div>
