@@ -1,51 +1,78 @@
-<!-- Skeuomorphic control panel. Day shift (light) and night shift (dark) swap with your GitHub theme. Built by scripts/gen_panel.py. -->
+<!-- Corporate / enterprise: an annual report. Images follow your GitHub theme; tables and the Mermaid chart are native GitHub. Built by scripts/gen_corporate.py -->
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/hero-dark.svg"/><img src="./assets/panel/hero-light.svg" width="100%" alt="Rating plate: Krishna Raju S, electrical engineer and software builder. Rated output 10 builds shipped; vector group Ohm's Law to Git; ships daily."/></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/corporate/cover-dark.svg"/><img src="./assets/corporate/cover-light.svg" width="100%" alt="Annual Report FY 2026 by Krishna Raju S"/></picture></p>
 
 <p align="center">
-  <a href="mailto:krishnarajus2004@gmail.com"><img src="https://img.shields.io/badge/EMAIL-C1121F?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://linkedin.com/in/krishnarajus2004"><img src="https://img.shields.io/badge/LINKEDIN-2A2F36?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://krishna-ittl.github.io/Candidate-Screener/"><img src="https://img.shields.io/badge/TRY_JOB_LENS-FFC400?style=for-the-badge&logo=githubpages&logoColor=151515" alt="Job Lens live demo"/></a>
+  <a href="mailto:krishnarajus2004@gmail.com"><img src="https://img.shields.io/badge/Investor_relations-0B2A5B?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://linkedin.com/in/krishnarajus2004"><img src="https://img.shields.io/badge/LinkedIn-1F6FEB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://krishna-ittl.github.io/Candidate-Screener/"><img src="https://img.shields.io/badge/Product_demo-0E9F8E?style=for-the-badge&logo=githubpages&logoColor=white" alt="Job Lens demo"/></a>
 </p>
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/meters-dark.svg"/><img src="./assets/panel/meters-light.svg" width="100%" alt="Meters: 9 apps in production, 128 tests guarding dispatch, 98% of manual time deleted, CGPA 8.55 (85.5%)"/></picture></p>
+## 1. Letter to stakeholders
 
-<h3 align="center">🔌 Breakers: flip one open</h3>
-<p align="center">
-  <a href="https://github.com/KRISH-exe-29/Dispatch-ITTL"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/card-dispatch-dark.svg"/><img src="./assets/panel/card-dispatch-light.svg" width="49.5%" alt="Dispatch Management (production): Work order → packing → loading → gate pass. 5 roles · 128 tests · auto escalations"/></picture></a>
-  <a href="https://krishna-ittl.github.io/Candidate-Screener/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/card-job-lens-dark.svg"/><img src="./assets/panel/card-job-lens-light.svg" width="49.5%" alt="Job Lens (live): 100 resumes in. A ranked shortlist out. Offline AI · OCR · Excel reports"/></picture></a>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/card-kiosk-sentinel-dark.svg"/><img src="./assets/panel/card-kiosk-sentinel-light.svg" width="49.5%" alt="KioskSentinel (new): Attendance that survives power cuts. Offline-first · 3 shifts · locked down"/></picture>
-  <a href="https://transformer-test-planner.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/card-test-planner-dark.svg"/><img src="./assets/panel/card-test-planner-light.svg" width="49.5%" alt="Test Planner (live): Every IEC 60076 test, scheduled. 40 tests · multi-unit · Excel export"/></picture></a>
-  <a href="https://github.com/KRISH-exe-29/Fasteners-Project"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/card-hardware-dark.svg"/><img src="./assets/panel/card-hardware-light.svg" width="49.5%" alt="Hardware Platform v1.3 (in use): Hardware PDF in, weighted BOM out. 20–30 min → under 60 s"/></picture></a>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/card-street-light-dark.svg"/><img src="./assets/panel/card-street-light-light.svg" width="49.5%" alt="Intelligent Street Lighting (patent filed): A light bubble that follows the car. 60% less energy · GPS fault alerts"/></picture>
-  <a href="https://github.com/KRISH-exe-29/Pannel-Box-Transformers-"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/card-rtcc-dark.svg"/><img src="./assets/panel/card-rtcc-light.svg" width="49.5%" alt="RTCC & M.Box Tracker (in use): Chases pending points so nobody has to. 48-hour auto follow-ups"/></picture></a>
-  <a href="https://github.com/KRISH-exe-29/indotech-transformers"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/card-industrial-data-dark.svg"/><img src="./assets/panel/card-industrial-data-light.svg" width="49.5%" alt="Industrial Data System (live): QR-tagged test data + a 3D transformer. 4 role modules · OTP admin"/></picture></a>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/card-hwe-tool-dark.svg"/><img src="./assets/panel/card-hwe-tool-light.svg" width="49.5%" alt="HWE Automation Tool (shipped): Feeder classes, loads and I/O in one click. 30 min → 30 s at Bühler"/></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/card-flood-dark.svg"/><img src="./assets/panel/card-flood-light.svg" width="49.5%" alt="Flood Alerting System (built): Rising water, instant alerts. 90% lower outage risk"/></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/card-capextrace-dark.svg"/><img src="./assets/panel/card-capextrace-light.svg" width="49.5%" alt="CapexTrace (in build): Every capex rupee, traced box by box. WBS mind map · budget ceilings"/></picture>
-</p>
+> Dear stakeholders,
+>
+> This year we moved from testing transformers to writing the software the plant runs on. Dispatch, testing, hiring and attendance are now digital, nine applications are in production, and a 30-minute documentation task now completes in 30 seconds. We remain committed to deleting boring work at scale.
+>
+> **Krishna Raju S**, Chief Everything Officer
+
+## 2. Highlights
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/corporate/kpis-dark.svg"/><img src="./assets/corporate/kpis-light.svg" width="100%" alt="KPI board"/></picture></p>
+
+## 3. Product portfolio
+
+| Product | Status | Value proposition | Impact |
+|:--|:--|:--|:--|
+| [Dispatch](https://github.com/KRISH-exe-29/Dispatch-ITTL) | Production | Work order → packing → loading → gate pass. | 5 roles · 128 tests · auto escalations |
+| [Job Lens](https://krishna-ittl.github.io/Candidate-Screener/) | Live | 100 resumes in. A ranked shortlist out. | Offline AI · OCR · Excel reports |
+| KioskSentinel | New | Attendance that survives power cuts. | Offline-first · 3 shifts · locked down |
+| [Test Planner](https://transformer-test-planner.vercel.app) | Live | Every IEC 60076 test, scheduled. | 40 tests · multi-unit · Excel export |
+| [Hardware Platform](https://github.com/KRISH-exe-29/Fasteners-Project) | In Use | Hardware PDF in, weighted BOM out. | 20–30 min → under 60 s |
+| Street Lighting | Patent Filed | A light bubble that follows the car. | 60% less energy · GPS fault alerts |
+| [RTCC Tracker](https://github.com/KRISH-exe-29/Pannel-Box-Transformers-) | In Use | Chases pending points so nobody has to. | 48-hour auto follow-ups |
+| [Industrial Data](https://github.com/KRISH-exe-29/indotech-transformers) | Live | QR-tagged test data + a 3D transformer. | 4 role modules · OTP admin |
+| HWE Tool | Shipped | Feeder classes, loads and I/O in one click. | 30 min → 30 s at Bühler |
+| Flood Alerts | Built | Rising water, instant alerts. | 90% lower outage risk |
+| CapexTrace | In Build | Every capex rupee, traced box by box. | WBS mind map · budget ceilings |
 
 <!-- REPOS:START -->
-
-## Latest repos
-
-<sub>Updated automatically from GitHub by a workflow.</sub>
-
-| Repo | What it is | Language | ★ | Last push |
-|---|---|---|---|---|
-| [claude-code-companion](https://github.com/KRISH-exe-29/claude-code-companion) | 🎭 Animated desktop pet for Claude Code. Live moods from Claude Code hooks, alerts when Claude needs you, and signature chat moves over your terminal. Electron, Windows, MIT. | JavaScript | 0 | 2026-11-19 |
-| [ai-courtroom-debate](https://github.com/KRISH-exe-29/ai-courtroom-debate) | ⚖️ AI courtroom: two AI lawyers debate your idea or decision, a blind AI judge scores every move and delivers a verdict. Multi-agent LLM debate with a measured judge. Works with Claude, Gemini, Ollama or your coding agent. | TypeScript | 0 | 2026-11-18 |
-| [indotech-transformers](https://github.com/KRISH-exe-29/indotech-transformers) | QR-based test data collection system for Indo Tech Transformers, with a 3D model view. React client and Node server. | JavaScript | 3 | 2026-11-10 |
-| [ai-agent-skill-router](https://github.com/KRISH-exe-29/ai-agent-skill-router) | AI agent skill router + skill manager: auto-pick the right skills, subagents, plugins and MCP servers for every task in Claude Code, Codex, Cursor, Gemini CLI, Copilot and Antigravity, and audit duplicate or unused skills with safe, approved cleanup and undo. | JavaScript | 3 | 2026-11-04 |
-| [sop-sensei](https://github.com/KRISH-exe-29/sop-sensei) | SOP Sensei - ask the core-shop SOPs a question, get the exact answer with doc/step source and photo. Local BM25 + Ollama, English/Tamil/Hindi, anti-hallucination guardrails. | Python | 0 | 2026-10-29 |
-| [capex-project-tracker](https://github.com/KRISH-exe-29/capex-project-tracker) | INDO TECH capex tracker: PR/PO budget ceiling, PO dossier, exceptions, activity log | TypeScript | 2 | 2026-10-21 |
-
 <!-- REPOS:END -->
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/logbook-dark.svg"/><img src="./assets/panel/logbook-light.svg" width="100%" alt="Shift log: Indo Tech Transformers, Associate Engineer, Testing & Projects → Digitalisation, 2026 – now; Bühler India, Automation Hardware Engineering Intern, Jun 2025; Inovate Technologies, Full Stack Developer Intern, Mar – Jun 2024; Mettur Thermal Power Plant, Electrical Intern, Jun – Jul 2024; Southern Railway, Electrical Intern, Jan 2023"/></picture></p>
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/tags-dark.svg"/><img src="./assets/panel/tags-light.svg" width="100%" alt="Inspection tags: Feb 2025 Rank #7 / 1500+, National Entrepreneurship Challenge, IIT Bombay; Feb 2025 Runner-up, Fish Tank pitch, IIT Bombay E-Summit; Aug 2025 Patent filed, Street lighting with automated fault detection; Jun 2024 National finalist, Technical Symposium, Loyola College"/></picture></p>
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/terminals-dark.svg"/><img src="./assets/panel/terminals-light.svg" width="100%" alt="Skills wired in: Power: IEC 60076 testing, SFRA, MCC panels, VFD · DOL · soft starter, Relays 87T · 63 · 64REF, OLTC, AutoCAD, MATLAB; Code: TypeScript, React, Python, Java, C, Node, Supabase, PostgreSQL, Three.js; Things: ESP8266, Arduino, Raspberry Pi, Proteus, IoT; AI: Claude, OpenAI, LangChain, LangGraph, Transformers.js"/></picture></p>
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/panel/estop-dark.svg"/><img src="./assets/panel/estop-light.svg" width="100%" alt="In case of boring process: break glass, call Krishna. krishnarajus2004@gmail.com"/></picture></p>
+## 4. Corporate history
+
+```mermaid
+gantt
+    title Career timeline
+    dateFormat YYYY-MM
+    axisFormat %Y
+    section Industry
+    Southern Railway, electrical intern      :done, 2023-01, 1M
+    Mettur Thermal Power Plant               :done, 2024-06, 2M
+    Bühler India, automation HWE             :done, 2025-06, 1M
+    Indo Tech Transformers                   :active, 2026-01, 10M
+    section Software
+    Inovate Technologies, full stack intern  :done, 2024-03, 3M
+    section Recognition
+    NEC rank 7 and E-Summit runner-up        :milestone, 2025-02, 0d
+    Patent filed                             :milestone, 2025-08, 0d
+```
+
+## 5. Governance
+
+| Board member | Role |
+|:--|:--|
+| Krishna Raju S | Chairman, CEO, CTO, intern |
+| Chai | Independent director, never absent |
+| St. Joseph's College of Engineering | Founding investor (B.E. EEE, CGPA 8.55, 85.5%) |
+
+## 6. Risk factors
+
+- The company may automate the boring parts of your job. Shareholders have described this as a feature.
+- Exposure to legacy spreadsheets remains high across the industry. Management considers this the growth market.
+- Key-person risk: one engineer. Mitigated by documentation and 128 tests.
+
+<sub>Forward-looking statements: more apps. Contact investor relations at krishnarajus2004@gmail.com.</sub>
 
 <!-- git-koi -->
 <div align="center">
