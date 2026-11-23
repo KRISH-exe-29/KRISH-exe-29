@@ -63,6 +63,8 @@ jobs:
           if [ "$DESIGN" = "the-chronicle" ]; then
             python -B scripts/gen_press.py
           fi
+          # The showreel lives in reel/, outside the rotation; add its section to every design's README
+          grep -q "<!-- showreel:" README.md || cat reel/section.md >> README.md
       - name: Deliver it
         env:
           DESIGN: ${{ steps.pick.outputs.design }}
