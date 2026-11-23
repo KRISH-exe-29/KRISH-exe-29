@@ -17,12 +17,12 @@ $ npm run hire   # → krishnarajus2004@gmail.com
 
 | Repo | What it is | Language | ★ | Last push |
 |---|---|---|---|---|
-| [Dispatch-ITTL](https://github.com/KRISH-exe-29/Dispatch-ITTL) | Dispatch management system for Indo Tech Transformers: work orders, packing and loading lists, and vehicle gate tracking with five user roles. React 19, Vite and Supabase. | JavaScript | 2 | 2026-11-23 |
+| [ai-agent-skill-router](https://github.com/KRISH-exe-29/ai-agent-skill-router) | AI agent skill router + skill manager: auto-pick the right skills, subagents, plugins and MCP servers for every task in Claude Code, Codex, Cursor, Gemini CLI, Copilot and Antigravity, and audit duplicate or unused skills with safe, approved cleanup and undo. | JavaScript | 3 | 2026-11-23 |
+| [ai-courtroom-debate](https://github.com/KRISH-exe-29/ai-courtroom-debate) | ⚖️ AI courtroom: two AI lawyers debate your idea or decision, a blind AI judge scores every move and delivers a verdict. Multi-agent LLM debate with a measured judge. Works with Claude, Gemini, Ollama or your coding agent. | TypeScript | 0 | 2026-11-23 |
+| [transformer-test-planner](https://github.com/KRISH-exe-29/transformer-test-planner) | Plans the IEC 60076 tests for each power transformer unit. Built with Next.js and TypeScript, deployed on Vercel. | TypeScript | 3 | 2026-11-23 |
+| [Fasteners-Project](https://github.com/KRISH-exe-29/Fasteners-Project) | Hardware automation for Indo Tech Transformers: reads a hardware PDF and generates the fastener Excel and PDF with weights. Python desktop app. | Python | 3 | 2026-11-23 |
 | [PMS](https://github.com/KRISH-exe-29/PMS) | Enterprise Project Management System for Indo Tech Transformers: projects, milestones, an interactive Gantt chart, budgets and role-based access. React 19, Vite and Supabase. | TypeScript | 1 | 2026-11-23 |
-| [Pannel-Box-Transformers-](https://github.com/KRISH-exe-29/Pannel-Box-Transformers-) | RTCC panel and marshaling box tracker for Indo Tech Transformers: inspection stages, pending points and automatic follow-up emails. React, Express and Supabase. | JavaScript | 2 | 2026-11-23 |
-| [sop-sensei](https://github.com/KRISH-exe-29/sop-sensei) | SOP Sensei - ask the core-shop SOPs a question, get the exact answer with doc/step source and photo. Local BM25 + Ollama, English/Tamil/Hindi, anti-hallucination guardrails. | Python | 0 | 2026-11-23 |
-| [capex-project-tracker](https://github.com/KRISH-exe-29/capex-project-tracker) | INDO TECH capex tracker: PR/PO budget ceiling, PO dossier, exceptions, activity log | TypeScript | 2 | 2026-11-23 |
-| [BUHLER-Automation](https://github.com/KRISH-exe-29/BUHLER-Automation) | Python GUI + Excel Automation Tool for Buhler Group electrical engineering data processing. Live app: https://bulhergroupofcompany.streamlit.app/ | Python | 2 | 2026-11-23 |
+| [Dispatch-ITTL](https://github.com/KRISH-exe-29/Dispatch-ITTL) | Dispatch management system for Indo Tech Transformers: work orders, packing and loading lists, and vehicle gate tracking with five user roles. React 19, Vite and Supabase. | JavaScript | 2 | 2026-11-23 |
 
 <!-- REPOS:END -->
 
